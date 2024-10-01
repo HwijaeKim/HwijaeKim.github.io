@@ -1,11 +1,11 @@
 {
-  "name": "minimal-mistakes",
+  "name": "Hwijae Kim Jekyll",
   "private": true,
-  "version": "4.26.2",
-  "description": "Minimal Mistakes 2 column Jekyll theme.",
+  "version": "1.0.o",
+  "description": "Portfolio",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mmistakes/minimal-mistakes.git"
+    "url": "https://github.com/HwijaeKim/hwijaekim.github.io.git"
   },
   "keywords": [
     "jekyll",
@@ -15,9 +15,9 @@
   "author": "Michael Rose",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
+    "url": "https://github.com/HwijaeKim/hwijaekim.github.io.git"
   },
-  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
+  "homepage": "https://hwijaekim.github.io",
   "engines": {
     "node": ">= 0.10.0"
   },
