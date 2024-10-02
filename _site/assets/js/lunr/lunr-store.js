@@ -10,4 +10,10 @@ var store = [{
         "tags": ["update"],
         "url": "/tester/%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94/",
         "teaser": "/assets/images/profile.jpg"
+      },{
+        "title": "계원예술대학교",
+        "excerpt":"KUAD  ","categories": ["KUAD"],
+        "tags": ["학교"],
+        "url": "/kuad/%EA%B3%84%EC%9B%90%EC%98%88%EC%88%A0%EB%8C%80%ED%95%99%EA%B5%90/",
+        "teaser": "/assets/images/profile.jpg"
       }]
