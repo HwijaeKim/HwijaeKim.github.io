@@ -49,9 +49,11 @@ eval $(/opt/homebrew/bin/brew shellenv)
 
    또한 번들링 도중 지속적으로 `an error occurred while installing eventmachine (1.2.7), and bundler cannot continue.` 오류가 발생하여 `eventmachine` 설치가 되지 않아 프로세스가 중지 되었음.
 
-인터넷 서칭 결과 완벽한 해결책은 아니지만 `Gemfile`을 다음과 같이 수정하여 번들링을 성공하였다.
+인터넷 서칭 결과 완벽한 해결책은 아니지만 `Gemfile`을 다음과 같이 수정하여 번들링을 성공했다.
 
 <sub>*Gemfile*</sub>
 ```ruby
 gem 'eventmachine', '1.2.5'
 ```
+기본적으로 `eventmachine(1.2.7)` 설치 도중 오류가 발생한 것이며 1.2.5로 버전을 한 단계 낮춰 설치하도록 코드를 수정하여 문제를 해결했다.   
+완벽한 해결책은 아니지만 작동에는 문제가 없어 보이며 추후 Apple Silicon Mac에서 1.2.7버전 설치를 시도해볼 것이다.
