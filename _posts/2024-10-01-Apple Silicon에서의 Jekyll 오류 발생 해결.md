@@ -47,10 +47,10 @@ eval $(/opt/homebrew/bin/brew shellenv)
 # 웹 서칭   
 
 **해결과정**   
-터미널 내 zsh 환경변수가 꼬여 모든 명령(brew, gem, bundle, clear 등)이 작동하지 않아 환경변수 초기화 후 재시도 하였음.   
+터미널 내 zsh 환경변수가 꼬여 모든 명령(brew, gem, bundle, clear 등)이 작동하지 않아 환경변수 초기화 후 재시도
    
 
-   또한 번들링 도중 지속적으로 `an error occurred while installing eventmachine (1.2.7), and bundler cannot continue.` 오류가 발생하여 `eventmachine` 설치가 되지 않아 프로세스가 중지 되었음.
+   명령이 작동하지 않는 문제는 해결 됐지만 번들링 도중 지속적으로 `an error occurred while installing eventmachine (1.2.7), and bundler cannot continue.` 오류가 발생하여 `eventmachine` 설치가 되지 않아 프로세스가 중지 되었다.
 
 인터넷 서칭 결과 완벽한 해결책은 아니지만 `Gemfile`을 다음과 같이 수정하여 번들링을 성공했다.
 
