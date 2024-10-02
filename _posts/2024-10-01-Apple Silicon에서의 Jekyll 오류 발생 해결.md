@@ -1,5 +1,5 @@
 ---
-title:  "Apple Silicon에서의 Jekyll 오류 발생"
+title:  "Apple Silicon에서의 Jekyll 오류 발생 해결"
 header:
   teaser: "/assets/images/profile.jpg"
 categories: 
@@ -10,6 +10,10 @@ tags:
   - Mac(Apple Silicon)
 ---
 # Chat GPT   
+
+<sub>*프롬프트*</sub>
+><sub>macOS 터미널을 이용해서 jekyll bundle을 설치하고 있는데 eventmachine 1.2.7 설치 도중 오류가 난대. 왜 이럴까?</sub>   
+<sub>-2024.09.30</sub>
    
 **1. Xcode Command Line Tools 재설치**
 이미 명령줄 도구를 설치했더라도 일부 구성 요소가 손상되었을 수 있으니, 다시 설치하거나 업데이트를 시도해 보세요. 
@@ -32,11 +36,10 @@ g++ --version
 brew install gcc
 ```
 
-   
 
-```bash
+<!-- ```bash
 eval $(/opt/homebrew/bin/brew shellenv)
-```
+``` -->
    
 <br>
 ---
