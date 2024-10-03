@@ -2,8 +2,7 @@
 title:  "Apple Silicon에서의 Jekyll 오류 발생 해결"
 header:
   teaser: "/assets/images/profile.jpg"
-categories: 
-  - Jekyll
+categories: Jekyll
 tags:
   - Error
   - Jekyll
