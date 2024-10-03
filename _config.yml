@@ -15,6 +15,43 @@ remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
+  minimal-mistakes 테마 다크 모드 토글 적용 - Github Pages 운영
+  May 26, 2021
+  On This Page
+  적용기
+  1. _config에 옵션 추가
+  2. 토글 버튼 만들기
+  3. 헤더 커스텀
+  4. 다크 모드 css 만들기
+  5. main_dark.css 파일 가지고 오기
+  6. 다크 모드 토글 스크립트 작성
+  7. dark-theme.js 스크립트 가지고 오기
+  8. 토글 버튼에 이미지 로드하기
+  결론
+  1. 메인 소스
+- _config.yml
+- dark-theme.js
+- head.html
+- main_dark.scss
+- main.scss
+  2. 토글 버튼 추가
+- toggle.scss
+- customImport.scss
+- customOverride.scss
+- masthead.html
+  초기에 Gitgub Pages를 구축할 때 특별히 테마를 생각하지 않고 stars가 가장 많은 테마로 골랐다.
+  그게 minimal-mistakes 테마였다.
+  찾아보니 조금 더 이쁘장하고 다크모드도 지원하는 테마 Beautiful Jekyll 이라는 테마가 있었지만, 난 이미 블로그 테마를 다시 바꾸기에 귀찮아져 버렸다.
+  
+  그래서 공부도 하고 내 블로그도 꾸미려고 다크모드 토글을 내가 직접 구현했다.
+  
+  좀 더 현명한 사람들은 여기에서 맘에 드는 테마로 확인하길 바란다.
+  
+  적용기Permalink
+  1. _config에 옵션 추가Permalink
+  _config.yml에 다크 모드 토글 버튼에 대한 옵션을 추가한다.
+
+#dark_theme_toggle        : "true"
 locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "HWIJAE KIM"
@@ -325,3 +362,7 @@ defaults:
       related: true
       sidebar:                  # 추가한 부분
        nav: "docs" # 추가한 부분
+
+
+after_footer_scripts:
+  - /assets/js/custom/dark-theme.js

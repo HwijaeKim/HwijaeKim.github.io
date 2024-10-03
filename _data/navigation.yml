@@ -12,12 +12,22 @@ main:
   #   url: /sitemap/
 
 docs:
-  - title: "Dev 카테고리"
+  - title: "Portfolio"
     children:
        - title: "Jekyll"
          url: "categories/jekyll"
-#         category: "jekyll"
        - title: "Education"
          url: "categories/education"
-       - title: "카테고리C"
-         url: "/CategoryC"
+       - title: "교내 프로젝트(KUAD)"
+         url: "categories/kuad"
+       - title: "HTML/CSS/JS"
+         url: "categories/frontend"
+
+  - title: "Blog"
+    children:
+      - title: "똥개훈련"
+        url: "categories/dog"
+      - title: "여행"
+        url: "categories/travel"
+      - title: "MOON"
+        url: "/CategoryC"
