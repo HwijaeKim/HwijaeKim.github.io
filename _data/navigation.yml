@@ -12,11 +12,22 @@ main:
   #   url: /sitemap/
 
 docs:
-  - title: "Portfolio"
+  - title: "Development"
     children:
        - title: "Jekyll"
          url: "categories/jekyll"
        - title: "Education"
+         url: "categories/education"
+       - title: "프로젝트"
+         url: "categories/project"
+       - title: "HTML/CSS/JS"
+         url: "categories/frontend"
+
+  - title: "Experience"
+    children:
+       - title: "전시/박람회"
+         url: "categories/fair"
+       - title: "봉사활동"
          url: "categories/education"
        - title: "교내 프로젝트(KUAD)"
          url: "categories/kuad"
@@ -29,5 +40,5 @@ docs:
         url: "categories/dog"
       - title: "여행"
         url: "categories/travel"
-      - title: "MOON"
+      - title: "--"
         url: "/CategoryC"

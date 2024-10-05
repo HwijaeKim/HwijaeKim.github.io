@@ -16,4 +16,10 @@ var store = [{
         "tags": ["학교"],
         "url": "/education/%EA%B3%84%EC%9B%90%EC%98%88%EC%88%A0%EB%8C%80%ED%95%99%EA%B5%90/",
         "teaser": "/assets/images/profile.jpg"
+      },{
+        "title": "마크다운에서 표 만들기",
+        "excerpt":"               제목       내용       설명                       테스트1       동해물과백두산이마르고닳도록       테스트3                          First Header       Second Header       Third Header                       First row       Data       Very long data entry                 Second row       Cell       Cell                 Third row       Cell that spans across two columns                  ","categories": ["연습"],
+        "tags": ["markdown","table"],
+        "url": "/%EC%97%B0%EC%8A%B5/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%EC%97%90%EC%84%9C-%ED%91%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/",
+        "teaser": null
       }]

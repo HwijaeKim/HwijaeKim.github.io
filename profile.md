@@ -31,6 +31,13 @@ Jekyll을 이용하여 Github Pages를 만들었습니다. <br>
 
 <br>
 
+HTML/CSS/Vanila JS에 대한 기본적인 이해가 있으며 간단한 홈페이지를 제작할 수 있음   
+Git을 이용하여 리포지토리 원격 버전관리를 하였음   
+Github 리포지토리를 생성, 배포하였음   
+npm을 기초적으로 이용하고 node_module을 사용함   
+node.js와 mongoDB를 이용하여 간단한 서버를 구축하였음
+
+
 # 이력서 폼(초안)   
 [구글시트][googlesheet]
 

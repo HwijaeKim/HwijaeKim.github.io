@@ -1,3 +1,4 @@
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -324,7 +325,7 @@ defaults:
       share: false
       related: true
       sidebar:                  # 추가한 부분
-       nav: "docs" # 추가한 부분
+        nav: "docs" # 추가한 부분
 
 
 #after_footer_scripts:
