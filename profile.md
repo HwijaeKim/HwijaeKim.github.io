@@ -1,9 +1,12 @@
 ---
 layout: single
 author_profile: true
+
+sidebar:
+  nav: "docs"
 ---
 
-![profile](/assets/images/profile.jpg){: width="300"}   
+![profile](/assets/images/profile.jpg){: width="250"}   
 Jekyll을 이용하여 Github Pages를 만들었습니다. <br>
 아직 시험단계로 보완할 부분이 많습니다.
 
@@ -36,6 +39,13 @@ Git을 이용하여 리포지토리 원격 버전관리를 하였음
 Github 리포지토리를 생성, 배포하였음   
 npm을 기초적으로 이용하고 node_module을 사용함   
 node.js와 mongoDB를 이용하여 간단한 서버를 구축하였음
+
+   
+   
+<br>
+   
+제 30회 커뮤니케이션디자인국제공모전(3인) 일반/대학부 동상   
+
 
 
 # 이력서 폼(초안)   
