@@ -1,6 +1,9 @@
 ---
 layout: single
 author_profile: true
+
+sidebar:
+  nav: "docs"
 ---
 
 ![profile](/assets/images/profile.jpg){: width="250"}   
