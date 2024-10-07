@@ -33,13 +33,25 @@ search: false
 }
 
 
-table, thead {
-    width: 100%; /* 테이블 너비를 100%로 설정 */
-    border-collapse: collapse; /* 테두리 겹침 방지 */
-  }
+table {
+    display: inline-table;
+    margin-bottom: 1em;
+    width: 100%;
+    font-family: "Pretendard",sans-serif;
+    font-size: .75em;
+    border-collapse: collapse;
+    overflow-x: auto
+}
   
   th, td {
     padding: 10px; /* 셀 내부 여백 조절 */
     text-align: left; /* 텍스트 정렬 */
     // border: 1px solid #ddd; /* 테두리 추가 */
   }
+
+  @media (min-width: 80em) {
+    #main {
+        /* max-width: 1280px */
+        max-width: 80%;
+    }
+}
