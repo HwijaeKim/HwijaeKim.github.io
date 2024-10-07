@@ -1,21 +1,53 @@
 ---
 layout: single
 author_profile: true
+# custom_css: "/assets/css/profile.css"
 
 sidebar:
   nav: "docs"
 ---
+<style>
+    .profile_grid {
+        display: gird;
+        /* border: solid 1px red; */
+    }
+    .profile_img {
+        /* float: right; */
+        display: inline-block;
+        /* margin-top: 0; */
+        /* border: solid 1px blue; */
+        vertical-align: top;
+    }
+    
+    .profile {
+        display: inline-block;
+        margin-left: 15px;
+        /* padding-top: 5px; */
+        /* float: right; */
+        /* border: solid 1px green; */
+    }
+
+</style>
+
+
 README.md / 이력서
+   
+<br>
 
 # 인적사항   
 
-![profile](/assets/images/profile_real.jpeg){: width="150"}
-<div style="font-weight: bold">
-김휘재 <br>
-dusan960766@gmail.com <br>
-+82 10 8496 8305
+<!-- ![profile](/assets/images/profile_real.jpeg){: width="150"} -->
+<div class="profile_grid">
+<img class="profile_img" src="/assets/images/profile_real.jpeg" width="150">
 
+<div class="profile">
+<b>김휘재</b>   <br>
+2002.05.10 (만 22세)   <br>
+dusan960766@gmail.com   <br>
++82 10 8496 8305 (Mobile, Message Only)
 </div>
+</div>
+
 
 
 
@@ -31,7 +63,7 @@ dusan960766@gmail.com <br>
 | 2023.12               | 계원예술대학교        | 디지털미디어디자인과 전문학사 23-2학기    | 성적우수장학  |
 | 2021.06               | 계원예술대학교        | 디지털미디어디자인과 전문학사 21-1학기    | 성적우수장학  |
 | 2021.03           	| 계원예술대학교     	| 디지털미디어디자인과 전문학사         	| 입학         	|
-| 2018.03 - 2021.02 	| 선린인터넷<br>고등학교 	| 멀티미디어과                          	| 졸업         	|
+| 2018.03 - 2021.02 	| 선린인터넷고등학교 	| 멀티미디어과                          	| 졸업         	|
    
 <br>
 
