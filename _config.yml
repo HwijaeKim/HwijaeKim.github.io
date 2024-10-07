@@ -22,7 +22,7 @@ title                    : "HWIJAE KIM"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "김휘재"
-description              : "안녕하세요, 뭐시기한 뭐시기 입니다."
+description              : "긱(Geek)스러운 개발자, 김휘재 입니다."
 url                      : "https://hwijaekim.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "HwijaeKim/hwijaekim.github.io"
@@ -116,7 +116,7 @@ analytics:
 author:
   name             : "김휘재 Hwijae Kim"
   avatar           : "assets/images/profile.jpg"
-  bio              : "저는 뭐시기한 뭐시기입니다."
+  bio              : "긱(Geek)스러운 개발자, 김휘재 입니다."
   location         : "Korea, Republic of"
   email            : "dusan960766@gmail.com"
   links:

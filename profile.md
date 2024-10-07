@@ -14,14 +14,13 @@ sidebar:
     .profile_img {
         /* float: right; */
         display: inline-block;
-        /* margin-top: 0; */
+        margin-right: 15px;
         /* border: solid 1px blue; */
         vertical-align: top;
     }
     
     .profile {
         display: inline-block;
-        margin-left: 15px;
         /* padding-top: 5px; */
         /* float: right; */
         /* border: solid 1px green; */
@@ -30,7 +29,7 @@ sidebar:
 </style>
 
 
-README.md / 이력서
+PROFILE / 이력서
    
 <br>
 
