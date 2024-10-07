@@ -9,7 +9,7 @@ README.md / 이력서
 
 # 인적사항   
 
-![profile](/assets/images/profile_real.jpeg){: width="200"}
+![profile](/assets/images/profile_real.jpeg){: width="150"}
 <div style="text-align: right; font-weight: bold">김휘재</div>
 <div style="text-align: right;">dusan960766@gmail.com</div>
 <div style="text-align: right;">+82 10 8496 8305</div>
