@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-05T16:43:07+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle>안녕하세요, 뭐시기한 뭐시기 입니다.</subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">마크다운에서 표 만들기</title><link href="http://localhost:4000/%EC%97%B0%EC%8A%B5/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%EC%97%90%EC%84%9C-%ED%91%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/" rel="alternate" type="text/html" title="마크다운에서 표 만들기" /><published>2024-10-05T00:00:00+09:00</published><updated>2024-10-05T00:00:00+09:00</updated><id>http://localhost:4000/%EC%97%B0%EC%8A%B5/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%EC%97%90%EC%84%9C%20%ED%91%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/%EC%97%B0%EC%8A%B5/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%EC%97%90%EC%84%9C-%ED%91%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/"><![CDATA[<table>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-07T16:38:00+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle>안녕하세요, 뭐시기한 뭐시기 입니다.</subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">마크다운에서 표 만들기</title><link href="http://localhost:4000/%EC%97%B0%EC%8A%B5/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%EC%97%90%EC%84%9C-%ED%91%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/" rel="alternate" type="text/html" title="마크다운에서 표 만들기" /><published>2024-10-05T00:00:00+09:00</published><updated>2024-10-05T00:00:00+09:00</updated><id>http://localhost:4000/%EC%97%B0%EC%8A%B5/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%EC%97%90%EC%84%9C%20%ED%91%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/%EC%97%B0%EC%8A%B5/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%EC%97%90%EC%84%9C-%ED%91%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/"><![CDATA[<table>
   <thead>
     <tr>
       <th style="text-align: left">제목</th>
@@ -38,6 +38,150 @@
       <td style="text-align: left">Third row</td>
       <td style="text-align: center">Cell that spans across two columns</td>
       <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>날짜</th>
+      <th>내용</th>
+      <th>기관/결과</th>
+      <th>기여</th>
+      <th>구분</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2025.02</td>
+      <td>계원예술대학교 디지털미디어디자인과 전문학사</td>
+      <td>졸업 예정</td>
+      <td> </td>
+      <td>학력</td>
+    </tr>
+    <tr>
+      <td>2024.07</td>
+      <td>계원예술대학교 디지털미디어디자인과 2024-2학기 수석</td>
+      <td>계원예술대학교</td>
+      <td> </td>
+      <td>학력</td>
+    </tr>
+    <tr>
+      <td>2024.07</td>
+      <td>제 30회 커뮤니케이션디자인국제공모전 (3인)</td>
+      <td>한국커뮤니케이션디자인협회 / 동상</td>
+      <td>팀장/웹 개발</td>
+      <td>수상</td>
+    </tr>
+    <tr>
+      <td>2024.06</td>
+      <td>계원예술대학교 디지털미디어디자인과 우수작 프레젠테이션 1과목 출품</td>
+      <td>(과목)유니티프로그래밍</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>2023.12</td>
+      <td>계원예술대학교 디지털미디어디자인과 우수작 프레젠테이션 3과목 출품</td>
+      <td>(과목)콘텐츠디자인, 모션그래픽스, 웹퍼블리싱</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>2021-2023</td>
+      <td>2021-1학기, 2023-2학기, 2024-1학기 성적우수 장학생</td>
+      <td>계원예술대학교</td>
+      <td> </td>
+      <td>학력</td>
+    </tr>
+    <tr>
+      <td>2021.03</td>
+      <td>계원예술대학교 디지털미디어디자인과 전문학사</td>
+      <td>입학</td>
+      <td> </td>
+      <td>학력</td>
+    </tr>
+    <tr>
+      <td>2019.09.27</td>
+      <td>컴퓨터그래픽스운용기능사</td>
+      <td>한국산업인력공단</td>
+      <td> </td>
+      <td>자격/면혀</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>날짜</th>
+      <th>내용</th>
+      <th>기관/결과</th>
+      <th>기여</th>
+      <th>구분</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2021.09 - 2023.03</td>
+      <td>입시학원 온라인 비디오 콘테늧 제작</td>
+      <td>졸업 예정</td>
+      <td>촬</td>
+      <td>학력</td>
+    </tr>
+    <tr>
+      <td>2024.07</td>
+      <td>계원예술대학교 디지털미디어디자인과 2024-2학기 수석</td>
+      <td>계원예술대학교</td>
+      <td> </td>
+      <td>학력</td>
+    </tr>
+    <tr>
+      <td>2024.07</td>
+      <td>제 30회 커뮤니케이션디자인국제공모전 (3인)</td>
+      <td>한국커뮤니케이션디자인협회 / 동상</td>
+      <td>팀장/웹 개발</td>
+      <td>수상</td>
+    </tr>
+    <tr>
+      <td>2024.06</td>
+      <td>계원예술대학교 디지털미디어디자인과 우수작 프레젠테이션 1과목 출품</td>
+      <td>(과목)유니티프로그래밍</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>2023.12</td>
+      <td>계원예술대학교 디지털미디어디자인과 우수작 프레젠테이션 3과목 출품</td>
+      <td>(과목)콘텐츠디자인, 모션그래픽스, 웹퍼블리싱</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>2021-2023</td>
+      <td>2021-1학기, 2023-2학기, 2024-1학기 성적우수 장학생</td>
+      <td>계원예술대학교</td>
+      <td> </td>
+      <td>학력</td>
+    </tr>
+    <tr>
+      <td>2021.03</td>
+      <td>계원예술대학교 디지털미디어디자인과 전문학사</td>
+      <td>입학</td>
+      <td> </td>
+      <td>학력</td>
+    </tr>
+    <tr>
+      <td>2019.09.27</td>
+      <td>컴퓨터그래픽스운용기능사</td>
+      <td>한국산업인력공단</td>
+      <td> </td>
+      <td>자격/면혀</td>
     </tr>
   </tbody>
 </table>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="연습" /><category term="markdown" /><category term="table" /><summary type="html"><![CDATA[제목 내용 설명 테스트1 동해물과백두산이마르고닳도록 테스트3]]></summary></entry><entry><title type="html">계원예술대학교</title><link href="http://localhost:4000/education/%EA%B3%84%EC%9B%90%EC%98%88%EC%88%A0%EB%8C%80%ED%95%99%EA%B5%90/" rel="alternate" type="text/html" title="계원예술대학교" /><published>2024-10-02T00:00:00+09:00</published><updated>2024-10-02T00:00:00+09:00</updated><id>http://localhost:4000/education/%EA%B3%84%EC%9B%90%EC%98%88%EC%88%A0%EB%8C%80%ED%95%99%EA%B5%90</id><content type="html" xml:base="http://localhost:4000/education/%EA%B3%84%EC%9B%90%EC%98%88%EC%88%A0%EB%8C%80%ED%95%99%EA%B5%90/"><![CDATA[<p>KUAD</p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Education" /><category term="학교" /><summary type="html"><![CDATA[KUAD]]></summary></entry><entry><title type="html">Apple Silicon에서의 Jekyll 오류 발생 해결</title><link href="http://localhost:4000/jekyll/Apple-Silicon%EC%97%90%EC%84%9C%EC%9D%98-Jekyll-%EC%98%A4%EB%A5%98-%EB%B0%9C%EC%83%9D-%ED%95%B4%EA%B2%B0/" rel="alternate" type="text/html" title="Apple Silicon에서의 Jekyll 오류 발생 해결" /><published>2024-10-01T00:00:00+09:00</published><updated>2024-10-01T00:00:00+09:00</updated><id>http://localhost:4000/jekyll/Apple%20Silicon%EC%97%90%EC%84%9C%EC%9D%98%20Jekyll%20%EC%98%A4%EB%A5%98%20%EB%B0%9C%EC%83%9D%20%ED%95%B4%EA%B2%B0</id><content type="html" xml:base="http://localhost:4000/jekyll/Apple-Silicon%EC%97%90%EC%84%9C%EC%9D%98-Jekyll-%EC%98%A4%EB%A5%98-%EB%B0%9C%EC%83%9D-%ED%95%B4%EA%B2%B0/"><![CDATA[<h1 id="chat-gpt">Chat GPT</h1>

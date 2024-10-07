@@ -18,7 +18,7 @@ var store = [{
         "teaser": "/assets/images/profile.jpg"
       },{
         "title": "마크다운에서 표 만들기",
-        "excerpt":"               제목       내용       설명                       테스트1       동해물과백두산이마르고닳도록       테스트3                          First Header       Second Header       Third Header                       First row       Data       Very long data entry                 Second row       Cell       Cell                 Third row       Cell that spans across two columns                  ","categories": ["연습"],
+        "excerpt":"제목 내용 설명 테스트1 동해물과백두산이마르고닳도록 테스트3 First Header Second Header Third Header First row Data Very long data entry Second row Cell Cell Third row Cell that spans across two columns   날짜 내용 기관/결과 기여 구분 2025.02 계원예술대학교 디지털미디어디자인과 전문학사 졸업 예정   학력 2024.07 계원예술대학교 디지털미디어디자인과 2024-2학기 수석...","categories": ["연습"],
         "tags": ["markdown","table"],
         "url": "/%EC%97%B0%EC%8A%B5/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%EC%97%90%EC%84%9C-%ED%91%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/",
         "teaser": null
