@@ -7,7 +7,7 @@ toc_sticky: true
 toc_label: "PROFILE"
 
 sidebar:
-  nav: "docs"
+  nav: "sidebar-category"
 ---
 <style>
     .profile_grid {

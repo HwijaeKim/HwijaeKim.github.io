@@ -31,7 +31,7 @@ logo                     : # "assets/images/profile.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
-enable_copy_code_button  : # true, false (default)
+enable_copy_code_button  : true
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
@@ -325,7 +325,7 @@ defaults:
       share: false
       related: true
       sidebar:                  # 추가한 부분
-        nav: "docs" # 추가한 부분
+        nav: "sidebar-category" # 추가한 부분
 
 
 #after_footer_scripts:

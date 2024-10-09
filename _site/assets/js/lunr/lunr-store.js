@@ -1,7 +1,7 @@
 var store = [{
         "title": "Apple Silicon에서의 Jekyll 오류 발생 해결",
         "excerpt":"Chat GPT 프롬프트 macOS 터미널을 이용해서 jekyll bundle을 설치하고 있는데 eventmachine 1.2.7 설치 도중 오류가 난대. 왜 이럴까? -2024.09.30 1. Xcode Command Line Tools 재설치 이미 명령줄 도구를 설치했더라도 일부 구성 요소가 손상되었을 수 있으니, 다시 설치하거나 업데이트를 시도해 보세요. sudo rm -rf /Library/Developer/CommandLineTools xcode-select --install 2. g++와 clang 설치...","categories": ["Jekyll","solve"],
-        "tags": ["Error","Jekyll","Mac(Apple Silicon)"],
+        "tags": ["jekyll","macos","apple silicon","문제해결"],
         "url": "/jekyll/solve/Apple-Silicon%EC%97%90%EC%84%9C%EC%9D%98-Jekyll-%EC%98%A4%EB%A5%98-%EB%B0%9C%EC%83%9D-%ED%95%B4%EA%B2%B0/",
         "teaser": "/assets/images/profile.jpg"
       },{

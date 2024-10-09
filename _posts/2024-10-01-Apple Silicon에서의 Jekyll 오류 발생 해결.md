@@ -6,9 +6,10 @@ categories:
   - Jekyll
   - solve
 tags:
-  - Error
-  - Jekyll
-  - Mac(Apple Silicon)
+  - jekyll
+  - macos
+  - apple silicon
+  - 문제해결
 ---
 # Chat GPT   
 

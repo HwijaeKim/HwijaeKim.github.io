@@ -5,7 +5,7 @@ title: "Education"
 
 author_profile: true
 sidebar:
-  nav: "docs"
+  nav: "sidebar-category"
 ---
 
 {% assign posts = site.categories.Education %}

@@ -70,7 +70,7 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-  
+  window.enable_copy_code_button = true;
 </script>
 
 <!-- For all browsers -->
@@ -115,6 +115,12 @@
                 
                 
               >PROFILE</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/tags/"
+                
+                
+              >Tag</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
@@ -276,92 +282,161 @@
       
     
     
-      <nav class="nav__list">
+      
+
+
+<nav class="nav__list">
   
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">토글 메뉴</label>
+  <li> 전체 글 수 (4)개 </li>
   <ul class="nav__items">
     
       
-      
-        <li>
+      <li>
+        
+          <span class="nav__sub-title">Union</span>
+        
+
+        
+        <ul>
           
-            <span class="nav__sub-title">Union</span>
+          
+          
+          
           
 
+            <li><a href="/categories/portfolio">포트폴리오(0)</a></li>
           
-          <ul>
-            
-              <li><a href="/categories/portfolio">포트폴리오</a></li>
-            
-              <li><a href="/categories/education">교육(계원예술대학교)</a></li>
-            
-              <li><a href="/categories/project">프로젝트</a></li>
-            
-          </ul>
           
-        </li>
-      
-        <li>
           
-            <span class="nav__sub-title">Development</span>
+          
           
 
+            <li><a href="/categories/kuad">계원예술대학교(0)</a></li>
           
-          <ul>
-            
-              <li><a href="/categories/solve">문제해결</a></li>
-            
-              <li><a href="/categories/jekyll">Jekyll(지킬)</a></li>
-            
-              <li><a href="/categories/frontend">HTMl/CSS/Vanilla JS</a></li>
-            
-              <li><a href="/categories/frontend">React / JQuery</a></li>
-            
-              <li><a href="/categories/frontend">node.js</a></li>
-            
-          </ul>
           
-        </li>
-      
-        <li>
           
-            <span class="nav__sub-title">Design</span>
+          
           
 
+            <li><a href="/categories/project">프로젝트(0)</a></li>
           
-          <ul>
-            
-              <li><a href="/categories/psai">Photoshop / Allustrator</a></li>
-            
-              <li><a href="/categories/prae">Premiere Pro / After Effects</a></li>
-            
-              <li><a href="/categories/figmaxd">Figma / XD</a></li>
-            
-          </ul>
-          
-        </li>
+        </ul>
+        
+      </li>
+    
       
-        <li>
+      <li>
+        
+          <span class="nav__sub-title">Development</span>
+        
+
+        
+        <ul>
           
-            <span class="nav__sub-title">Experience</span>
+          
+          
+          
           
 
+            <li><a href="/categories/solve">문제해결(0)</a></li>
           
-          <ul>
-            
-              <li><a href="/categories/fair">전시/박람회</a></li>
-            
-              <li><a href="/categories/education">봉사활동</a></li>
-            
-          </ul>
           
-        </li>
+          
+          
+          
+
+            <li><a href="/categories/jekyll">Jekyll(지킬)(0)</a></li>
+          
+          
+          
+          
+          
+
+            <li><a href="/categories/frontend">HTMl/CSS/Vanilla JS(0)</a></li>
+          
+          
+          
+          
+          
+
+            <li><a href="/categories/frontend">React / JQuery(0)</a></li>
+          
+          
+          
+          
+          
+
+            <li><a href="/categories/frontend">node.js(0)</a></li>
+          
+        </ul>
+        
+      </li>
+    
       
+      <li>
+        
+          <span class="nav__sub-title">Design</span>
+        
+
+        
+        <ul>
+          
+          
+          
+          
+          
+
+            <li><a href="/categories/psai">Photoshop / Allustrator(0)</a></li>
+          
+          
+          
+          
+          
+
+            <li><a href="/categories/prae">Premiere Pro / After Effects(0)</a></li>
+          
+          
+          
+          
+          
+
+            <li><a href="/categories/figmaxd">Figma / XD(0)</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      
+      <li>
+        
+          <span class="nav__sub-title">Experience</span>
+        
+
+        
+        <ul>
+          
+          
+          
+          
+          
+
+            <li><a href="/categories/fair">전시/박람회(0)</a></li>
+          
+          
+          
+          
+          
+
+            <li><a href="/categories/education">봉사활동(0)</a></li>
+          
+        </ul>
+        
+      </li>
     
   </ul>
 </nav>
-
     
   
   </div>
@@ -451,11 +526,13 @@ eval $(/opt/homebrew/bin/brew shellenv)
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> 태그: </strong>
     <span itemprop="keywords">
     
-      <a href="/tags/#error" class="page__taxonomy-item p-category" rel="tag">Error</a><span class="sep">, </span>
+      <a href="/tags/#apple-silicon" class="page__taxonomy-item p-category" rel="tag">apple silicon</a><span class="sep">, </span>
     
-      <a href="/tags/#jekyll" class="page__taxonomy-item p-category" rel="tag">Jekyll</a><span class="sep">, </span>
+      <a href="/tags/#jekyll" class="page__taxonomy-item p-category" rel="tag">jekyll</a><span class="sep">, </span>
     
-      <a href="/tags/#mac-apple-silicon" class="page__taxonomy-item p-category" rel="tag">Mac(Apple Silicon)</a>
+      <a href="/tags/#macos" class="page__taxonomy-item p-category" rel="tag">macos</a><span class="sep">, </span>
+    
+      <a href="/tags/#%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0" class="page__taxonomy-item p-category" rel="tag">문제해결</a>
     
     </span>
   </p>

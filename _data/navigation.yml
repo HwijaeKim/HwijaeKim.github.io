@@ -4,6 +4,8 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "PROFILE"
     url: /profile
+  - title: "Tag"
+    url: /tags/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
@@ -11,13 +13,13 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-docs:
+sidebar-category:
   - title: "Union"
     children:
        - title: "포트폴리오"
          url: "categories/portfolio"
-       - title: "교육(계원예술대학교)"
-         url: "categories/education"
+       - title: "계원예술대학교"
+         url: "categories/kuad"
        - title: "프로젝트"
          url: "categories/project"
 
