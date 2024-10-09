@@ -2,6 +2,9 @@
 layout: single
 author_profile: true
 # custom_css: "/assets/css/profile.css"
+toc: true
+toc_sticky: true
+toc_label: "PROFILE"
 
 sidebar:
   nav: "docs"
