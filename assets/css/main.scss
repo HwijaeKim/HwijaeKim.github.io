@@ -32,6 +32,10 @@ search: false
     font-style: normal;
 }
 
+body {
+    word-break: keep-all;
+}
+
 
 table {
     display: inline-table;

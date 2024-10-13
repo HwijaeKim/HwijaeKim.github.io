@@ -14,13 +14,13 @@ main:
   #   url: /sitemap/
 
 sidebar-category:
-  - title: "Union"
+  - title: "Portfolio"
     children:
-       - title: "포트폴리오"
-         url: "categories/portfolio"
-       - title: "계원예술대학교"
-         url: "categories/kuad"
-       - title: "프로젝트"
+       - title: "Projects"
+         url: "categories/projects"
+       - title: "Education"
+         url: "categories/education"
+       - title: "Works"
          url: "categories/project"
 
   - title: "Development"

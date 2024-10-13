@@ -460,6 +460,7 @@
     max-height: 160px;
     text-align: center;
     vertical-align: middle;
+    border: solid .5px #cfcfcf;
 
     img {
       margin: auto;
@@ -468,6 +469,7 @@
       overflow: hidden;
       justify-content: center;
       transition: all 0.3s linear; //hover 시간 조정
+      // border: solid 1px #cfcfcf;
     }
 
     @include breakpoint($small) {
@@ -498,6 +500,7 @@
       max-height: 200px;
       text-align: center;
       vertical-align: middle;
+      border: solid .5px #cfcfcf;
   
       img {
         margin: auto;
