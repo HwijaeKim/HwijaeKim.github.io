@@ -11,7 +11,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>HWIJAE KIM</title>
-<meta name="description" content="긱(Geek)스러운 개발자, 김휘재 입니다.">
+<meta name="description" content="웹 퍼블리셔">
 
 
   <meta name="author" content="김휘재 Hwijae Kim">
@@ -25,9 +25,11 @@
 <meta property="og:url" content="http://localhost:4000/">
 
 
-  <meta property="og:description" content="긱(Geek)스러운 개발자, 김휘재 입니다.">
+  <meta property="og:description" content="웹 퍼블리셔">
 
 
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/banner.png">
 
 
 
@@ -93,7 +95,7 @@
 
   </head>
 
-  <body class="layout--home" dir="ltr">
+  <body class="layout--archive" dir="ltr">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -119,12 +121,6 @@
                 
                 
               >PROFILE</a>
-            </li><li class="masthead__menu-item">
-              <a
-                href="/tags/"
-                
-                
-              >Tag</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
@@ -146,6 +142,39 @@
 
     <div class="initial-content">
       
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('/assets/images/banner.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          HWIJAE KIM
+
+        
+      </h1>
+      
+        <p class="page__lead">웹 퍼블리셔
+</p>
+      
+      
+
+
+      
+    </div>
+  
+  
+</div>
+
+
 
 
 
@@ -445,20 +474,9 @@
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title"></h1>
+    <div class="grid__wrapper">
     
     
-
-<h3 class="archive__subtitle">최근 포스트</h3>
-
-
-
-
-<div class="entries-list">
-  
-
-
-
 
 
 
@@ -466,12 +484,20 @@
 <div class="list__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
+    
+    
+    <div class="archive__item-teaser_list">
+      <img src="/assets/images/profile.jpg" alt="">
+    </div>
+    
+
+    <div class="archive__item-postbox">
+      <h2 class="archive__item-title no_toc" itemprop="headline">
+        
         <a href="/%EC%97%B0%EC%8A%B5/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%EC%97%90%EC%84%9C-%ED%91%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/" rel="permalink">마크다운에서 표 만들기
 </a>
-      
-    </h2>
+        
+      </h2>
     
 
 
@@ -493,8 +519,26 @@
 
 
 </p>
+    <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#%EC%97%B0%EC%8A%B5" class="page__taxonomy-item-category" rel="tag">연습</a>
+                    
+                    
+                    <a href="/tags/#markdown" class="page__taxonomy-item-tag" rel="tag">markdown</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#table" class="page__taxonomy-item-tag" rel="tag">table</a>
+                
+            </span>
+        </span>
+    </div>
   </article>
 </div>
+    
+    
 
 
 
@@ -502,19 +546,41 @@
 <div class="list__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
+    
+    
+    <div class="archive__item-teaser_list">
+      <img src="/assets/images/profile.jpg" alt="">
+    </div>
+    
+
+    <div class="archive__item-postbox">
+      <h2 class="archive__item-title no_toc" itemprop="headline">
+        
         <a href="/education/%EA%B3%84%EC%9B%90%EC%98%88%EC%88%A0%EB%8C%80%ED%95%99%EA%B5%90/" rel="permalink">계원예술대학교
 </a>
-      
-    </h2>
+        
+      </h2>
     
 
 
     <p class="archive__item-excerpt" itemprop="description">KUAD
 </p>
+    <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#education" class="page__taxonomy-item-category" rel="tag">Education</a>
+                    
+                    
+                    <a href="/tags/#%ED%95%99%EA%B5%90" class="page__taxonomy-item-tag" rel="tag">학교</a>
+                
+            </span>
+        </span>
+    </div>
   </article>
 </div>
+    
+    
 
 
 
@@ -522,12 +588,20 @@
 <div class="list__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
+    
+    
+    <div class="archive__item-teaser_list">
+      <img src="/assets/images/profile.jpg" alt="">
+    </div>
+    
+
+    <div class="archive__item-postbox">
+      <h2 class="archive__item-title no_toc" itemprop="headline">
+        
         <a href="/education/%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94/" rel="permalink">안녕하세요
 </a>
-      
-    </h2>
+        
+      </h2>
     
 
 
@@ -535,8 +609,22 @@
 아직 시험단계로 보완할 부분이 많습니다.
 
 </p>
+    <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#education" class="page__taxonomy-item-category" rel="tag">Education</a>
+                    
+                    
+                    <a href="/tags/#update" class="page__taxonomy-item-tag" rel="tag">update</a>
+                
+            </span>
+        </span>
+    </div>
   </article>
 </div>
+    
+    
 
 
 
@@ -544,26 +632,56 @@
 <div class="list__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
+    
+    
+    <div class="archive__item-teaser_list">
+      <img src="/assets/images/posts_teaser/apple_silicon_jekyll.jpg" alt="">
+    </div>
+    
+
+    <div class="archive__item-postbox">
+      <h2 class="archive__item-title no_toc" itemprop="headline">
+        
         <a href="/jekyll/solve/Apple-Silicon%EC%97%90%EC%84%9C%EC%9D%98-Jekyll-%EC%98%A4%EB%A5%98-%EB%B0%9C%EC%83%9D-%ED%95%B4%EA%B2%B0/" rel="permalink">Apple Silicon에서의 Jekyll 오류 발생 해결
 </a>
-      
-    </h2>
+        
+      </h2>
     
 
 
     <p class="archive__item-excerpt" itemprop="description">Chat GPT
 
 </p>
+    <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#jekyll" class="page__taxonomy-item-category" rel="tag">Jekyll</a><span class="sep"> </span><a href="/categories/#solve" class="page__taxonomy-item-category" rel="tag">solve</a>
+                    
+                    
+                    <a href="/tags/#apple-silicon" class="page__taxonomy-item-tag" rel="tag">apple silicon</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#jekyll" class="page__taxonomy-item-tag" rel="tag">jekyll</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#macos" class="page__taxonomy-item-tag" rel="tag">macos</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0" class="page__taxonomy-item-tag" rel="tag">문제해결</a>
+                
+            </span>
+        </span>
+    </div>
   </article>
 </div>
-
+    
 </div>
 
-
-
-
+ 
   </div>
 </div>
 

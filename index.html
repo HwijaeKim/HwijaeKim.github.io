@@ -1,6 +1,19 @@
 ---
-layout: home
+excerpt : "웹 퍼블리셔"
+layout: archive
 author_profile: true
+<!-- entries_layout: list -->
 sidebar:
     nav: "sidebar-category"
+
+header:
+    overlay_image: assets/images/banner.png
+    overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
 ---
+
+<div class="grid__wrapper">
+    {% for post in paginator.posts %}
+    {% include archive-single3.html type="list" %}
+    {% endfor %}
+</div>
+{% include paginator.html %} 
