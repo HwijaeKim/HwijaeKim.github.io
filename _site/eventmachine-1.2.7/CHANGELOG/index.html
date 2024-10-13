@@ -1,0 +1,424 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="ko-KR" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Changelog - HWIJAE KIM</title>
+<meta name="description" content="긱(Geek)스러운 개발자, 김휘재 입니다.">
+
+
+  <meta name="author" content="김휘재 Hwijae Kim">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="HWIJAE KIM">
+<meta property="og:title" content="Changelog">
+<meta property="og:url" content="http://localhost:4000/eventmachine-1.2.7/CHANGELOG/">
+
+
+  <meta property="og:description" content="긱(Geek)스러운 개발자, 김휘재 입니다.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/eventmachine-1.2.7/CHANGELOG/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="HWIJAE KIM Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  window.enable_copy_code_button = true;
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<!--<link rel="stylesheet" href="/assets/css/main_dark.css">-->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--default" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          HWIJAE KIM
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/profile"
+                
+                
+              >PROFILE</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">토글 메뉴</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      <h1 id="changelog">Changelog</h1>
+
+<h2 id="127-may-12-2018">1.2.7 (May 12, 2018)</h2>
+<ul>
+  <li>Fix segfault on large numbers of connections [#843]</li>
+</ul>
+
+<h2 id="126-april-30-2018">1.2.6 (April 30, 2018)</h2>
+<ul>
+  <li><em>Fix segfault when an Exception is raised from unbind callback (for real this time!)</em></li>
+  <li>Fix race condition while initializing the machine [#756]</li>
+  <li>Fix for newer compilers where bind() and std::bind() conflict [#830, #831]</li>
+  <li>Be verbose about SSL connection errors [#807]</li>
+  <li>Avoid explicitly calling class methods when in class scope</li>
+  <li>Java: Add EM_PROTO_SSL/TLS definitions [#773, #791]</li>
+  <li>Java: return zero when sending data to a closed connection [#475, #804]</li>
+  <li>Pure Ruby: Connection::error? calls report_connection_error_status [#801]</li>
+</ul>
+
+<h2 id="125-july-27-2017">1.2.5 (July 27, 2017)</h2>
+<ul>
+  <li>Java: Use long for larger values in oneshot timer intervals [#784, #794]</li>
+</ul>
+
+<h2 id="124-july-27-2017">1.2.4 (July 27, 2017)</h2>
+<ul>
+  <li>Java: Add EM_PROTO_SSL/TLS definitions [#773, #791]</li>
+  <li>Fix IPv6 UDP get_peername [#788]</li>
+  <li>Allow for larger values in oneshot timer intervals [#784, #793]</li>
+  <li>Update extconf.rb to allow MinGW builds with OpenSSL 1.1.0 [#785]</li>
+</ul>
+
+<h2 id="123-february-22-2017">1.2.3 (February 22, 2017)</h2>
+<ul>
+  <li>Pure Ruby: Add get_sockname [#308, #772]</li>
+  <li>Fix segfault when an Exception is raised from unbind callback [#765, #766]</li>
+  <li>Allow destructors to throw when compiling in &gt;= C++11 [#767]</li>
+</ul>
+
+<h2 id="122-january-23-2017">1.2.2 (January 23, 2017)</h2>
+<ul>
+  <li>Java: Fix Fixnum deprecated warning in Ruby 2.4+ [#759]</li>
+  <li>Fix uncaught C++ exception in file watcher and raise InvalidSignature [#512, #757]</li>
+  <li>Fix connection count off-by-one for epoll and kqueue [#750]</li>
+  <li>Fix uninitialized variable warning in EM::P::HttpClient [#749]</li>
+  <li>Fix missing initial value for EventableDescriptor NextHeartbeat [#748]</li>
+  <li>Fix hostname resolution on Solaris, Ilumos, SmartOS, et al [#745, #746]</li>
+  <li>Improve reliability of tests, reduce public Internet accesses in tests [#656, #666, #749]</li>
+</ul>
+
+<h2 id="121-november-15-2016">1.2.1 (November 15, 2016)</h2>
+<ul>
+  <li>Throw strerror(errno) when getsockname or getpeername fail [#683]</li>
+  <li>Use a single concrete implementation of getpeername/getsockname, the rest pure virtuals [#683]</li>
+  <li>Use gai_strerror to get the failure string from getaddrinfo [#744]</li>
+  <li>Fix deregistering descriptor when using KQUEUE [#728]</li>
+  <li>Fix to enable to work an example code in EM::Pool [#731]</li>
+  <li>LineText2: Add regular expression delimiter support [#706]</li>
+  <li>Pure Ruby: EM rescue ECONNREFUSED on initial TCP connect [#741]</li>
+  <li>Pure Ruby: EM SSL (working start_tls) [#712]</li>
+  <li>Pure Ruby: EM fixes [#707]</li>
+  <li>Java: Use Acceptors to get peer and sock names if not present in Connections [#743]</li>
+</ul>
+
+<h2 id="1201-march-15-2016">1.2.0.1 (March 15, 2016)</h2>
+<ul>
+  <li>Fix crash when accepting IPv6 connections due to struct sockaddr_in [#698, #699]</li>
+</ul>
+
+<h2 id="120-march-15-2016">1.2.0 (March 15, 2016)</h2>
+<ul>
+  <li>Integrate work from the EventMachine-LE 1.1.x versions [#570]</li>
+  <li>Add start_tls options :ecdh_curve, :dhparam, :fail_if_no_peer_cert [#195, #275, #399, #665]</li>
+  <li>Add start_tls option :ssl_version for choosing SSL/TLS versions and ciphers [#359, #348, #603, #654]</li>
+  <li>Add start_tls option :sni_hostname to be passed to TLS params [#593]</li>
+  <li>Add method EM::Channel#num_subscribers to get the number of subscribers to a channel [#640]</li>
+  <li>Add support for proc-sources in EM::Iterator [#639]</li>
+  <li>Factor out method cleanup_machine to cleanup code from EM.run [#650]</li>
+  <li>Replace Exception class with StandardError [#637]</li>
+  <li>Close socket on close_connection even after close_connection_after_writing [#694]</li>
+  <li>Allow reusing of datagram socket/setting bind device [#662]</li>
+  <li>Handle deferred exceptions in reactor thread [#486]</li>
+  <li>Reimplement Queue to avoid shift/push performance problem [#311]</li>
+  <li>Windows: Switch from gethostbyname to getaddrinfo, support IPv6 addresses [#303, #630]</li>
+  <li>Windows: Use rake-compiler-dock to cross-compile gems [#627]</li>
+  <li>Windows: Add AppVeyor configuration for Windows CI testing [#578]</li>
+  <li>Windows: Bump rake-compiler to version 0.9.x [#542]</li>
+  <li>Fix compilation on AIX (w/ XLC) [#693]</li>
+  <li>Fix build on OpenBSD [#690]</li>
+  <li>Fix OpenSSL compile issue on AIX 7.1 [#678]</li>
+  <li>Fix EventMachine.fork_reactor keeps the threadpool of the original process [#425]</li>
+  <li>Fix to prevent event machine from stopping when a raise is done in an unbind [#327]</li>
+</ul>
+
+<h2 id="1091-january-14-2016">1.0.9.1 (January 14, 2016)</h2>
+<ul>
+  <li>Fix EPROTO not defined on Windows [#676]</li>
+  <li>Fix missing cast to struct sockaddr * [#671]</li>
+  <li>Fix bug in OpenSSL path detection [#675]</li>
+</ul>
+
+<h2 id="109-january-13-2016">1.0.9 (January 13, 2016)</h2>
+<ul>
+  <li>Try more ways to detect OpenSSL [#602, #643, #661, #663, #668, #669]</li>
+  <li>Use WSAGetLastError in pipe.cpp same as ed.cpp [#659]</li>
+  <li>Test compiler flags with the C++ compiler and add them to CXXFLAGS [#634, #651]</li>
+  <li>Restore silent-fail on unsupported EM.epoll and EM.kqueue [#638, #649]</li>
+  <li>getDescriptorByFileno deprecated in JRuby 1.7.x, removed in JRuby 9000 [#642, #648]</li>
+  <li>Add -Wno-address always-true because on Windows rb_fd_select [#578]</li>
+  <li>Remove the WITHOUT_SSL constant [#578]</li>
+  <li>Fix SSL error when the server replies a TLS Alert to our ClientHello [#544, #653]</li>
+  <li>Use WSAStringToAddress in lieu of inet_pton for IPv6 address detection on Windows [#595, #632]</li>
+  <li>Fix nasty TCP/IPv6 bug [#595, #632]</li>
+  <li>Use select_large_fdset on Solaris [#611, #625]</li>
+  <li>Detect the Solaris Studio compiler [#611, #625]</li>
+  <li>Throw a message with strerror included [#136, #621]</li>
+</ul>
+
+<h2 id="108-august-6-2015">1.0.8 (August 6, 2015)</h2>
+<ul>
+  <li>fix kqueue assertion failed, postpone ArmKqueueWriter until all events are processed [#51, #176, #372, #401, #619]</li>
+  <li>fix Rubinius GC, crank the machine from Ruby space when running Rubinius [#201, #202, #617]</li>
+  <li>test to show that LineText2 preserves whitespace and newlines [#32, #622]</li>
+  <li>bump up compiler warnings and resolve them [#616]</li>
+  <li>fix Windows x64 use uintptr_t instead of unsigned long for binding pointers [#612, #615]</li>
+  <li>fix linetext2 unroll tail recursion to avoid stack level too deep [#609]</li>
+  <li>fix for compilation with SSL on windows [#601]</li>
+  <li>open file descriptors and sockets with O_CLOEXEC where possible [#298, #488, #591]</li>
+  <li>fix SmtpClient: send second EHLO after STARTTLS. [#589]</li>
+  <li>fix nul-terminated strings in C, use StringValueCStr instead of StringValuePtr</li>
+</ul>
+
+<h2 id="107-february-10-2015">1.0.7 (February 10, 2015)</h2>
+<ul>
+  <li>fix delay in kqueue/epoll reactor shutdown when timers exist [#587]</li>
+  <li>fix memory leak introduced in v1.0.5 [#586]</li>
+  <li>expose EM.set_simultaneous_accept_count [#420]</li>
+  <li>fix busy loop when EM.run and EM.next_tick are invoked from exception handler [#452]</li>
+</ul>
+
+<h2 id="106-february-3-2015">1.0.6 (February 3, 2015)</h2>
+<ul>
+  <li>add support for Rubinius Process::Status [#568]</li>
+  <li>small bugfixes for SmtpServer [#449]</li>
+  <li>update buftok.rb [#547]</li>
+  <li>fix assertion on Write() [#525]</li>
+  <li>work around mkmf.rb bug preventing gem installation [#574]</li>
+  <li>add pause/resume support to jruby reactor [#556]</li>
+  <li>fix pure ruby reactor to use 127.0.0.1 instead of localhost [#439]</li>
+  <li>fix compilation under macruby [#243]</li>
+  <li>add chunked encoding to http client [#111]</li>
+  <li>fix errors on win32 when dealing with pipes [1ea45498] [#105]</li>
+</ul>
+
+<h2 id="105-february-2-2015">1.0.5 (February 2, 2015)</h2>
+<ul>
+  <li>use monotonic clocks on Linux, OS X, Solaris, and Windows [#563]</li>
+  <li>use the rb_fd_* API to get autosized fd_sets [#502]</li>
+  <li>add basic tests that the DNS resolver isn’t leaking timers [#571]</li>
+  <li>update to test-unit 2.x and improve various unit tests [#551]</li>
+  <li>remove EventMachine_t::Popen code marked by ifdef OBSOLETE [#551]</li>
+  <li>ruby 2.0 may fail at Queue.pop, so rescue and complain to $stderr [#551]</li>
+  <li>set file handle to INVALID_HANDLE_VALUE after closing the file [#565]</li>
+  <li>use <code class="language-plaintext highlighter-rouge">defined?</code> instead of rescuing NameError for flow control [#535]</li>
+  <li>fix closing files and sockets on Windows [#564]</li>
+  <li>fix file uploads in Windows [#562]</li>
+  <li>catch failure to fork [#539]</li>
+  <li>use chunks for SSL write [#545]</li>
+</ul>
+
+<h2 id="104-december-19-2014">1.0.4 (December 19, 2014)</h2>
+<ul>
+  <li>add starttls_options to smtp server [#552]</li>
+  <li>fix closesocket on windows [#497]</li>
+  <li>fix build on ruby 2.2 [#503]</li>
+  <li>fix build error on ruby 1.9 [#508]</li>
+  <li>fix timer leak during dns resolution [#489]</li>
+  <li>add concurrency validation to EM::Iterator [#468]</li>
+  <li>add get_file_descriptor to get fd for a signature [#467]</li>
+  <li>add EM.attach_server and EM.attach_socket_server [#465, #466]</li>
+  <li>calling pause from receive_data takes effect immediately [#464]</li>
+  <li>reactor_running? returns false after fork [#455]</li>
+  <li>fix infinite loop on double close [edc4d0e6, #441, #445]</li>
+  <li>fix compilation issue on llvm [#433]</li>
+  <li>fix socket error codes on win32 [ff811a81]</li>
+  <li>fix EM.stop latency when timers exist [8b613d05, #426]</li>
+  <li>fix infinite loop when system time changes [1427a2c80, #428]</li>
+  <li>fix crash when callin attach/detach in the same tick [#427]</li>
+  <li>fix compilation issue on solaris [#416]</li>
+</ul>
+
+<h2 id="103-march-8-2013">1.0.3 (March 8, 2013)</h2>
+<ul>
+  <li>EM.system was broken in 1.0.2 release [#413]</li>
+</ul>
+
+<h2 id="102-march-8-2013">1.0.2 (March 8, 2013)</h2>
+<ul>
+  <li>binary win32 gems now include fastfilereader shim [#222]</li>
+  <li>fix long-standing connection timeout issues [27fdd5b, igrigorik/em-http-request#222]</li>
+  <li>http and line protocol cleanups [#193, #151]</li>
+  <li>reactor return value cleanup [#225]</li>
+  <li>fix double require from gemspec [#284]</li>
+  <li>fix smtp server reset behavior [#351]</li>
+  <li>fix EM.system argument handling [#322]</li>
+  <li>ruby 1.9 compat in smtp server and stomp protocols [#349, #315]</li>
+  <li>fix pause from post_init [#380]</li>
+</ul>
+
+<h2 id="101-february-27-2013">1.0.1 (February 27, 2013)</h2>
+<ul>
+  <li>use rb_wait_for_single_fd() on ruby 2.0 to fix rb_thread_select() deprecation [#363]</li>
+  <li>fix epoll/kqueue mode in ruby 2.0 by removing calls to rb_enable_interrupt() [#248, #389]</li>
+  <li>fix memory leak when verifying ssl cerificates [#403]</li>
+  <li>fix initial connection delay [#393, #374]</li>
+  <li>fix build on windows [#371]</li>
+</ul>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="검색어를 입력하세요..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>팔로우:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+          <li><a href="https://github.com/HwijaeKim" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="https://instagram.com/hwijae_portfolio" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> 피드</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 <a href="http://localhost:4000">HWIJAE KIM</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+  </body>
+</html>

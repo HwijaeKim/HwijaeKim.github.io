@@ -1,0 +1,313 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="ko-KR" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>About EventMachine - HWIJAE KIM</title>
+<meta name="description" content="긱(Geek)스러운 개발자, 김휘재 입니다.">
+
+
+  <meta name="author" content="김휘재 Hwijae Kim">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="HWIJAE KIM">
+<meta property="og:title" content="About EventMachine">
+<meta property="og:url" content="http://localhost:4000/eventmachine-1.2.7/">
+
+
+  <meta property="og:description" content="긱(Geek)스러운 개발자, 김휘재 입니다.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/eventmachine-1.2.7/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="HWIJAE KIM Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  window.enable_copy_code_button = true;
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<!--<link rel="stylesheet" href="/assets/css/main_dark.css">-->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--default" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          HWIJAE KIM
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/profile"
+                
+                
+              >PROFILE</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">토글 메뉴</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      <h1 id="about-eventmachine---">About EventMachine  <a href="https://travis-ci.org/eventmachine/eventmachine"><img src="https://travis-ci.org/eventmachine/eventmachine.svg?branch=master" alt="Build Status" /></a> <a href="https://codeclimate.com/github/eventmachine/eventmachine/maintainability"><img src="https://api.codeclimate.com/v1/badges/e9b0603462905d5b9118/maintainability" alt="Code Climate Maintainability" /></a></h1>
+
+<h2 id="what-is-eventmachine">What is EventMachine</h2>
+
+<p>EventMachine is an event-driven I/O and lightweight concurrency library for Ruby.
+It provides event-driven I/O using the <a href="http://en.wikipedia.org/wiki/Reactor_pattern">Reactor pattern</a>,
+much like <a href="http://www.jboss.org/netty">JBoss Netty</a>, <a href="http://mina.apache.org/">Apache MINA</a>,
+Python’s <a href="http://twistedmatrix.com">Twisted</a>, <a href="http://nodejs.org">Node.js</a>, libevent and libev.</p>
+
+<p>EventMachine is designed to simultaneously meet two key needs:</p>
+
+<ul>
+  <li>Extremely high scalability, performance and stability for the most demanding production environments.</li>
+  <li>An API that eliminates the complexities of high-performance threaded network programming,
+allowing engineers to concentrate on their application logic.</li>
+</ul>
+
+<p>This unique combination makes EventMachine a premier choice for designers of critical networked
+applications, including Web servers and proxies, email and IM production systems, authentication/authorization
+processors, and many more.</p>
+
+<p>EventMachine has been around since the early 2000s and is a mature and battle-tested library.</p>
+
+<h2 id="what-eventmachine-is-good-for">What EventMachine is good for?</h2>
+
+<ul>
+  <li>Scalable event-driven servers. Examples: <a href="http://code.macournoyer.com/thin/">Thin</a> or <a href="https://github.com/postrank-labs/goliath/">Goliath</a>.</li>
+  <li>Scalable asynchronous clients for various protocols, RESTful APIs and so on. Examples: <a href="https://github.com/igrigorik/em-http-request">em-http-request</a> or <a href="https://github.com/ruby-amqp/amqp">amqp gem</a>.</li>
+  <li>Efficient network proxies with custom logic. Examples: <a href="https://github.com/mojombo/proxymachine/">Proxymachine</a>.</li>
+  <li>File and network monitoring tools. Examples: <a href="https://github.com/jordansissel/eventmachine-tail">eventmachine-tail</a> and <a href="https://github.com/logstash/logstash">logstash</a>.</li>
+</ul>
+
+<h2 id="what-platforms-are-supported-by-eventmachine">What platforms are supported by EventMachine?</h2>
+
+<p>EventMachine supports Ruby 1.8.7 through 2.6, REE, JRuby and <strong>works well on Windows</strong> as well
+as many operating systems from the Unix family (Linux, Mac OS X, BSD flavors).</p>
+
+<h2 id="install-the-gem">Install the gem</h2>
+
+<p>Install it with <a href="https://rubygems.org/">RubyGems</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install eventmachine
+</code></pre></div></div>
+
+<p>or add this to your Gemfile if you use <a href="http://gembundler.com/">Bundler</a>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem "eventmachine"
+</code></pre></div></div>
+
+<h2 id="getting-started">Getting started</h2>
+
+<p>For an introduction to EventMachine, check out:</p>
+
+<ul>
+  <li><a href="http://www.igvita.com/2008/05/27/ruby-eventmachine-the-speed-demon/">blog post about EventMachine by Ilya Grigorik</a>.</li>
+  <li><a href="http://everburning.com/news/eventmachine-introductions.html">EventMachine Introductions by Dan Sinclair</a>.</li>
+</ul>
+
+<h3 id="server-example-echo-server">Server example: Echo server</h3>
+
+<p>Here’s a fully-functional echo server written with EventMachine:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">require</span> <span class="s1">'eventmachine'</span>
+
+ <span class="k">module</span> <span class="nn">EchoServer</span>
+   <span class="k">def</span> <span class="nf">post_init</span>
+     <span class="nb">puts</span> <span class="s2">"-- someone connected to the echo server!"</span>
+   <span class="k">end</span>
+
+   <span class="k">def</span> <span class="nf">receive_data</span> <span class="n">data</span>
+     <span class="n">send_data</span> <span class="s2">"&gt;&gt;&gt;you sent: </span><span class="si">#{</span><span class="n">data</span><span class="si">}</span><span class="s2">"</span>
+     <span class="n">close_connection</span> <span class="k">if</span> <span class="n">data</span> <span class="o">=~</span> <span class="sr">/quit/i</span>
+   <span class="k">end</span>
+
+   <span class="k">def</span> <span class="nf">unbind</span>
+     <span class="nb">puts</span> <span class="s2">"-- someone disconnected from the echo server!"</span>
+   <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="c1"># Note that this will block current thread.</span>
+<span class="no">EventMachine</span><span class="p">.</span><span class="nf">run</span> <span class="p">{</span>
+  <span class="no">EventMachine</span><span class="p">.</span><span class="nf">start_server</span> <span class="s2">"127.0.0.1"</span><span class="p">,</span> <span class="mi">8081</span><span class="p">,</span> <span class="no">EchoServer</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="eventmachine-documentation">EventMachine documentation</h2>
+
+<p>Currently we only have <a href="http://rdoc.info/github/eventmachine/eventmachine/frames">reference documentation</a> and a <a href="https://github.com/eventmachine/eventmachine/wiki">wiki</a>.</p>
+
+<h2 id="community-and-where-to-get-help">Community and where to get help</h2>
+
+<ul>
+  <li>Join the <a href="http://groups.google.com/group/eventmachine">mailing list</a> (Google Group)</li>
+  <li>Join IRC channel #eventmachine on irc.freenode.net</li>
+</ul>
+
+<h2 id="license-and-copyright">License and copyright</h2>
+
+<p>EventMachine is copyrighted free software made available under the terms
+of either the GPL or Ruby’s License.</p>
+
+<p>Copyright: (C) 2006-07 by Francis Cianfrocca. All Rights Reserved.</p>
+
+<h2 id="alternatives">Alternatives</h2>
+
+<p>If you are unhappy with EventMachine and want to use Ruby, check out <a href="https://celluloid.io/">Celluloid</a>.</p>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="검색어를 입력하세요..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>팔로우:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+          <li><a href="https://github.com/HwijaeKim" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="https://instagram.com/hwijae_portfolio" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> 피드</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 <a href="http://localhost:4000">HWIJAE KIM</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+  </body>
+</html>

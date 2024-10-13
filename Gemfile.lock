@@ -305,7 +305,6 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  eventmachine (= 1.2.5)
   github-pages
   jekyll-include-cache
   jekyll-livereload
