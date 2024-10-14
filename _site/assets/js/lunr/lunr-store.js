@@ -24,7 +24,7 @@ var store = [{
         "teaser": "/assets/images/profile.jpg"
       },{
         "title": "청사진",
-        "excerpt":" ","categories": ["Projects"],
+        "excerpt":"청사진  ","categories": ["Projects"],
         "tags": ["HTML/CSS/JS","커뮤니케이션디자인국제공모전"],
         "url": "/projects/%EC%B2%AD%EC%82%AC%EC%A7%84/",
         "teaser": "/assets/images/posts_teaser/blueprint.png"
