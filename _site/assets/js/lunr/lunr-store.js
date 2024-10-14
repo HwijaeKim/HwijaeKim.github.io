@@ -11,12 +11,6 @@ var store = [{
         "url": "/education/%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94/",
         "teaser": "/assets/images/profile.jpg"
       },{
-        "title": "계원예술대학교",
-        "excerpt":"KUAD  ","categories": ["Education"],
-        "tags": ["학교"],
-        "url": "/education/%EA%B3%84%EC%9B%90%EC%98%88%EC%88%A0%EB%8C%80%ED%95%99%EA%B5%90/",
-        "teaser": "/assets/images/profile.jpg"
-      },{
         "title": "마크다운에서 표 만들기",
         "excerpt":"제목 내용 설명 테스트1 동해물과백두산이마르고닳도록 테스트3 First Header Second Header Third Header First row Data Very long data entry Second row Cell Cell Third row Cell that spans across two columns   날짜 내용 기관/결과 기여 구분 2025.02 계원예술대학교 디지털미디어디자인과 전문학사 졸업 예정   학력 2024.07 계원예술대학교 디지털미디어디자인과 2024-2학기 수석...","categories": ["연습"],
         "tags": ["markdown","table"],
