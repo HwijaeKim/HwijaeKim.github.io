@@ -118,30 +118,56 @@ dusan960766@gmail.com   <br>
    
 <br>
 
+# 운용능력
+#### HTML5 ![html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
+<sub>기본적인 이해가 있으며 사이트 제작을 위해 코드를 작성할 수 있음</sub>
+   
 
-- About
-    - 인적사항(이름, 성별, 연령 등)
-    - 키워드, 특장점
-    - 관심사
-    - 이력(학력 등)
-- 운용능력/경험
-    - 소프트웨어 운용능력(Adobe Systems, MS Office, VSCode, WebStorm)
-    - 코드 숙련도(HTML, CSS, Vanilla JavaScript, Markdown 등)
-    - 코드관련 경험(Github, Git 버전관리)
-    - 그 외 다양한 경험들
-- 프로젝트 수행
-    - 공모전
-    - 교내 프로젝트
-    - 팀 프로젝트
-    - 개인 프로젝트
+#### CSS3 ![css3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+<sub>기본적인 홈페이지 제작에 필요한 스타일 요소를 적절하게 사용할 수 있음</sub>
+   
 
-<br>
+#### Vanilla JavaScript ![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
+<sub>클래시 추가, 삭제, 토글과 같은 기본적인 기능 외 웹 페이지의 기본적인 인터랙션을 구현할 수 있음</sub>
+   
 
-HTML/CSS/Vanila JS에 대한 기본적인 이해가 있으며 간단한 홈페이지를 제작할 수 있음   
-Git을 이용하여 리포지토리 원격 버전관리를 하였음   
-Github 리포지토리를 생성, 배포하였음   
-npm을 기초적으로 이용하고 node_module을 사용함   
-node.js와 mongoDB를 이용하여 간단한 서버를 구축하였음
+#### GitHub ![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+<sub>리포지토리를 관리할 수 있음</sub>
+   
+
+#### Git ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+<sub>VSCode 또는 WebStorm과 연동하여 커밋 및 푸시 할 수 있으며 Branch로 기초적인 버전관리 경험이 있음 </sub>
+   
+
+#### NPM ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+<sub>Untitled</sub>
+   
+
+#### Node.js ![nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+<sub>Untitled</sub>
+   
+
+#### MongoDB ![mongodb](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+<sub>Untitled</sub>
+   
+
+---
+   
+
+#### 기타.
+![photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black)
+![illustrator](https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobe%20illustrator&logoColor=white)
+![premierepro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white)
+![aftereffects](https://img.shields.io/badge/Adobe%20after%20affects-CF96FD?style=for-the-badge&logo=Adobe%20after%20effects&logoColor=393665)
+![xd](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6)
+![figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![vscode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![webstorm](https://img.shields.io/badge/WebStorm-000000?style=for-the-badge&logo=WebStorm&logoColor=white)
+![powerpoint](https://img.shields.io/badge/Microsoft_PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)
+
+
+
+
 
    
    
