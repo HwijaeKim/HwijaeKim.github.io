@@ -331,3 +331,8 @@ defaults:
 
 #after_footer_scripts:
 #  - /assets/js/custom/dark-theme.js
+
+# slugify: raw
+
+categories:
+  포트폴리오: portfolio

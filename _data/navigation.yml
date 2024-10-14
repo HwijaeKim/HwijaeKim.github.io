@@ -14,23 +14,25 @@ main:
   #   url: /sitemap/
 
 sidebar-category:
-  - title: "Portfolio"
+  - title: "Union"
     children:
-       - title: "Projects"
-         url: "categories/projects"
+       - title: "Portfolio(포트폴리오)"
+         url: "categories/portfolio"
        - title: "Education"
          url: "categories/education"
        - title: "Works"
          url: "categories/project"
+       - title: "Personal"
+         url: "categories/personal"
 
   - title: "Development"
     children:
-       - title: "문제해결"
-         url: "categories/solve"
+       - title: "Solved"
+         url: "categories/solved"
        - title: "Jekyll(지킬)"
          url: "categories/jekyll"
-       - title: "HTMl/CSS/Vanilla JS"
-         url: "categories/frontend"
+       - title: "Synology(Server)"
+         url: "categories/synology"
        - title: "React / JQuery"
          url: "categories/frontend"
        - title: "node.js"

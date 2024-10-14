@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/portfolio/education/%EC%95%84%EB%9D%BC%EB%B9%84%EC%95%84%EC%82%AC%EB%A7%89%EC%9D%98-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%9D%B4%EC%95%BC%EA%B8%B0/</loc>
+<lastmod>2023-12-20T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/portfolio/education/macOS-%EC%BD%98%EC%85%89%ED%8A%B8%EC%9D%98-%EC%9E%90%EA%B8%B0PR-%ED%8E%98%EC%9D%B4%EC%A7%80/</loc>
+<lastmod>2023-12-21T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/portfolio/education/No-CSS-Club-%EB%AF%B8%EB%8B%88%EA%B2%8C%EC%9E%84/</loc>
+<lastmod>2024-06-20T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/portfolio/education/%EC%B2%AD%EC%82%AC%EC%A7%84/</loc>
+<lastmod>2024-06-20T00:00:00+09:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/jekyll/solve/Apple-Silicon%EC%97%90%EC%84%9C%EC%9D%98-Jekyll-%EC%98%A4%EB%A5%98-%EB%B0%9C%EC%83%9D-%ED%95%B4%EA%B2%B0/</loc>
 <lastmod>2024-10-01T00:00:00+09:00</lastmod>
 </url>
@@ -11,10 +27,6 @@
 <url>
 <loc>http://localhost:4000/%EC%97%B0%EC%8A%B5/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%EC%97%90%EC%84%9C-%ED%91%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/</loc>
 <lastmod>2024-10-05T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/projects/%EC%B2%AD%EC%82%AC%EC%A7%84/</loc>
-<lastmod>2024-10-14T00:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/categories/</loc>
@@ -29,13 +41,13 @@
 <loc>http://localhost:4000/categories/jekyll</loc>
 </url>
 <url>
+<loc>http://localhost:4000/categories/portfolio</loc>
+</url>
+<url>
 <loc>http://localhost:4000/profile/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/profile_temp/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/categories/projects</loc>
 </url>
 <url>
 <loc>http://localhost:4000/categories/solve</loc>
@@ -54,5 +66,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/eventmachine-1.2.7/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page2/</loc>
 </url>
 </urlset>

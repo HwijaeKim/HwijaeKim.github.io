@@ -32,8 +32,13 @@ sidebar:
 </style>
 
 
-PROFILE / 이력서
+# 안녕하세요!
+디자인과 프론트엔드의 유동적인 워크플로우 소화가 가능한 웹 퍼블리셔 김휘재 입니다.
    
+디자인으로부터 시작된 끊임 없는 호기심과 집념의 도약은 끝내 풀스택 웹 개발을 지향하는 방향으로 시야가 확장되었으며 신뢰감 있고 성실한 활동을 보장합니다.
+   
+HTML/CSS/Vanilla JS의 전적인 이해를 가지고 있으며 GitHub, Git 버전관리 등의 경험이 있습니다.
+
 <br>
 
 # 인적사항   
@@ -44,9 +49,12 @@ PROFILE / 이력서
 
 <div class="profile">
 <b>김휘재</b>   <br>
+<sub>생년월일</sub>   <br>
 2002.05.10 (만 22세)   <br>
+<sub>이메일</sub>   <br>
 dusan960766@gmail.com   <br>
-+82 10 8496 8305 (Mobile, Message Only)
+<sub>휴대전화</sub>   <br>
++82 10 8496 8305 <sub>(Call, Message Only)</sub>
 </div>
 </div>
 
@@ -138,15 +146,6 @@ node.js와 mongoDB를 이용하여 간단한 서버를 구축하였음
    
    
 <br>
-   
-제 30회 커뮤니케이션디자인국제공모전(3인) 일반/대학부 동상   
-
-
-
-# 이력서 폼(초안)   
-[구글시트][googlesheet]
-
-<br><br>
 
 Instagram: [@hwijaekim_portfolio][instagram-portfolio]   
 Behance: [HwijaeKim][behance]   

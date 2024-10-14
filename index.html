@@ -2,6 +2,7 @@
 excerpt : "웹 퍼블리셔"
 layout: archive
 author_profile: true
+<!-- category: Portfolio -->
 <!-- entries_layout: list -->
 sidebar:
     nav: "sidebar-category"
@@ -10,9 +11,11 @@ header:
     overlay_image: assets/images/banner2.jpg
     overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
 ---
+<h1>🖊️ 환영합니다: 포트폴리오</h1>
 
 <div class="grid__wrapper">
-    {% for post in paginator.posts %}
+    {% assign posts = site.categories.Portfolio %}
+    {% for post in posts %}
     {% include archive-single3.html type="list" %}
     {% endfor %}
 </div>
