@@ -18,9 +18,9 @@ var store = [{
         "teaser": "/assets/images/posts_img/nocssclub/teaser.png"
       },{
         "title": "청사진",
-        "excerpt":"청사진  ","categories": ["Eortfolio","Pducation"],
+        "excerpt":"청사진  ","categories": ["Portfolio","Education"],
         "tags": ["HTML/CSS/JS","공모전"],
-        "url": "/eortfolio/pducation/%EC%B2%AD%EC%82%AC%EC%A7%84/",
+        "url": "/portfolio/education/%EC%B2%AD%EC%82%AC%EC%A7%84/",
         "teaser": "/assets/images/posts_img/blueprint/blueprint.png"
       },{
         "title": "Apple Silicon에서의 Jekyll 오류 발생 해결",
