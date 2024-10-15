@@ -3,7 +3,7 @@ title:  "No CSS Club 미니게임"
 header:
   teaser: "/assets/images/posts_img/nocssclub/teaser.png"
 categories:
-  - Portfolio
+  - portfolio
 tags:
   - html
   - css
