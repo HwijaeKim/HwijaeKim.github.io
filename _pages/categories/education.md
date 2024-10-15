@@ -8,5 +8,5 @@ sidebar:
   nav: "sidebar-category"
 ---
 
-{% assign posts = site.categories.education %}
-{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
+{% assign posts = site.categories.Education %}
+{% for post in posts %} {% include archive-single3.html type=page.entries_layout %} {% endfor %}
