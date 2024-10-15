@@ -17,7 +17,7 @@ var store = [{
         "url": "/portfolio/education/No-CSS-Club-%EB%AF%B8%EB%8B%88%EA%B2%8C%EC%9E%84/",
         "teaser": "/assets/images/posts_img/nocssclub/teaser.png"
       },{
-        "title": "Apple Silicon에서의 Jekyll 오류 발생 해결",
+        "title": "청사진",
         "excerpt":"청사진  ","categories": ["Jekyll","solve"],
         "tags": ["jekyll","macos","apple silicon","문제해결"],
         "url": "/jekyll/solve/%EC%B2%AD%EC%82%AC%EC%A7%84/",
