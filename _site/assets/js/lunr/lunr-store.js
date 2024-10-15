@@ -1,8 +1,8 @@
 var store = [{
         "title": "아라비아 사막의 반도체 이야기",
-        "excerpt":"계원예술대학교 1학년 2023-2학기 [콘텐츠디자인] 교과목 우수작                    ","categories": ["Education"],
+        "excerpt":"계원예술대학교 1학년 2023-2학기 [콘텐츠디자인] 교과목 우수작                    ","categories": ["Education","Portfolio"],
         "tags": ["web design","figma","photoshop","illustrator","ui/ux"],
-        "url": "/education/%EC%95%84%EB%9D%BC%EB%B9%84%EC%95%84%EC%82%AC%EB%A7%89%EC%9D%98-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%9D%B4%EC%95%BC%EA%B8%B0/",
+        "url": "/education/portfolio/%EC%95%84%EB%9D%BC%EB%B9%84%EC%95%84%EC%82%AC%EB%A7%89%EC%9D%98-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%9D%B4%EC%95%BC%EA%B8%B0/",
         "teaser": "/assets/images/posts_img/semiconductor/main.jpg"
       },{
         "title": "macOS 콘셉트의 자기PR 페이지",
@@ -12,15 +12,15 @@ var store = [{
         "teaser": "/assets/images/posts_img/pr/teaser.png"
       },{
         "title": "No CSS Club 미니게임",
-        "excerpt":"HTML/CSS/Vanilla JS를 이용하여 제작한 웹 게임  ","categories": ["Education"],
+        "excerpt":"HTML/CSS/Vanilla JS를 이용하여 제작한 웹 게임  ","categories": ["Education","Portfolio"],
         "tags": ["html","css","js","game"],
-        "url": "/education/No-CSS-Club-%EB%AF%B8%EB%8B%88%EA%B2%8C%EC%9E%84/",
+        "url": "/education/portfolio/No-CSS-Club-%EB%AF%B8%EB%8B%88%EA%B2%8C%EC%9E%84/",
         "teaser": "/assets/images/posts_img/nocssclub/teaser.png"
       },{
         "title": "청사진",
-        "excerpt":"청사진  ","categories": ["Education"],
+        "excerpt":"청사진  ","categories": ["Education","Portfolio"],
         "tags": ["HTML/CSS/JS","공모전"],
-        "url": "/education/%EC%B2%AD%EC%82%AC%EC%A7%84/",
+        "url": "/education/portfolio/%EC%B2%AD%EC%82%AC%EC%A7%84/",
         "teaser": "/assets/images/posts_img/blueprint/blueprint.png"
       },{
         "title": "Apple Silicon에서의 Jekyll 오류 발생 해결",

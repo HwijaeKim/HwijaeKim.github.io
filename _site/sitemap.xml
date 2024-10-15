@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/education/%EC%95%84%EB%9D%BC%EB%B9%84%EC%95%84%EC%82%AC%EB%A7%89%EC%9D%98-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%9D%B4%EC%95%BC%EA%B8%B0/</loc>
+<loc>http://localhost:4000/education/portfolio/%EC%95%84%EB%9D%BC%EB%B9%84%EC%95%84%EC%82%AC%EB%A7%89%EC%9D%98-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%9D%B4%EC%95%BC%EA%B8%B0/</loc>
 <lastmod>2023-12-20T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -9,11 +9,11 @@
 <lastmod>2023-12-21T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/education/No-CSS-Club-%EB%AF%B8%EB%8B%88%EA%B2%8C%EC%9E%84/</loc>
+<loc>http://localhost:4000/education/portfolio/No-CSS-Club-%EB%AF%B8%EB%8B%88%EA%B2%8C%EC%9E%84/</loc>
 <lastmod>2024-06-20T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/education/%EC%B2%AD%EC%82%AC%EC%A7%84/</loc>
+<loc>http://localhost:4000/education/portfolio/%EC%B2%AD%EC%82%AC%EC%A7%84/</loc>
 <lastmod>2024-06-20T00:00:00+09:00</lastmod>
 </url>
 <url>
