@@ -18,10 +18,10 @@ var store = [{
         "teaser": "/assets/images/posts_img/nocssclub/teaser.png"
       },{
         "title": "청사진",
-        "excerpt":"청사진  ","categories": ["Jekyll","solve"],
-        "tags": ["jekyll","macos","apple silicon","문제해결"],
-        "url": "/jekyll/solve/%EC%B2%AD%EC%82%AC%EC%A7%84/",
-        "teaser": "/assets/images/posts_img/apple_silicon_jekyll/apple_silicon_jekyll.jpg"
+        "excerpt":"청사진  ","categories": ["portfolio","education"],
+        "tags": ["HTML/CSS/JS","공모전"],
+        "url": "/portfolio/education/%EC%B2%AD%EC%82%AC%EC%A7%84/",
+        "teaser": "/assets/images/posts_img/blueprint/blueprint.png"
       },{
         "title": "Apple Silicon에서의 Jekyll 오류 발생 해결",
         "excerpt":"Chat GPT 프롬프트 macOS 터미널을 이용해서 jekyll bundle을 설치하고 있는데 eventmachine 1.2.7 설치 도중 오류가 난대. 왜 이럴까? -2024.09.30 1. Xcode Command Line Tools 재설치 이미 명령줄 도구를 설치했더라도 일부 구성 요소가 손상되었을 수 있으니, 다시 설치하거나 업데이트를 시도해 보세요. sudo rm -rf /Library/Developer/CommandLineTools xcode-select --install 2. g++와 clang 설치...","categories": ["Jekyll","solve"],
