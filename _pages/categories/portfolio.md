@@ -1,13 +1,12 @@
 ---
 layout: archive
 permalink: categories/portfolio
-title: "Portfolio(포트폴리오)"
+title: "Portfolio"
 
 author_profile: true
 sidebar:
-  nav: "docs"
+  nav: "sidebar-category"
 ---
-
 
 {% assign posts = site.categories.portfolio %}
 {% for post in posts %} {% include archive-single3.html type=page.entries_layout %} {% endfor %}

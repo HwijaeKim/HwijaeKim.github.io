@@ -6,9 +6,9 @@ var store = [{
         "teaser": "/assets/images/posts_img/semiconductor/main.jpg"
       },{
         "title": "macOS 콘셉트의 자기PR 페이지",
-        "excerpt":"계원예술대학교 1학년 2023-2학기 [웹퍼블리싱] 교과목 우수작  ","categories": ["Education"],
+        "excerpt":"계원예술대학교 1학년 2023-2학기 [웹퍼블리싱] 교과목 우수작  ","categories": ["Education","Portfolio"],
         "tags": ["html","css","js","introduce"],
-        "url": "/education/macOS-%EC%BD%98%EC%85%89%ED%8A%B8%EC%9D%98-%EC%9E%90%EA%B8%B0PR-%ED%8E%98%EC%9D%B4%EC%A7%80/",
+        "url": "/education/portfolio/macOS-%EC%BD%98%EC%85%89%ED%8A%B8%EC%9D%98-%EC%9E%90%EA%B8%B0PR-%ED%8E%98%EC%9D%B4%EC%A7%80/",
         "teaser": "/assets/images/posts_img/pr/teaser.png"
       },{
         "title": "No CSS Club 미니게임",
