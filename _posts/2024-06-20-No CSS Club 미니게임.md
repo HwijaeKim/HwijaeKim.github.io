@@ -4,7 +4,6 @@ header:
   teaser: "/assets/images/posts_img/nocssclub/teaser.png"
 categories:
   - Portfolio
-  - Education
 tags:
   - html
   - css
