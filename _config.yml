@@ -24,7 +24,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "김휘재"
 description              : "디자인과 프론트엔드의 전반적인 지식을 보유하고 있는 웹 퍼블리셔 김휘재 입니다."
 url                      : "https://hwijaekim.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : ""
 repository               : "HwijaeKim/hwijaekim.github.io"
 teaser                   : # "assets/images/profile.jpg"
 logo                     : # "assets/images/profile.jpg"
