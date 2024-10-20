@@ -19,10 +19,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "HWIJAE KIM"
-title_separator          : "-"
+title_separator          : "프론트엔드와 디자인 간의 유동적인 워크플로우 지식을 보유하고 있는 웹퍼블리셔 김휘재 입니다."
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "김휘재"
-description              : "디자인과 프론트엔드의 전반적인 지식을 보유하고 있는 웹 퍼블리셔 김휘재 입니다."
+description              : ""
 url                      : "https://hwijaekim.github.io"
 baseurl                  : ""
 repository               : "HwijaeKim/hwijaekim.github.io"
@@ -116,7 +116,7 @@ analytics:
 author:
   name             : "김휘재 Hwijae Kim"
   avatar           : "assets/images/profile.jpg"
-  bio              : "디자인과 프론트엔드의 전반적인 지식을 보유하고 있는 웹 퍼블리셔 김휘재 입니다."
+  bio              : "프론트엔드와 디자인 간의 유동적인 워크플로우 지식을 보유하고 있는 웹퍼블리셔 김휘재 입니다."
   location         : "Korea, Republic of"
   email            : "dusan960766@gmail.com"
   links:
@@ -228,6 +228,8 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -327,6 +329,14 @@ defaults:
       related: true
       sidebar:                  # 추가한 부분
         nav: "sidebar-category" # 추가한 부분
+
+
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 
 #after_footer_scripts:

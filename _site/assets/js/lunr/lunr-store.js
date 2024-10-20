@@ -17,10 +17,10 @@ var store = [{
         "url": "/education/portfolio/No-CSS-Club-%EB%AF%B8%EB%8B%88%EA%B2%8C%EC%9E%84/",
         "teaser": "/assets/images/posts_img/nocssclub/teaser.png"
       },{
-        "title": "청사진",
+        "title": "제 30회 커뮤니케이션디자인국제공모전 수상작 [청사진]",
         "excerpt":"청사진  ","categories": ["Education","Portfolio"],
         "tags": ["HTML/CSS/JS","공모전"],
-        "url": "/education/portfolio/%EC%B2%AD%EC%82%AC%EC%A7%84/",
+        "url": "/education/portfolio/%EC%A0%9C-30%ED%9A%8C-%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98%EB%94%94%EC%9E%90%EC%9D%B8%EA%B5%AD%EC%A0%9C%EA%B3%B5%EB%AA%A8%EC%A0%84-%EC%88%98%EC%83%81%EC%9E%91-%EC%B2%AD%EC%82%AC%EC%A7%84/",
         "teaser": "/assets/images/posts_img/blueprint/blueprint.png"
       },{
         "title": "Apple Silicon에서의 Jekyll 오류 발생 해결",
