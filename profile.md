@@ -49,7 +49,7 @@ sidebar:
 ## Basic Profile
 <!-- ![profile](/assets/images/profile_real.jpeg){: width="150"} -->
 <div class="profile_grid">
-<img class="profile_img" src="/assets/images/profile_fake.png" width="150">
+<img class="profile_img" src="/assets/images/profile_real.jpeg" width="150">
 
 <div class="profile">
 <b><span class="titleName">김휘재</span></b>   <br>
