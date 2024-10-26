@@ -51,7 +51,7 @@ sidebar:
 <div class="profile_grid">
 <img class="profile_img" src="/assets/images/profile_real.jpeg" width="150">
 
-<div class="profile">
+<div class="profile"> 
 <b><span class="titleName">김휘재</span></b>   <br>
 <sub>생년월일</sub>   <br>
 2002.05.10 (만 22세)   <br>
