@@ -17,7 +17,7 @@ sidebar:
         list-style-type: circle;
     }
     .profile_grid {
-        display: gird;
+        display: grid;
         /* border: solid 1px red; */
     }
     .profile_img {
