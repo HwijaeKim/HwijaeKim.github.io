@@ -38,6 +38,7 @@ sidebar:
     .ico {
         height: 21px;
         display: inline-block;
+        opacity: .8;
     }
 
     .titleName {
