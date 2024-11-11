@@ -8,5 +8,9 @@ sidebar:
   nav: "sidebar-category"
 ---
 
+<div class="grid__wrapper">
 {% assign posts = site.categories.Portfolio %}
-{% for post in posts %} {% include archive-single3.html type=page.entries_layout %} {% endfor %}
+{% for post in posts %}
+{% include archive-single3.html type="list" %}
+{% endfor %}
+</div>

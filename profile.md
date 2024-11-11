@@ -72,7 +72,7 @@ dusan960766@gmail.com   <br>
 
 
 ## <span style="color: #434C5D">Hello, World!</span>
-성실함과 집념으로 <span style="color: #F76612">디자인 부터 프론트엔드의 전반적인 워크플로우 지식까지 보유</span>하고 있는 프론트엔드 개발자 김휘재 입니다.   
+성실함과 집념으로 디자인 부터 프론트엔드의 <span style="color: #F76612">전반적인 워크플로우 지식</span>까지 보유하고 있는 프론트엔드 개발자 김휘재 입니다.   
 HTML로부터 시작된 웹 개발에 대한 호기심과 집념은 끝내 풀스택 개발 쪽으로 시야가 확장되었으며 신뢰감 있고 성실한 활동을 보장합니다.
 
 
@@ -174,7 +174,7 @@ HTML로부터 시작된 웹 개발에 대한 호기심과 집념은 끝내 풀�
 
 
 
-##### <span style="color: #434C5D">Tool & Back-end.</span>
+### <span style="color: #434C5D">Tool & Back-end.</span>
 
 - **VSCode / WebStorm** <img class="ico" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"> <img class="ico" src="https://img.shields.io/badge/WebStorm-000000?style=for-the-badge&logo=WebStorm&logoColor=white">
     - 각 에디터의 특성을 알고 GitHub 리포지토리 clone
@@ -203,7 +203,7 @@ HTML로부터 시작된 웹 개발에 대한 호기심과 집념은 끝내 풀�
 
 
 
-##### <span style="color: #434C5D">Etc.</span>
+### <span style="color: #434C5D">Etc.</span>
 
 - 
 <img class="ico" src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black">
@@ -222,6 +222,7 @@ HTML로부터 시작된 웹 개발에 대한 호기심과 집념은 끝내 풀�
    
 <br>
 
+   
 ## <span style="color: #434C5D">프로젝트 경험</span>
 
 | Title     | Description                                               |
@@ -273,7 +274,7 @@ HTML로부터 시작된 웹 개발에 대한 호기심과 집념은 끝내 풀�
 이러한 내면에는 기본으로 내장된 성실함이 매우 큰 역할을 했다고 생각합니다. 저는 이전부터 제 과실로 인해 시간에 쫓기는 것을 극도로 지양했습니다.   
 그렇기 때문에 고등학교는 물론 대학교 재학 중에도 자동차로 약 1시간~1시간 40분의 통학 거리 임에도 매우 성실한 학교생활을 보냈습니다.   
 이러한 것이 습관이 되어 이제는 약속 시간 약 30분~1시간 전에 도착하는 것이 기본값이 되었으며 추가로 다음과 같은 성실함으로 인해 미리 노트북을 열어 당일 수업 준비를 미리 하는 등 학업에도 활용할 수 있었습니다.   
-저의 성실함은 실무에서도 매우 긍정적인 영향을 끼칠 수 있을 것으로 기대하고 있으며 지각, 지연 등의 일에 대한 트러블은 최소화될 것입니다. 또한 사내 프로젝트 진행 시에도 성실한 태도로 임하며 회사에 도움이 되겠습니다.   
+저의 성실함은 실무에서도 매우 긍정적인 영향을 끼칠 수 있을 것으로 기대하고 있으며 지각, 지연 등의 일에 대한 트러블은 최소화 되어 <span style="color: #F76612">시간 관리에 힘쓸 것</span>입니다. 또한 사내 프로젝트 진행 시에도 성실한 태도로 임하며 회사에 도움이 되겠습니다.   
 <br>
 
 **<span style="color: #434C5D">저는 높은 기대충족치를 설정하고 끈질긴 집념으로 문제를 해결하는 개발자 입니다.</span>**   
