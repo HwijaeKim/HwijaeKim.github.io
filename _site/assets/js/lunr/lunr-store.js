@@ -12,13 +12,13 @@ var store = [{
         "teaser": "/assets/images/posts_img/pr/teaser.png"
       },{
         "title": "No CSS Club 미니게임",
-        "excerpt":"HTML/CSS/Vanilla JS를 이용하여 제작한 웹 게임  ","categories": ["Education","Portfolio"],
+        "excerpt":"HTML/CSS/Vanilla JS를 이용하여 제작한 웹 게임 Title Description 프로젝트명 JavaScript를 이용한 No CSS Club 미니게임 상세 전공과목 [자바스크립트프로그래밍] 프로젝트 시간 안에 영역 내 모든 CSS요소를 클리하여 제거하는 게임을 제작 기간 2024.05 ~ 2024.06 인원 개인 담당분야 게임 기획, 레이아웃 구성, CSS 스타일, 게임기능 구현 특이사항 CSS를 이용하여 Windows 98 스타일의...","categories": ["Education","Portfolio"],
         "tags": ["html","css","js","game"],
         "url": "/education/portfolio/No-CSS-Club-%EB%AF%B8%EB%8B%88%EA%B2%8C%EC%9E%84/",
         "teaser": "/assets/images/posts_img/nocssclub/teaser.png"
       },{
         "title": "제 30회 커뮤니케이션디자인국제공모전 수상작 [청사진]",
-        "excerpt":"청사진  ","categories": ["Education","Portfolio"],
+        "excerpt":"Title Description 프로젝트명 청사진(BLUEPRINT) 목적 학교 밖 청소년들의 미래를 준비하기 위한 솔루션 제 30회 커뮤니케이션디자인국제공모전 일반/대학부 출품 기간 2024.03 ~ 2024.06 인원 기획1, 디자인1, 개발1 담당분야 팀장 및 서비스 비디오 촬영, 웹 콘텐츠 소스 제작 및 HTML/CSS/JS를 이용한 웹 제작 및 GitHub 배포 특이사항 HTML/CSS/JS 세 가지를 동시에 이용하여 처음으로...","categories": ["Education","Portfolio"],
         "tags": ["HTML/CSS/JS","공모전"],
         "url": "/education/portfolio/%EC%A0%9C-30%ED%9A%8C-%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98%EB%94%94%EC%9E%90%EC%9D%B8%EA%B5%AD%EC%A0%9C%EA%B3%B5%EB%AA%A8%EC%A0%84-%EC%88%98%EC%83%81%EC%9E%91-%EC%B2%AD%EC%82%AC%EC%A7%84/",
         "teaser": "/assets/images/posts_img/blueprint/blueprint.png"
@@ -40,4 +40,10 @@ var store = [{
         "tags": ["markdown","table"],
         "url": "/%EC%97%B0%EC%8A%B5/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%EC%97%90%EC%84%9C-%ED%91%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/",
         "teaser": "/assets/images/profile.jpg"
+      },{
+        "title": "계원예술대학교 디지털미디어디자인과 졸업작품 [잇토피아]",
+        "excerpt":"               Title       Description                       프로젝트명       EATOPIA(잇토피아)                 상세       계원예술대학교 졸업작품 아이 맞춤형 XR글래스 콘텐츠를 활용한 어린이 식습관 개선 서비스                 기간       2024.09 ~ 2024.11                 인원       기획2, 디자인3, 개발1                 담당분야       실사 영상 촬영, 웹 사이트 구현                 특이사항       -                 관련 링크       -          ","categories": ["Education","Portfolio"],
+        "tags": ["HTML/CSS/JS","졸업작품"],
+        "url": "/education/portfolio/%EA%B3%84%EC%9B%90%EC%98%88%EC%88%A0%EB%8C%80%ED%95%99%EA%B5%90-%EB%94%94%EC%A7%80%ED%84%B8%EB%AF%B8%EB%94%94%EC%96%B4%EB%94%94%EC%9E%90%EC%9D%B8%EA%B3%BC-%EC%A1%B8%EC%97%85%EC%9E%91%ED%92%88-%EC%9E%87%ED%86%A0%ED%94%BC%EC%95%84/",
+        "teaser": "/assets/images/posts_img/eatopia/eatopia_D.png"
       }]

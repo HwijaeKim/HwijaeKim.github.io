@@ -8,5 +8,5 @@ sidebar:
   nav: "sidebar-category"
 ---
 
-{% assign posts = site.categories.portfolio %}
+{% assign posts = site.categories.Portfolio %}
 {% for post in posts %} {% include archive-single3.html type=page.entries_layout %} {% endfor %}
