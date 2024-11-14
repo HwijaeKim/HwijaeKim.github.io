@@ -78,7 +78,7 @@ HTML로부터 시작된 웹 개발에 대한 호기심과 집념은 끝내 풀�
 
 
 ## <span style="color: #434C5D">Insight Keywords</span>
-#성실한, #집념, #정리정돈(아카이빙)
+#성실함, #집념, #기록보관
 
 ## <span style="color: #434C5D">Color System</span>
 <b>주제색</b>   
