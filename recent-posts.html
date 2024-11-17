@@ -1,0 +1,28 @@
+---
+layout: archive
+title: "전체 게시물"
+author_profile: true
+sidebar:
+    nav: "sidebar-category"
+
+header:
+    overlay_image: assets/images/banner2.jpg
+    overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
+    
+permalink: /recent-posts/
+---
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% include documents-collection.html entries=posts type=entries_layout %}
+</div>
+
+{% include paginator.html %}

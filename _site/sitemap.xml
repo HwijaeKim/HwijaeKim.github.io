@@ -17,7 +17,7 @@
 <lastmod>2024-06-20T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/research/Apple-Silicon%EC%97%90%EC%84%9C%EC%9D%98-Jekyll-%EC%98%A4%EB%A5%98-%EB%B0%9C%EC%83%9D-%ED%95%B4%EA%B2%B0/</loc>
+<loc>http://localhost:4000/portfolio/research/Apple-Silicon%EC%97%90%EC%84%9C%EC%9D%98-Jekyll-%EC%98%A4%EB%A5%98-%EB%B0%9C%EC%83%9D-%ED%95%B4%EA%B2%B0/</loc>
 <lastmod>2024-10-01T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -31,6 +31,9 @@
 <url>
 <loc>http://localhost:4000/portfolio/code/%EA%B3%84%EC%9B%90%EC%98%88%EC%88%A0%EB%8C%80%ED%95%99%EA%B5%90-%EB%94%94%EC%A7%80%ED%84%B8%EB%AF%B8%EB%94%94%EC%96%B4%EB%94%94%EC%9E%90%EC%9D%B8%EA%B3%BC-%EC%A1%B8%EC%97%85%EC%9E%91%ED%92%88-%EC%9E%87%ED%86%A0%ED%94%BC%EC%95%84/</loc>
 <lastmod>2024-11-11T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/about/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/categories/</loc>
@@ -48,10 +51,10 @@
 <loc>http://localhost:4000/categories/portfolio</loc>
 </url>
 <url>
-<loc>http://localhost:4000/profile/</loc>
+<loc>http://localhost:4000/profile_temp/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/profile_temp/</loc>
+<loc>http://localhost:4000/recent-posts/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/categories/research</loc>
