@@ -43,7 +43,7 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : 10 # 5 (default)
+    num_posts            : 10
     colorscheme          : # "light" (default), "dark"
   utterances:
     theme                : # "github-light" (default), "github-dark"
@@ -116,11 +116,10 @@ analytics:
 author:
   name             : "김휘재 Hwijae Kim"
   avatar           : "assets/images/profile.jpg"
-  bio              : "성실함과 집념으로 디자인 부터 프론트엔드의 전반적인 워크플로우 지식까지 보유하고 있는 프론트엔드 개발자 김휘재 입니다. HTML로부터 시작된 웹 개발에 대한 호기심과 집념은 끝내 풀스택 개발 쪽으로 시야가 확장되었으며 신뢰감 있고 성실한 활동을 보장합니다."
-  location         : "Korea, Republic of"
+  bio              : "성실함과 집념으로 디자인 부터 프론트엔드의 전반적인 워크플로우 지식까지 보유하고 있는 프론트엔드 개발자 김휘재 입니다."
   email            : "dusan960766@gmail.com"
   links:
-    - label: "Email"
+    - label: "dusan960766@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
       url: # "dusan960766@gmail.com"
     - label: "Website"
