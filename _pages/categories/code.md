@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: categories/education
-title: "Education"
+permalink: categories/code
+title: "Code"
 
 author_profile: true
 sidebar:
@@ -9,7 +9,7 @@ sidebar:
 ---
 
 <div class="grid__wrapper">
-{% assign posts = site.categories.Education %}
+{% assign posts = site.categories.Code %}
 {% for post in posts %}
 {% include archive-single3.html type="list" %}
 {% endfor %}

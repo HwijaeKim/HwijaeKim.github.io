@@ -14,47 +14,47 @@ main:
   #   url: /sitemap/
 
 sidebar-category:
-  - title: "Union"
+  - title: "Union Portfolio"
     children:
-       - title: "Portfolio"
+       - title: "Portfolio(Overall)"
          url: "categories/portfolio"
-       - title: "Education"
-         url: "categories/education"
-       - title: "Works"
-         url: "categories/project"
-       - title: "Personal"
-         url: "categories/personal"
+       - title: "Code"
+         url: "categories/code"
+       - title: "Design"
+         url: "categories/design"
+      #  - title: "Personal"
+      #    url: "categories/personal"
 
   - title: "Development"
     children:
-       - title: "Solved"
-         url: "categories/solved"
-       - title: "Jekyll(지킬)"
-         url: "categories/jekyll"
-       - title: "Synology(Server)"
-         url: "categories/synology"
-       - title: "React / JQuery"
-         url: "categories/frontend"
-       - title: "node.js"
-         url: "categories/frontend"
+       - title: "Research"
+         url: "categories/research"
+      #  - title: "Jekyll(지킬)"
+      #    url: "categories/jekyll"
+      #  - title: "Synology(Server)"
+      #    url: "categories/synology"
+      #  - title: "React / JQuery"
+      #    url: "categories/frontend"
+      #  - title: "node.js"
+      #    url: "categories/frontend"
 
 
-  - title: "Design"
-    children:
-       - title: "Photoshop / Allustrator"
-         url: "categories/psai"
-       - title: "Premiere Pro / After Effects"
-         url: "categories/prae"
-       - title: "Figma / XD"
-         url: "categories/figmaxd"
+  # - title: "Design"
+  #   children:
+  #      - title: "Photoshop / Allustrator"
+  #        url: "categories/psai"
+  #      - title: "Premiere Pro / After Effects"
+  #        url: "categories/prae"
+  #      - title: "Figma / XD"
+  #        url: "categories/figmaxd"
 
 
-  - title: "Experience"
-    children:
-       - title: "전시/박람회"
-         url: "categories/fair"
-       - title: "봉사활동"
-         url: "categories/education"
+  # - title: "Experience"
+  #   children:
+  #      - title: "전시/박람회"
+  #        url: "categories/fair"
+  #      - title: "봉사활동"
+  #        url: "categories/education"
 
   # - title: "Blog"
   #   children:

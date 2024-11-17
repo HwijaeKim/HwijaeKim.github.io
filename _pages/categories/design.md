@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: categories/jekyll
-title: "Jekyll"
+permalink: categories/design
+title: "Design"
 
 author_profile: true
 sidebar:
@@ -9,7 +9,7 @@ sidebar:
 ---
 
 <div class="grid__wrapper">
-{% assign posts = site.categories.Jekyll %}
+{% assign posts = site.categories.Design %}
 {% for post in posts %}
 {% include archive-single3.html type="list" %}
 {% endfor %}

@@ -1,16 +1,17 @@
 ---
 layout: archive
-permalink: categories/portfolio
-title: "Portfolio(Overall)"
+permalink: categories/research
+title: "Research"
 
 author_profile: true
 sidebar:
-  nav: "sidebar-category"
+  nav: "docs"
 ---
 
 <div class="grid__wrapper">
-{% assign posts = site.categories.Portfolio %}
+{% assign posts = site.categories.Research %}
 {% for post in posts %}
 {% include archive-single3.html type="list" %}
 {% endfor %}
 </div>
+{% include paginator.html %} 
