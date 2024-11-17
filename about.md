@@ -4,7 +4,7 @@ author_profile: true
 # custom_css: "/assets/css/profile.css"
 toc: true
 toc_sticky: true
-toc_label: "PROFILE"
+toc_label: "ABOUT"
 
 sidebar:
   nav: "sidebar-category"
@@ -50,12 +50,12 @@ sidebar:
 ## <span style="color: #434C5D">Basic Profile</span>
 <!-- ![profile](/assets/images/profile_real.jpeg){: width="150"} -->
 <div class="profile_grid">
-<img class="profile_img" src="/assets/images/profile_real.jpeg" width="150">
+<img class="profile_img" src="/assets/images/profile_real3.webp" width="250">
 
 <div class="profile"> 
 <b><span class="titleName" style="color: #434C5D">김휘재</span></b>   <br>
 <sub>생년월일</sub>   <br>
-2002.05.10 (만 22세)   <br>
+2002.05.10   <br>
 <sub>이메일</sub>   <br>
 dusan960766@gmail.com   <br>
 <sub>휴대전화</sub>   <br>
@@ -72,7 +72,7 @@ dusan960766@gmail.com   <br>
 
 
 ## <span style="color: #434C5D">Hello, World!</span>
-성실함과 집념으로 디자인 부터 프론트엔드의 <span style="color: #F76612">전반적인 워크플로우 지식</span>까지 보유하고 있는 프론트엔드 개발자 김휘재 입니다.   
+성실함과 집념으로 디자인 부터 프론트엔드의 <span style="color: #F76612">전반적인 지식</span>까지 보유하고 있는 프론트엔드 개발자 김휘재 입니다.   
 HTML로부터 시작된 웹 개발에 대한 호기심과 집념은 끝내 풀스택 개발 쪽으로 시야가 확장되었으며 신뢰감 있고 성실한 활동을 보장합니다.
 
 
