@@ -42,8 +42,8 @@ var store = [{
         "teaser": "/assets/images/profile.jpg"
       },{
         "title": "계원예술대학교 디지털미디어디자인과 졸업작품 [잇토피아]",
-        "excerpt":"               Title       Description                       프로젝트명       EATOPIA(잇토피아)                 상세       계원예술대학교 졸업작품 아이 맞춤형 XR글래스 콘텐츠를 활용한 어린이 식습관 개선 서비스                 기간       2024.09 ~ 2024.11                 인원       기획2, 디자인3, 개발1                 담당분야       실사 영상 촬영, 웹 사이트 구현                 특이사항       -                 관련 링크       -          ","categories": ["Portfolio","Code"],
+        "excerpt":"               Title       Description                       프로젝트명       EATOPIA(잇토피아)                 상세       계원예술대학교 졸업작품 아이 맞춤형 XR글래스 콘텐츠를 활용한 어린이 식습관 개선 서비스                 기간       2024.09 ~ 2024.11                 인원       기획2, 디자인3, 개발1                 담당분야       실사 영상 촬영, 웹 사이트 구현                 특이사항       -                 관련 링크       -          ","categories": ["Code"],
         "tags": ["HTML/CSS/JS","졸업작품"],
-        "url": "/portfolio/code/%EA%B3%84%EC%9B%90%EC%98%88%EC%88%A0%EB%8C%80%ED%95%99%EA%B5%90-%EB%94%94%EC%A7%80%ED%84%B8%EB%AF%B8%EB%94%94%EC%96%B4%EB%94%94%EC%9E%90%EC%9D%B8%EA%B3%BC-%EC%A1%B8%EC%97%85%EC%9E%91%ED%92%88-%EC%9E%87%ED%86%A0%ED%94%BC%EC%95%84/",
+        "url": "/code/%EA%B3%84%EC%9B%90%EC%98%88%EC%88%A0%EB%8C%80%ED%95%99%EA%B5%90-%EB%94%94%EC%A7%80%ED%84%B8%EB%AF%B8%EB%94%94%EC%96%B4%EB%94%94%EC%9E%90%EC%9D%B8%EA%B3%BC-%EC%A1%B8%EC%97%85%EC%9E%91%ED%92%88-%EC%9E%87%ED%86%A0%ED%94%BC%EC%95%84/",
         "teaser": "/assets/images/posts_img/eatopia/eatopia_D.png"
       }]
