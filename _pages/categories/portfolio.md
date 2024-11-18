@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: categories/portfolio
-title: "Portfolio(Overall)"
+title: "Portfolio"
 
 author_profile: true
 sidebar:
