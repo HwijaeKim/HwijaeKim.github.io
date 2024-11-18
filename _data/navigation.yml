@@ -18,7 +18,6 @@ sidebar-category:
     children:
        - title: "Portfolio"
          url: "/categories/portfolio"
-         category: "Portfolio"
        - title: "Code"
          url: "/categories/code"
          category: "Code"
