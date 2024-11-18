@@ -4,8 +4,8 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "ABOUT"
     url: /about
-  # - title: "Tag"
-  #   url: /tags/
+  - title: "최근 게시글"
+    url: /recent-posts
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

@@ -25,7 +25,7 @@ name                     : "김휘재"
 description              : ""
 url                      : "https://hwijaekim.github.io"
 baseurl                  : ""
-repository               : "HwijaeKim/hwijaekim.github.io"
+repository               : "https://github.com/HwijaeKim/hwijaekim.github.io.git"
 teaser                   : # "assets/images/profile.jpg"
 logo                     : # "assets/images/profile.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -61,7 +61,7 @@ comments:
     lang                 : # "en" (default)
     lazy                 : # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
   staticman:
-    branch               : # "master"
+    branch               : "main"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey                :

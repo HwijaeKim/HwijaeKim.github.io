@@ -30,9 +30,9 @@ var store = [{
         "teaser": "/assets/images/posts_img/apple_silicon_jekyll/apple_silicon_jekyll.jpg"
       },{
         "title": "안녕하세요",
-        "excerpt":"Jekyll을 이용하여 Github Pages를 만들었습니다.   아직 시험단계로 보완할 부분이 많습니다.   키워드   성실한, 신뢰감 있는, 창의적인        이력서 폼(초안)   구글시트        Instagram: @hwijaekim_portfolio   Behance: HwijaeKim   LinkedIn: HwijaeKim   Github: HwijaeKim          —제작한 페이지—   No CSS Club MiniGame   청사진(공모전)   자기PR페이지(교내)   ","categories": ["Education"],
+        "excerpt":"Jekyll을 이용하여 Github Pages를 만들었습니다.   아직 시험단계로 보완할 부분이 많습니다.   키워드   성실한, 신뢰감 있는, 창의적인        이력서 폼(초안)   구글시트        Instagram: @hwijaekim_portfolio   Behance: HwijaeKim   LinkedIn: HwijaeKim   Github: HwijaeKim          —제작한 페이지—   No CSS Club MiniGame   청사진(공모전)   자기PR페이지(교내)   ","categories": ["Research"],
         "tags": ["update"],
-        "url": "/education/%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94/",
+        "url": "/research/%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94/",
         "teaser": "/assets/images/profile.jpg"
       },{
         "title": "마크다운에서 표 만들기",
