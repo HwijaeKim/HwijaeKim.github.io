@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: categories/portfolio
+permalink: categories/Portfolio
 title: "Portfolio"
 
 author_profile: true

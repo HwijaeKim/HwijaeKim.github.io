@@ -33,6 +33,9 @@
 <lastmod>2024-11-11T00:00:00+09:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/categories/Portfolio</loc>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -46,9 +49,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/categories/portfolio</loc>
 </url>
 <url>
 <loc>http://localhost:4000/profile_temp/</loc>

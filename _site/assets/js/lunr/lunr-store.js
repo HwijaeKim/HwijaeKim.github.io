@@ -1,6 +1,6 @@
 var store = [{
         "title": "아라비아 사막의 반도체 이야기",
-        "excerpt":"계원예술대학교 1학년 2023-2학기 [콘텐츠디자인] 교과목 우수작                    ","categories": ["portfolio","Design"],
+        "excerpt":"계원예술대학교 1학년 2023-2학기 [콘텐츠디자인] 교과목 우수작                    ","categories": ["Portfolio","Design"],
         "tags": ["web design","figma","photoshop","illustrator","ui/ux"],
         "url": "/portfolio/design/%EC%95%84%EB%9D%BC%EB%B9%84%EC%95%84%EC%82%AC%EB%A7%89%EC%9D%98-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%9D%B4%EC%95%BC%EA%B8%B0/",
         "teaser": "/assets/images/posts_img/semiconductor/main.jpg"

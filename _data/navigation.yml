@@ -17,7 +17,7 @@ sidebar-category:
   - title: "Union Portfolio"
     children:
        - title: "Portfolio"
-         url: "/categories/portfolio"
+         url: "/categories/Portfolio"
          category: "Portfolio"
        - title: "Code"
          url: "/categories/code"
