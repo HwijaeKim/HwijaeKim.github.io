@@ -12,9 +12,9 @@ var store = [{
         "teaser": "/assets/images/posts_img/pr/teaser.png"
       },{
         "title": "No CSS Club 미니게임",
-        "excerpt":"HTML/CSS/Vanilla JS를 이용하여 제작한 웹 게임 Title Description 프로젝트명 JavaScript를 이용한 No CSS Club 미니게임 상세 전공과목 [자바스크립트프로그래밍] 프로젝트 시간 안에 영역 내 모든 CSS요소를 클리하여 제거하는 게임을 제작 기간 2024.05 ~ 2024.06 인원 개인 담당분야 게임 기획, 레이아웃 구성, CSS 스타일, 게임기능 구현 특이사항 CSS를 이용하여 Windows 98 스타일의...","categories": ["Portfolio","Code"],
+        "excerpt":"HTML/CSS/Vanilla JS를 이용하여 제작한 웹 게임 Title Description 프로젝트명 JavaScript를 이용한 No CSS Club 미니게임 상세 전공과목 [자바스크립트프로그래밍] 프로젝트 시간 안에 영역 내 모든 CSS요소를 클리하여 제거하는 게임을 제작 기간 2024.05 ~ 2024.06 인원 개인 담당분야 게임 기획, 레이아웃 구성, CSS 스타일, 게임기능 구현 특이사항 CSS를 이용하여 Windows 98 스타일의...","categories": ["Projects","Code"],
         "tags": ["HTML/CSS/JS","game"],
-        "url": "/portfolio/code/No-CSS-Club-%EB%AF%B8%EB%8B%88%EA%B2%8C%EC%9E%84/",
+        "url": "/projects/code/No-CSS-Club-%EB%AF%B8%EB%8B%88%EA%B2%8C%EC%9E%84/",
         "teaser": "/assets/images/posts_img/nocssclub/teaser.png"
       },{
         "title": "제 30회 커뮤니케이션디자인국제공모전 수상작 [청사진]",
@@ -24,9 +24,9 @@ var store = [{
         "teaser": "/assets/images/posts_img/blueprint/blueprint.png"
       },{
         "title": "Apple Silicon에서의 Jekyll 오류 발생 해결",
-        "excerpt":"Chat GPT 프롬프트 macOS 터미널을 이용해서 jekyll bundle을 설치하고 있는데 eventmachine 1.2.7 설치 도중 오류가 난대. 왜 이럴까? -2024.09.30 1. Xcode Command Line Tools 재설치 이미 명령줄 도구를 설치했더라도 일부 구성 요소가 손상되었을 수 있으니, 다시 설치하거나 업데이트를 시도해 보세요. sudo rm -rf /Library/Developer/CommandLineTools xcode-select --install 2. g++와 clang 설치...","categories": ["Research","Code"],
+        "excerpt":"Chat GPT 프롬프트 macOS 터미널을 이용해서 jekyll bundle을 설치하고 있는데 eventmachine 1.2.7 설치 도중 오류가 난대. 왜 이럴까? -2024.09.30 1. Xcode Command Line Tools 재설치 이미 명령줄 도구를 설치했더라도 일부 구성 요소가 손상되었을 수 있으니, 다시 설치하거나 업데이트를 시도해 보세요. sudo rm -rf /Library/Developer/CommandLineTools xcode-select --install 2. g++와 clang 설치...","categories": ["Research"],
         "tags": ["jekyll","macos","apple silicon","문제해결"],
-        "url": "/research/code/Apple-Silicon%EC%97%90%EC%84%9C%EC%9D%98-Jekyll-%EC%98%A4%EB%A5%98-%EB%B0%9C%EC%83%9D-%ED%95%B4%EA%B2%B0/",
+        "url": "/research/Apple-Silicon%EC%97%90%EC%84%9C%EC%9D%98-Jekyll-%EC%98%A4%EB%A5%98-%EB%B0%9C%EC%83%9D-%ED%95%B4%EA%B2%B0/",
         "teaser": "/assets/images/posts_img/apple_silicon_jekyll/apple_silicon_jekyll.jpg"
       },{
         "title": "안녕하세요",
@@ -42,7 +42,7 @@ var store = [{
         "teaser": "/assets/images/profile.jpg"
       },{
         "title": "계원예술대학교 디지털미디어디자인과 졸업작품 [잇토피아]",
-        "excerpt":"               Title       Description                       프로젝트명       EATOPIA(잇토피아)                 상세       계원예술대학교 졸업작품 아이 맞춤형 XR글래스 콘텐츠를 활용한 어린이 식습관 개선 서비스                 기간       2024.09 ~ 2024.11                 인원       기획2, 디자인3, 개발1                 담당분야       실사 영상 촬영, 웹 사이트 구현                 특이사항       -                 관련 링크       -          ","categories": ["Projects","Code"],
+        "excerpt":"               Title       Description                       프로젝트명       EATOPIA(잇토피아)                 상세       계원예술대학교 졸업작품 아이 맞춤형 XR글래스 콘텐츠를 활용한 어린이 식습관 개선 서비스                 기간       2024.09 ~ 2024.11                 인원       기획2, 디자인3, 개발1                 담당분야       실사 영상 촬영, 웹 사이트 구현                 특이사항       -                 관련 링크       https://hwijaekim.github.io/eatopia2024          ","categories": ["Projects","Code"],
         "tags": ["HTML/CSS/JS","졸업작품"],
         "url": "/projects/code/%EA%B3%84%EC%9B%90%EC%98%88%EC%88%A0%EB%8C%80%ED%95%99%EA%B5%90-%EB%94%94%EC%A7%80%ED%84%B8%EB%AF%B8%EB%94%94%EC%96%B4%EB%94%94%EC%9E%90%EC%9D%B8%EA%B3%BC-%EC%A1%B8%EC%97%85%EC%9E%91%ED%92%88-%EC%9E%87%ED%86%A0%ED%94%BC%EC%95%84/",
         "teaser": "/assets/images/posts_img/eatopia/eatopia_D.png"

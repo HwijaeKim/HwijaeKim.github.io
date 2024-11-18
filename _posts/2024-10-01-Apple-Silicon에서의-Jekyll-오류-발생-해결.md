@@ -4,7 +4,6 @@ header:
   teaser: "/assets/images/posts_img/apple_silicon_jekyll/apple_silicon_jekyll.jpg"
 categories:
   - Research
-  - Code
 tags:
   - jekyll
   - macos
