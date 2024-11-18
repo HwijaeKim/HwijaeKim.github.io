@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: categories/Portfolio
-title: "Portfolio"
+permalink: categories/projects
+title: "Projects"
 
 author_profile: true
 sidebar:
@@ -9,7 +9,7 @@ sidebar:
 ---
 
 <div class="grid__wrapper">
-{% assign posts = site.categories.Portfolio %}
+{% assign posts = site.categories.Projects %}
 {% for post in posts %}
 {% include archive-single3.html type="list" %}
 {% endfor %}

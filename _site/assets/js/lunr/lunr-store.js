@@ -1,14 +1,14 @@
 var store = [{
         "title": "아라비아 사막의 반도체 이야기",
-        "excerpt":"계원예술대학교 1학년 2023-2학기 [콘텐츠디자인] 교과목 우수작                    ","categories": ["Portfolio","Design"],
+        "excerpt":"계원예술대학교 1학년 2023-2학기 [콘텐츠디자인] 교과목 우수작                    ","categories": ["Projects","Design"],
         "tags": ["web design","figma","photoshop","illustrator","ui/ux"],
-        "url": "/portfolio/design/%EC%95%84%EB%9D%BC%EB%B9%84%EC%95%84%EC%82%AC%EB%A7%89%EC%9D%98-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%9D%B4%EC%95%BC%EA%B8%B0/",
+        "url": "/projects/design/%EC%95%84%EB%9D%BC%EB%B9%84%EC%95%84%EC%82%AC%EB%A7%89%EC%9D%98-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%9D%B4%EC%95%BC%EA%B8%B0/",
         "teaser": "/assets/images/posts_img/semiconductor/main.jpg"
       },{
         "title": "macOS 콘셉트의 자기PR 페이지",
-        "excerpt":"계원예술대학교 1학년 2023-2학기 [웹퍼블리싱] 교과목 우수작  ","categories": ["Portfolio","Code"],
+        "excerpt":"계원예술대학교 1학년 2023-2학기 [웹퍼블리싱] 교과목 우수작  ","categories": ["Projects","Code"],
         "tags": ["HTML/CSS/JS"],
-        "url": "/portfolio/code/macOS-%EC%BD%98%EC%85%89%ED%8A%B8%EC%9D%98-%EC%9E%90%EA%B8%B0PR-%ED%8E%98%EC%9D%B4%EC%A7%80/",
+        "url": "/projects/code/macOS-%EC%BD%98%EC%85%89%ED%8A%B8%EC%9D%98-%EC%9E%90%EA%B8%B0PR-%ED%8E%98%EC%9D%B4%EC%A7%80/",
         "teaser": "/assets/images/posts_img/pr/teaser.png"
       },{
         "title": "No CSS Club 미니게임",
@@ -18,9 +18,9 @@ var store = [{
         "teaser": "/assets/images/posts_img/nocssclub/teaser.png"
       },{
         "title": "제 30회 커뮤니케이션디자인국제공모전 수상작 [청사진]",
-        "excerpt":"Title Description 프로젝트명 청사진(BLUEPRINT) 목적 학교 밖 청소년들의 미래를 준비하기 위한 솔루션 제 30회 커뮤니케이션디자인국제공모전 일반/대학부 출품 기간 2024.03 ~ 2024.06 인원 기획1, 디자인1, 개발1 담당분야 팀장 및 서비스 비디오 촬영, 웹 콘텐츠 소스 제작 및 HTML/CSS/JS를 이용한 웹 제작 및 GitHub 배포 특이사항 HTML/CSS/JS 세 가지를 동시에 이용하여 처음으로...","categories": ["Portfolio","Code"],
+        "excerpt":"Title Description 프로젝트명 청사진(BLUEPRINT) 목적 학교 밖 청소년들의 미래를 준비하기 위한 솔루션 제 30회 커뮤니케이션디자인국제공모전 일반/대학부 출품 기간 2024.03 ~ 2024.06 인원 기획1, 디자인1, 개발1 담당분야 팀장 및 서비스 비디오 촬영, 웹 콘텐츠 소스 제작 및 HTML/CSS/JS를 이용한 웹 제작 및 GitHub 배포 특이사항 HTML/CSS/JS 세 가지를 동시에 이용하여 처음으로...","categories": ["Projects","Code"],
         "tags": ["HTML/CSS/JS","공모전"],
-        "url": "/portfolio/code/%EC%A0%9C-30%ED%9A%8C-%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98%EB%94%94%EC%9E%90%EC%9D%B8%EA%B5%AD%EC%A0%9C%EA%B3%B5%EB%AA%A8%EC%A0%84-%EC%88%98%EC%83%81%EC%9E%91-%EC%B2%AD%EC%82%AC%EC%A7%84/",
+        "url": "/projects/code/%EC%A0%9C-30%ED%9A%8C-%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98%EB%94%94%EC%9E%90%EC%9D%B8%EA%B5%AD%EC%A0%9C%EA%B3%B5%EB%AA%A8%EC%A0%84-%EC%88%98%EC%83%81%EC%9E%91-%EC%B2%AD%EC%82%AC%EC%A7%84/",
         "teaser": "/assets/images/posts_img/blueprint/blueprint.png"
       },{
         "title": "Apple Silicon에서의 Jekyll 오류 발생 해결",
@@ -42,8 +42,8 @@ var store = [{
         "teaser": "/assets/images/profile.jpg"
       },{
         "title": "계원예술대학교 디지털미디어디자인과 졸업작품 [잇토피아]",
-        "excerpt":"               Title       Description                       프로젝트명       EATOPIA(잇토피아)                 상세       계원예술대학교 졸업작품 아이 맞춤형 XR글래스 콘텐츠를 활용한 어린이 식습관 개선 서비스                 기간       2024.09 ~ 2024.11                 인원       기획2, 디자인3, 개발1                 담당분야       실사 영상 촬영, 웹 사이트 구현                 특이사항       -                 관련 링크       -          ","categories": ["Portfolio","Code"],
+        "excerpt":"               Title       Description                       프로젝트명       EATOPIA(잇토피아)                 상세       계원예술대학교 졸업작품 아이 맞춤형 XR글래스 콘텐츠를 활용한 어린이 식습관 개선 서비스                 기간       2024.09 ~ 2024.11                 인원       기획2, 디자인3, 개발1                 담당분야       실사 영상 촬영, 웹 사이트 구현                 특이사항       -                 관련 링크       -          ","categories": ["Projects","Code"],
         "tags": ["HTML/CSS/JS","졸업작품"],
-        "url": "/portfolio/code/%EA%B3%84%EC%9B%90%EC%98%88%EC%88%A0%EB%8C%80%ED%95%99%EA%B5%90-%EB%94%94%EC%A7%80%ED%84%B8%EB%AF%B8%EB%94%94%EC%96%B4%EB%94%94%EC%9E%90%EC%9D%B8%EA%B3%BC-%EC%A1%B8%EC%97%85%EC%9E%91%ED%92%88-%EC%9E%87%ED%86%A0%ED%94%BC%EC%95%84/",
+        "url": "/projects/code/%EA%B3%84%EC%9B%90%EC%98%88%EC%88%A0%EB%8C%80%ED%95%99%EA%B5%90-%EB%94%94%EC%A7%80%ED%84%B8%EB%AF%B8%EB%94%94%EC%96%B4%EB%94%94%EC%9E%90%EC%9D%B8%EA%B3%BC-%EC%A1%B8%EC%97%85%EC%9E%91%ED%92%88-%EC%9E%87%ED%86%A0%ED%94%BC%EC%95%84/",
         "teaser": "/assets/images/posts_img/eatopia/eatopia_D.png"
       }]
