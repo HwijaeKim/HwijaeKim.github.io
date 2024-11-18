@@ -24,9 +24,9 @@ var store = [{
         "teaser": "/assets/images/posts_img/blueprint/blueprint.png"
       },{
         "title": "Apple Silicon에서의 Jekyll 오류 발생 해결",
-        "excerpt":"Chat GPT 프롬프트 macOS 터미널을 이용해서 jekyll bundle을 설치하고 있는데 eventmachine 1.2.7 설치 도중 오류가 난대. 왜 이럴까? -2024.09.30 1. Xcode Command Line Tools 재설치 이미 명령줄 도구를 설치했더라도 일부 구성 요소가 손상되었을 수 있으니, 다시 설치하거나 업데이트를 시도해 보세요. sudo rm -rf /Library/Developer/CommandLineTools xcode-select --install 2. g++와 clang 설치...","categories": ["Portfolio","Research"],
+        "excerpt":"Chat GPT 프롬프트 macOS 터미널을 이용해서 jekyll bundle을 설치하고 있는데 eventmachine 1.2.7 설치 도중 오류가 난대. 왜 이럴까? -2024.09.30 1. Xcode Command Line Tools 재설치 이미 명령줄 도구를 설치했더라도 일부 구성 요소가 손상되었을 수 있으니, 다시 설치하거나 업데이트를 시도해 보세요. sudo rm -rf /Library/Developer/CommandLineTools xcode-select --install 2. g++와 clang 설치...","categories": ["Research"],
         "tags": ["jekyll","macos","apple silicon","문제해결"],
-        "url": "/portfolio/research/Apple-Silicon%EC%97%90%EC%84%9C%EC%9D%98-Jekyll-%EC%98%A4%EB%A5%98-%EB%B0%9C%EC%83%9D-%ED%95%B4%EA%B2%B0/",
+        "url": "/research/Apple-Silicon%EC%97%90%EC%84%9C%EC%9D%98-Jekyll-%EC%98%A4%EB%A5%98-%EB%B0%9C%EC%83%9D-%ED%95%B4%EA%B2%B0/",
         "teaser": "/assets/images/posts_img/apple_silicon_jekyll/apple_silicon_jekyll.jpg"
       },{
         "title": "안녕하세요",
@@ -42,8 +42,8 @@ var store = [{
         "teaser": "/assets/images/profile.jpg"
       },{
         "title": "계원예술대학교 디지털미디어디자인과 졸업작품 [잇토피아]",
-        "excerpt":"               Title       Description                       프로젝트명       EATOPIA(잇토피아)                 상세       계원예술대학교 졸업작품 아이 맞춤형 XR글래스 콘텐츠를 활용한 어린이 식습관 개선 서비스                 기간       2024.09 ~ 2024.11                 인원       기획2, 디자인3, 개발1                 담당분야       실사 영상 촬영, 웹 사이트 구현                 특이사항       -                 관련 링크       -          ","categories": ["Code"],
+        "excerpt":"               Title       Description                       프로젝트명       EATOPIA(잇토피아)                 상세       계원예술대학교 졸업작품 아이 맞춤형 XR글래스 콘텐츠를 활용한 어린이 식습관 개선 서비스                 기간       2024.09 ~ 2024.11                 인원       기획2, 디자인3, 개발1                 담당분야       실사 영상 촬영, 웹 사이트 구현                 특이사항       -                 관련 링크       -          ","categories": ["Portfolio","Code"],
         "tags": ["HTML/CSS/JS","졸업작품"],
-        "url": "/code/%EA%B3%84%EC%9B%90%EC%98%88%EC%88%A0%EB%8C%80%ED%95%99%EA%B5%90-%EB%94%94%EC%A7%80%ED%84%B8%EB%AF%B8%EB%94%94%EC%96%B4%EB%94%94%EC%9E%90%EC%9D%B8%EA%B3%BC-%EC%A1%B8%EC%97%85%EC%9E%91%ED%92%88-%EC%9E%87%ED%86%A0%ED%94%BC%EC%95%84/",
+        "url": "/portfolio/code/%EA%B3%84%EC%9B%90%EC%98%88%EC%88%A0%EB%8C%80%ED%95%99%EA%B5%90-%EB%94%94%EC%A7%80%ED%84%B8%EB%AF%B8%EB%94%94%EC%96%B4%EB%94%94%EC%9E%90%EC%9D%B8%EA%B3%BC-%EC%A1%B8%EC%97%85%EC%9E%91%ED%92%88-%EC%9E%87%ED%86%A0%ED%94%BC%EC%95%84/",
         "teaser": "/assets/images/posts_img/eatopia/eatopia_D.png"
       }]
