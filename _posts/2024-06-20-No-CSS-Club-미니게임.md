@@ -6,7 +6,8 @@ categories:
   - Projects
   - Code
 tags:
-  - HTML/CSS/JS
+  - front-end
+  - html/css/js
   - game
 ---
 

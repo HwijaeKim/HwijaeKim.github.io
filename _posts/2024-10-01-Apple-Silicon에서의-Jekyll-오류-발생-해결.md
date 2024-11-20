@@ -8,7 +8,6 @@ tags:
   - jekyll
   - macos
   - apple silicon
-  - 문제해결
 ---
 # Chat GPT   
 
