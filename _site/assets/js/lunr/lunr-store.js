@@ -1,6 +1,6 @@
 var store = [{
         "title": "아라비아 사막의 반도체 이야기",
-        "excerpt":"📝 프로젝트 개요 ~아라비아 사막의 반도체 이야기                  프로젝트 목적       콘텐츠디자인 교과목 프로젝트 프로젝트                 기간       2023.09 ~ 2023.12                 인원       개인                 관련 링크       https://hwijaekim.github.io/unionpt.github.io          ","categories": ["Projects","Design"],
+        "excerpt":"📝 프로젝트 개요 ~아라비아 사막의 반도체 이야기                  프로젝트 목적       콘텐츠디자인 교과목 프로젝트 프로젝트                 기간       2023.09 ~ 2023.12                 인원       개인                 관련 링크       figma 추가예정          ","categories": ["Projects","Design"],
         "tags": ["web design","figma","photoshop","illustrator","ui/ux"],
         "url": "/projects/design/contents-design-final/",
         "teaser": "/assets/images/posts_img/semiconductor/main.jpg"
@@ -18,7 +18,7 @@ var store = [{
         "teaser": "/assets/images/posts_img/blueprint/blueprint.png"
       },{
         "title": "No CSS Club 미니게임",
-        "excerpt":"HTML/CSS/Vanilla JS를 이용하여 제작한 웹 게임 Title Description 프로젝트명 JavaScript를 이용한 No CSS Club 미니게임 상세 전공과목 [자바스크립트프로그래밍] 프로젝트 시간 안에 영역 내 모든 CSS요소를 클리하여 제거하는 게임을 제작 기간 2024.05 ~ 2024.06 인원 개인 담당분야 게임 기획, 레이아웃 구성, CSS 스타일, 게임기능 구현 특이사항 CSS를 이용하여 Windows 98 스타일의...","categories": ["Projects","Code"],
+        "excerpt":"📝 프로젝트 개요 ~No CSS Club 미니게임                  프로젝트 목적       자바스크립트프로그래밍 교과목 기말 프로젝트 프로젝트                 기간       2023.10 ~ 2023.12                 인원       개인                 관련 링크       https://hwijaekim.github.io/nocssclub_minigame          ","categories": ["Projects","Code"],
         "tags": ["front-end","html/css/js","game"],
         "url": "/projects/code/no-css-club-minigame/",
         "teaser": "/assets/images/posts_img/nocssclub/teaser.png"
