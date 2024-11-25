@@ -1,12 +1,12 @@
 var store = [{
         "title": "아라비아 사막의 반도체 이야기",
-        "excerpt":"계원예술대학교 1학년 2023-2학기 [콘텐츠디자인] 교과목 우수작                    ","categories": ["Projects","Design"],
+        "excerpt":"📝 프로젝트 개요 ~아라비아 사막의 반도체 이야기                  프로젝트 목적       콘텐츠디자인 교과목 프로젝트 프로젝트                 기간       2023.09 ~ 2023.12                 인원       개인                 관련 링크       https://hwijaekim.github.io/unionpt.github.io          ","categories": ["Projects","Design"],
         "tags": ["web design","figma","photoshop","illustrator","ui/ux"],
         "url": "/projects/design/contents-design-final/",
         "teaser": "/assets/images/posts_img/semiconductor/main.jpg"
       },{
         "title": "macOS 콘셉트의 자기PR 페이지",
-        "excerpt":"계원예술대학교 1학년 2023-2학기 [웹퍼블리싱] 교과목 우수작  ","categories": ["Projects","Code"],
+        "excerpt":"📝 프로젝트 개요 ~macOS 콘셉트의 자기PR 페이지                  프로젝트 목적       웹퍼블리싱 교과목 기말 프로젝트                 기간       2023.11 ~ 2023.12                 인원       개인                 관련 링크       https://hwijaekim.github.io/unionpt.github.io          ","categories": ["Projects","Code"],
         "tags": ["front-end","html/css/js"],
         "url": "/projects/code/web-publishing-final/",
         "teaser": "/assets/images/posts_img/pr/teaser.png"

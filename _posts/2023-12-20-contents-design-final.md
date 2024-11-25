@@ -12,18 +12,9 @@ tags:
   - illustrator
   - ui/ux
 ---
+# 📝 프로젝트 개요 ~아라비아 사막의 반도체 이야기
 
-계원예술대학교 1학년 2023-2학기 [콘텐츠디자인] 교과목 우수작
-   
-
-![1](/assets//images//posts_img/semiconductor/1.jpg)
-   
-![2](/assets//images//posts_img/semiconductor/2.jpg)
-   
-![3](/assets//images//posts_img/semiconductor/3.jpg)
-   
-![4](/assets//images//posts_img/semiconductor/4.jpg)
-   
-![5](/assets//images//posts_img/semiconductor/5.jpg)
-   
-![6](/assets//images//posts_img/semiconductor/6.jpg)
+| **프로젝트 목적**    | 콘텐츠디자인 교과목 프로젝트 프로젝트                                                                           |
+| **기간**    | 2023.09 ~ 2023.12                                                                                      |
+| **인원**    | 개인                                                                                    |
+| **관련 링크** | <a href="https://hwijaekim.github.io/unionpt.github.io" target="_blank">https://hwijaekim.github.io/unionpt.github.io</a> |
