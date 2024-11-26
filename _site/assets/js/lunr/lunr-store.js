@@ -51,7 +51,7 @@ var store = [{
         "excerpt":"📝 프로젝트 개요 ~잇토피아 프로젝트 목적 유아기 아이들의 식습관 문제 개선을 위한 XR 글래스 콘텐츠 기간 2024.09 ~ 2024.11 인원 기획2, 디자인3, 개발1 담당분야 서비스 영상 촬영 및 웹 사이트 구현 관련 링크 https://hwijaekim.github.io/eatopia2024 🔑 핵심 기술 요약 Vanilla JavaScript에 기반한 Observer 적극 활용으로 스크롤 시 keyframe애니메이션 구현 CSS 가상클래스...","categories": ["Projects","Code"],
         "tags": ["front-end","html/css/js","졸업작품"],
         "url": "/projects/code/eatopia/",
-        "teaser": "/assets/images/posts_img/eatopia/eatopia_D.png"
+        "teaser": "/assets/images/posts_img/eatopia/test.png"
       },{
         "title": "MongoDB를 이용한 express서버 제작",
         "excerpt":" ","categories": ["Projects","Code"],

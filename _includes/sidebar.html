@@ -1,12 +1,36 @@
+<style>
+  .sidebar-tech-icons img {
+    width: auto;
+    height: 26px;
+    opacity: .85;
+  }
+</style>
+
+
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
+    
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+  <div class="sidebar-tech-icons">
+    <img src="{{ 'https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white' | relative_url }}" alt="HTML">
+    <img src="{{ 'https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white' | relative_url }}" alt="CSS">
+    <img src="{{ 'https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white' | relative_url }}" alt="JS">
+    <img src="{{ 'https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white' | relative_url }}" alt="GitHub">
+    <img src="{{ 'https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white' | relative_url }}" alt="Git">
+
+    <img src="{{ 'https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black' | relative_url }}" alt="">
+    <img src="{{ 'https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobe%20illustrator&logoColor=white' | relative_url }}" alt="JS">
+
+  </a>
+  
+</div>
   {% if page.sidebar %}
     {% for s in page.sidebar %}
       {% if s.image %}
         <img src="{{ s.image | relative_url }}"
              alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
       {% endif %}
+      
       {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
       {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
@@ -15,5 +39,8 @@
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
   {% endif %}
+
+
+  
   </div>
 {% endif %}
