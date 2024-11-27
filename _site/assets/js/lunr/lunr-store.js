@@ -64,4 +64,10 @@ var store = [{
         "tags": ["front-end","html/css/js"],
         "url": "/projects/code/web-interaction-final/",
         "teaser": "/assets/images/posts_img/ready.png"
+      },{
+        "title": "Git 사용",
+        "excerpt":"    기본 사용  리포지토리 클론  git clone &lt;리포지토리 URL&gt;   최신 상태로 업데이트  git pull origin &lt;브렌치 이름&gt;   커밋 및 푸시  git add . git commit -m '커밋메시지' git push  ","categories": ["Research"],
+        "tags": ["git"],
+        "url": "/research/git/",
+        "teaser": null
       }]
