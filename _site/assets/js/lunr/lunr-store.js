@@ -15,7 +15,7 @@ var store = [{
         "excerpt":"📝 프로젝트 개요 ~청사진 프로젝트 목적 학교 밖 청소년들의 미래를 준비하기 위한 솔루션 기간 2024.03 ~ 2024.06 인원 기획1, 디자인1, 개발1 담당분야 팀장 및 서비스 비디오 촬영, 웹 콘텐츠 소스 제작 및 HTML/CSS/JS를 이용한 웹 제작 및 GitHub 배포 관련 링크 https://hwijaekim.github.io/blueprint2024 🔑 핵심 기술 요약 HTML/CSS/JS 세 가지를 이용하여...","categories": ["Projects","Code"],
         "tags": ["front-end","html/css/js","공모전"],
         "url": "/projects/code/blueprint/",
-        "teaser": "/assets/images/posts_img/blueprint/blueprint.png"
+        "teaser": "/assets/images/posts_img/blueprint/teaser.png"
       },{
         "title": "No CSS Club 미니게임",
         "excerpt":"📝 프로젝트 개요 ~No CSS Club 미니게임                  프로젝트 목적       자바스크립트프로그래밍 교과목 기말 프로젝트 프로젝트                 기간       2023.10 ~ 2023.12                 인원       개인                 관련 링크       https://hwijaekim.github.io/nocssclub_minigame          ","categories": ["Projects","Code"],
@@ -27,7 +27,7 @@ var store = [{
         "excerpt":"📝 프로젝트 개요 ~Jekyll Blog 프로젝트 목적 포트폴리오 페이지 기간 2024.09 ~ 인원 개인 관련 링크 https://hwijaekim.github.io 🔑 핵심 기술 요약 처음으로 시도한 HTML레벨에서 웹표준을 준수하여 제작한 웹 사이트로 의미가 있는 프로젝트. Vanilla JavaScript를 적극적으로 활용한 프로젝트이며 Ovserver를 이용하여 Viewport에 감지될 시 CSS active클래스를 토글하여 애니메이션을 구현. Typeit.js 외부 라이브러리를...","categories": ["Projects","Code"],
         "tags": ["jekyll","github"],
         "url": "/projects/code/jekyll-github-blog/",
-        "teaser": "/assets/images/posts_img/jekyll/jekyll.png"
+        "teaser": "/assets/images/posts_img/jekyll/teaser.png"
       },{
         "title": "Apple Silicon에서의 Jekyll 오류 발생 해결",
         "excerpt":"Chat GPT 프롬프트 macOS 터미널을 이용해서 jekyll bundle을 설치하고 있는데 eventmachine 1.2.7 설치 도중 오류가 난대. 왜 이럴까? -2024.09.30 1. Xcode Command Line Tools 재설치 이미 명령줄 도구를 설치했더라도 일부 구성 요소가 손상되었을 수 있으니, 다시 설치하거나 업데이트를 시도해 보세요. sudo rm -rf /Library/Developer/CommandLineTools xcode-select --install 2. g++와 clang 설치...","categories": ["Research"],

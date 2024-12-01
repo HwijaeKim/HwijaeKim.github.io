@@ -631,14 +631,17 @@ a {
       color: #eaeaea;
     }
   }
+  .page__taxonomy-item-category:visited {
+    color: #eaeaea;
+  }
   
     .page__taxonomy-item-tag {
       display: inside;
       // margin-right: 5px;
       margin-bottom: 12px;
       padding: 5px 10px;
-      // color: $text-color;
-      color: #fff;
+      color: $text-color;
+      // color: #fff;
       font-family: "Pretendard", sans-serif;
       font-size: .8em;
       text-decoration: none;
@@ -646,11 +649,11 @@ a {
       // border-radius: $border-radius;
       border-radius: 50px;
   
-    &:hover {
-      text-decoration: none;
-      background-color: rgb(156, 156, 156); /* 커서 댈 때 색깔 */
-      color: #eaeaea;
-    }
+    // &:hover {
+    //   text-decoration: none;
+    //   background-color: rgb(156, 156, 156); /* 커서 댈 때 색깔 */
+    //   color: #eaeaea;
+    // }
   }
 
 
