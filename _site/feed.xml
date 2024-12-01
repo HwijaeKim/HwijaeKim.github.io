@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-02T03:00:24+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-02T03:32:00+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
 
 <h1 id="기본-사용">기본 사용</h1>
 <h2 id="리포지토리-클론">리포지토리 클론</h2>
@@ -488,7 +488,17 @@ eval $(/opt/homebrew/bin/brew shellenv)
       <td><a href="https://hwijaekim.github.io/nocssclub_minigame" target="_blank">https://hwijaekim.github.io/nocssclub_minigame</a></td>
     </tr>
   </tbody>
-</table>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><category term="game" /><summary type="html"><![CDATA[📝 프로젝트 개요 ~No CSS Club 미니게임]]></summary></entry><entry><title type="html">제 30회 커뮤니케이션디자인국제공모전 동상 수상작 [청사진]</title><link href="http://localhost:4000/projects/code/blueprint/" rel="alternate" type="text/html" title="제 30회 커뮤니케이션디자인국제공모전 동상 수상작 [청사진]" /><published>2024-06-20T00:00:00+09:00</published><updated>2024-06-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/blueprint</id><content type="html" xml:base="http://localhost:4000/projects/code/blueprint/"><![CDATA[<p><br /></p>
+</table>
+
+<p><br /><br /></p>
+
+<h1 id="-핵심-기술-요약">🔑 핵심 기술 요약</h1>
+<ul>
+  <li>CSS만을 사용하여 구현한 Windows 95~ME 스타일의 UI</li>
+  <li><code class="language-plaintext highlighter-rouge">Vanilla JavaScript</code>로 카운트, 남은 시간, 인게임 진행 등 프로그래밍 구현</li>
+  <li><code class="language-plaintext highlighter-rouge">localStorage</code>기능으로 사용자명을 로컬에 저장해 페이지가 전환되어도 호출할 수 있도록 프로그래밍</li>
+  <li></li>
+</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><category term="game" /><summary type="html"><![CDATA[📝 프로젝트 개요 ~No CSS Club 미니게임]]></summary></entry><entry><title type="html">제 30회 커뮤니케이션디자인국제공모전 동상 수상작 [청사진]</title><link href="http://localhost:4000/projects/code/blueprint/" rel="alternate" type="text/html" title="제 30회 커뮤니케이션디자인국제공모전 동상 수상작 [청사진]" /><published>2024-06-20T00:00:00+09:00</published><updated>2024-06-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/blueprint</id><content type="html" xml:base="http://localhost:4000/projects/code/blueprint/"><![CDATA[<p><br /></p>
 <h1 id="-프로젝트-개요-청사진">📝 프로젝트 개요 ~청사진</h1>
 
 <table>
