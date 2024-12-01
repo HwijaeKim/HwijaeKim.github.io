@@ -1,7 +1,7 @@
 {
   "name": "Hwijae Kim Jekyll",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Portfolio",
   "repository": {
     "type": "git",
@@ -14,7 +14,8 @@
   "keywords": [
     "jekyll",
     "theme",
-    "minimal"
+    "minimal",
+    "portfolio"
   ],
   "author": "Michael Rose",
   "license": "MIT",

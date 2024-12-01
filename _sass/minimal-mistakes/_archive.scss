@@ -568,13 +568,15 @@ a {
 .page__taxonomy-item-category {
   display: inside;
   margin-right: 5px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   padding: 5px 10px;
-  color: $text-color;
+  background: #434C5D;
+  // color: $text-color;
+  color: #fff;
   font-family: "Pretendard", sans-serif;
   font-size: .8em;
   text-decoration: none;
-  border: 1px solid $link-color-visited;
+  // border: 1px solid $link-color-visited;
   border-radius: $border-radius;
 
   &:hover {
@@ -586,19 +588,21 @@ a {
 
   .page__taxonomy-item-tag {
     display: inside;
-    margin-right: 5px;
-    margin-bottom: 8px;
+    // margin-right: 5px;
+    margin-bottom: 12px;
     padding: 5px 10px;
-    color: $text-color;
+    // color: $text-color;
+    // color: #fff;
     font-family: "Pretendard", sans-serif;
     font-size: .8em;
     text-decoration: none;
     border: 1px solid mix($text-color, $background-color, 30%);
-    border-radius: $border-radius;
+    // border-radius: $border-radius;
+    border-radius: 50px;
 
   &:hover {
     text-decoration: none;
-    background-color: rgb(156, 156, 156); /* 커서 댈 때 색깔 */
+    background-color: rgb(255, 255, 255); /* 커서 댈 때 색깔 */
     color: #eaeaea;
   }
 }
@@ -607,13 +611,15 @@ a {
   .page__taxonomy-item-category {
     display: inside;
     margin-right: 5px;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     padding: 5px 10px;
-    color: $text-color;
+    background: #434C5D;
+    // color: $text-color;
+    color: #fff;
     font-family: "Pretendard", sans-serif;
     font-size: .8em;
     text-decoration: none;
-    border: 1px solid $link-color-visited;
+    // border: 1px solid $link-color-visited;
     border-radius: $border-radius;
   
     &:hover {
@@ -625,15 +631,17 @@ a {
   
     .page__taxonomy-item-tag {
       display: inside;
-      margin-right: 5px;
-      margin-bottom: 15px;
+      // margin-right: 5px;
+      margin-bottom: 12px;
       padding: 5px 10px;
-      color: $text-color;
+      // color: $text-color;
+      color: #fff;
       font-family: "Pretendard", sans-serif;
       font-size: .8em;
       text-decoration: none;
       border: 1px solid mix($text-color, $background-color, 30%);
-      border-radius: $border-radius;
+      // border-radius: $border-radius;
+      border-radius: 50px;
   
     &:hover {
       text-decoration: none;
