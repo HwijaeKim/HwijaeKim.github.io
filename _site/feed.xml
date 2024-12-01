@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-02T02:10:19+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-02T03:00:24+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
 
 <h1 id="기본-사용">기본 사용</h1>
 <h2 id="리포지토리-클론">리포지토리 클론</h2>
@@ -140,7 +140,7 @@ git push
     <ul>
       <li>Git 버전관리를 처음으로 사용해본 프로젝트로 GitHub에 더 빠르게 commit</li>
       <li>CSS 가상클래스 사용으로 공통요소를 관리하여 정리 및 유지보수에 이바지</li>
-      <li><code class="language-plaintext highlighter-rouge">video</code>, <code class="language-plaintext highlighter-rouge">gif</code> 사용을 줄이고 <code class="language-plaintext highlighter-rouge">svg</code>, <code class="language-plaintext highlighter-rouge">webp</code> 사용을 지향하여 웹 사이트 경량화</li>
+      <li><code class="language-plaintext highlighter-rouge">jpg</code>, <code class="language-plaintext highlighter-rouge">gif</code> 사용을 줄이고 <code class="language-plaintext highlighter-rouge">svg</code>, <code class="language-plaintext highlighter-rouge">webp</code> 사용을 지향하여 웹 사이트 경량화</li>
       <li><code class="language-plaintext highlighter-rouge">svg animation</code>으로 시각적 재미요소를 상승</li>
     </ul>
   </li>
@@ -180,7 +180,7 @@ git push
       </li>
     </ul>
   </li>
-</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><category term="졸업작품" /><summary type="html"><![CDATA[📝 프로젝트 개요 ~잇토피아]]></summary></entry><entry><title type="html">마크다운에서 표 만들기</title><link href="http://localhost:4000/research/markdown-table/" rel="alternate" type="text/html" title="마크다운에서 표 만들기" /><published>2024-10-05T00:00:00+09:00</published><updated>2024-10-05T00:00:00+09:00</updated><id>http://localhost:4000/research/markdown-table</id><content type="html" xml:base="http://localhost:4000/research/markdown-table/"><![CDATA[<table>
+</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><category term="figma" /><category term="졸업작품" /><summary type="html"><![CDATA[📝 프로젝트 개요 ~잇토피아]]></summary></entry><entry><title type="html">마크다운에서 표 만들기</title><link href="http://localhost:4000/research/markdown-table/" rel="alternate" type="text/html" title="마크다운에서 표 만들기" /><published>2024-10-05T00:00:00+09:00</published><updated>2024-10-05T00:00:00+09:00</updated><id>http://localhost:4000/research/markdown-table</id><content type="html" xml:base="http://localhost:4000/research/markdown-table/"><![CDATA[<table>
   <thead>
     <tr>
       <th style="text-align: left">제목</th>

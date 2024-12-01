@@ -6,8 +6,8 @@ var store = [{
         "teaser": "/assets/images/posts_img/semiconductor/main.jpg"
       },{
         "title": "macOS 콘셉트의 자기PR 페이지",
-        "excerpt":"📝 프로젝트 개요 ~macOS 콘셉트의 자기PR 페이지                  프로젝트 목적       웹퍼블리싱 교과목 기말 프로젝트                 기간       2023.11 ~ 2023.12                 인원       개인                 관련 링크       https://hwijaekim.github.io/unionpt.github.io          ","categories": ["Projects","Code"],
-        "tags": ["front-end","html/css/js"],
+        "excerpt":"📝 프로젝트 개요 ~macOS 콘셉트의 자기PR 페이지 프로젝트 목적 웹퍼블리싱 교과목 기말 프로젝트 기간 2023.11 ~ 2023.12 인원 개인 관련 링크 https://hwijaekim.github.io/unionpt.github.io 🔑 핵심 기술 요약 HTML과 CSS 기초를 배운 후 이를 이용하여 최초로 제작한 웹 사이트 GitHub 가입과 리포지토리 생성 방법을 숙지한 후 처음으로 배포 기초CSS를 응용하고 리서치 하여...","categories": ["Projects","Code"],
+        "tags": ["front-end","html/css"],
         "url": "/projects/code/web-publishing-final/",
         "teaser": "/assets/images/posts_img/pr/teaser.png"
       },{
@@ -49,7 +49,7 @@ var store = [{
       },{
         "title": "계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]",
         "excerpt":"📝 프로젝트 개요 ~잇토피아 프로젝트 목적 유아기 아이들의 식습관 문제 개선을 위한 XR 글래스 콘텐츠 기간 2024.09 ~ 2024.11 인원 기획2, 디자인3, 개발1 담당분야 서비스 영상 촬영 및 웹 사이트 구현 관련 링크 https://hwijaekim.github.io/eatopia2024 🔑 핵심 기술 요약 Vanilla JavaScript에 기반한 Observer 적극 활용으로 스크롤 시 keyframe애니메이션 구현 CSS 가상클래스...","categories": ["Projects","Code"],
-        "tags": ["front-end","html/css/js","졸업작품"],
+        "tags": ["front-end","html/css/js","figma","졸업작품"],
         "url": "/projects/code/eatopia/",
         "teaser": "/assets/images/posts_img/eatopia/test.png"
       },{
