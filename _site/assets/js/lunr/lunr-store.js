@@ -12,7 +12,7 @@ var store = [{
         "teaser": "/assets/images/posts_img/pr/teaser.png"
       },{
         "title": "제 30회 커뮤니케이션디자인국제공모전 동상 수상작 [청사진]",
-        "excerpt":"📝 프로젝트 개요 ~청사진 프로젝트 목적 학교 밖 청소년들의 미래를 준비하기 위한 솔루션 기간 2024.03 ~ 2024.06 인원 기획1, 디자인1, 개발1 담당분야 팀장 및 서비스 비디오 촬영, 웹 콘텐츠 소스 제작 및 HTML/CSS/JS를 이용한 웹 제작 및 GitHub 배포 관련 링크 https://hwijaekim.github.io/blueprint2024 🔑 핵심 기술 요약 처음으로 시도한 HTML레벨에서 웹표준을...","categories": ["Projects","Code"],
+        "excerpt":"📝 프로젝트 개요 ~청사진 프로젝트 목적 학교 밖 청소년들의 미래를 준비하기 위한 솔루션 기간 2024.03 ~ 2024.06 인원 기획1, 디자인1, 개발1 담당분야 팀장 및 서비스 비디오 촬영, 웹 콘텐츠 소스 제작 및 HTML/CSS/JS를 이용한 웹 제작 및 GitHub 배포 관련 링크 https://hwijaekim.github.io/blueprint2024 🔑 핵심 기술 요약 HTML/CSS/JS 세 가지를 이용하여...","categories": ["Projects","Code"],
         "tags": ["front-end","html/css/js","공모전"],
         "url": "/projects/code/blueprint/",
         "teaser": "/assets/images/posts_img/blueprint/blueprint.png"
@@ -47,7 +47,7 @@ var store = [{
         "url": "/research/markdown-table/",
         "teaser": "/assets/images/profile.jpg"
       },{
-        "title": "계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작 [잇토피아]",
+        "title": "계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]",
         "excerpt":"📝 프로젝트 개요 ~잇토피아 프로젝트 목적 유아기 아이들의 식습관 문제 개선을 위한 XR 글래스 콘텐츠 기간 2024.09 ~ 2024.11 인원 기획2, 디자인3, 개발1 담당분야 서비스 영상 촬영 및 웹 사이트 구현 관련 링크 https://hwijaekim.github.io/eatopia2024 🔑 핵심 기술 요약 Vanilla JavaScript에 기반한 Observer 적극 활용으로 스크롤 시 keyframe애니메이션 구현 CSS 가상클래스...","categories": ["Projects","Code"],
         "tags": ["front-end","html/css/js","졸업작품"],
         "url": "/projects/code/eatopia/",

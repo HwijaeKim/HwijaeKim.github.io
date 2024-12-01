@@ -585,6 +585,9 @@ a {
     color: #eaeaea;
   }
 }
+.page__taxonomy-item-category:visited {
+  color: #eaeaea;
+}
 
   .page__taxonomy-item-tag {
     display: inside;
@@ -600,11 +603,11 @@ a {
     // border-radius: $border-radius;
     border-radius: 50px;
 
-  &:hover {
-    text-decoration: none;
-    background-color: rgb(255, 255, 255); /* 커서 댈 때 색깔 */
-    color: #eaeaea;
-  }
+  // &:hover {
+  //   text-decoration: none;
+  //   background-color: rgb(255, 255, 255); /* 커서 댈 때 색깔 */
+  //   color: #eaeaea;
+  // }
 }
 
 @media screen and (max-width: 599px) {
