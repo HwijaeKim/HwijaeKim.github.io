@@ -78,18 +78,28 @@ HTML로부터 시작된 웹 개발에 대한 호기심과 집념은 끝내 풀�
 
 
 
-## <span style="color: #434C5D">Insight Keywords</span>
-#성실함, #집념, #기록보관
+[//]: # (## <span style="color: #434C5D">Insight Keywords</span>)
 
-## <span style="color: #434C5D">Color System</span>
-<b>주제색</b>   
-<span style="background: #434C5D; color: #fff; padding: 2px 10px;">#434C5D</span>   
-<b>강조색</b>   
-<span style="background: #F76612; color: #fff; padding: 2px 10px;">#F76612</span>  
-<b>배경색</b>   
-#FFFFFF   
-<b>보조색</b>   
-<span style="background: #626262; color: #fff; padding: 2px 10px;">#626262</span>  
+[//]: # (#성실함, #집념, #기록보관)
+
+[//]: # ()
+[//]: # (## <span style="color: #434C5D">Color System</span>)
+
+[//]: # (<b>주제색</b>   )
+
+[//]: # (<span style="background: #434C5D; color: #fff; padding: 2px 10px;">#434C5D</span>   )
+
+[//]: # (<b>강조색</b>   )
+
+[//]: # (<span style="background: #F76612; color: #fff; padding: 2px 10px;">#F76612</span>  )
+
+[//]: # (<b>배경색</b>   )
+
+[//]: # (#FFFFFF   )
+
+[//]: # (<b>보조색</b>   )
+
+[//]: # (<span style="background: #626262; color: #fff; padding: 2px 10px;">#626262</span>  )
 
 
 <br>
