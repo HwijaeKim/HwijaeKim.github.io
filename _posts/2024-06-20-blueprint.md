@@ -8,6 +8,7 @@ categories:
 tags:
   - front-end
   - html/css/js
+  - figma
   - 공모전
   
 toc: true
@@ -15,15 +16,15 @@ toc_sticky: true
 toc_label: "청사진"
 ---
 <br>
-# 📝 프로젝트 개요 ~청사진
+# 📝 학교 밖 청소년들의 미래를 준비하기 위한 솔루션
 
-| **프로젝트 목적**    | 학교 밖 청소년들의 미래를 준비하기 위한 솔루션                                                                            |
-| **기간**    | 2024.03 ~ 2024.06                                                                                      |
-| **인원**    | 기획1, 디자인1, 개발1                                                                                         |
+| **기간**    | 2024.03 ~ 2024.06 (2-1학기)                                                                                     |
+| **인원**    | 기획1, 디자인1, **개발1**                                                                                         |
 | **담당분야**  | 팀장 및 서비스 비디오 촬영,<br>웹 콘텐츠 소스 제작 및 HTML/CSS/JS를 이용한 웹 제작 및 GitHub 배포                                    |
 | **관련 링크** | <a href="https://hwijaekim.github.io/blueprint2024" target="_blank">https://hwijaekim.github.io/blueprint2024</a> |
 
    <br><br>
+
 
 # 🔑 핵심 기술 요약
 - HTML/CSS/JS 세 가지를 이용하여 처음으로 제작한 웹 사이트 <br>
@@ -32,3 +33,6 @@ toc_label: "청사진"
 
 <br><br>
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Lnxbw6FSc_I?si=LyU-lvSpD1P7YVNH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<br><br>

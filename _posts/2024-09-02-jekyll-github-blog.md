@@ -10,14 +10,14 @@ tags:
   - github
 toc: true
 toc_sticky: true
-toc_label: "청사진"
+toc_label: "Jekyll GitHub블로그"
 ---
 <br>
-# 📝 프로젝트 개요 ~Jekyll Blog
+# 📝 포트폴리오 제작 플렛폼으로 선정한 Jekyll GitHub블로그
 
-| **프로젝트 목적**    | 포트폴리오 페이지                                                                            |
 | **기간**    | 2024.09 ~                                                                                       |
 | **인원**    | 개인                                                                                         |
+| **담당분야**  | macOS, Windows 환경에서 Jekyll 환경 구축 및 테마 커스텀과 콘텐츠 삽입                                   |
 | **관련 링크** | <a href="https://hwijaekim.github.io" target="_blank">https://hwijaekim.github.io</a> |
 
    <br><br>

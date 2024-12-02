@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-02T03:32:00+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-02T15:34:10+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
 
 <h1 id="기본-사용">기본 사용</h1>
 <h2 id="리포지토리-클론">리포지토리 클론</h2>
@@ -13,15 +13,11 @@
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add <span class="nb">.</span>
 git commit <span class="nt">-m</span> <span class="s1">'커밋메시지'</span>
 git push
-</code></pre></div></div>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="git" /><summary type="html"><![CDATA[기본 사용 리포지토리 클론 git clone &lt;리포지토리 URL&gt;]]></summary></entry><entry><title type="html">JavaScript기반의 나의 일대기를 담은 웹 상호작용 페이지</title><link href="http://localhost:4000/projects/code/web-interaction-final/" rel="alternate" type="text/html" title="JavaScript기반의 나의 일대기를 담은 웹 상호작용 페이지" /><published>2024-11-20T00:00:00+09:00</published><updated>2024-11-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/web-interaction-final</id><content type="html" xml:base="http://localhost:4000/projects/code/web-interaction-final/"><![CDATA[]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">MongoDB를 이용한 express서버 제작</title><link href="http://localhost:4000/projects/code/mongodb-express-server/" rel="alternate" type="text/html" title="MongoDB를 이용한 express서버 제작" /><published>2024-11-20T00:00:00+09:00</published><updated>2024-11-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/mongodb-express-server</id><content type="html" xml:base="http://localhost:4000/projects/code/mongodb-express-server/"><![CDATA[]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="back-end" /><category term="node.js" /><category term="mongodb" /><category term="npm" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]</title><link href="http://localhost:4000/projects/code/eatopia/" rel="alternate" type="text/html" title="계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]" /><published>2024-11-11T00:00:00+09:00</published><updated>2024-11-11T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/eatopia</id><content type="html" xml:base="http://localhost:4000/projects/code/eatopia/"><![CDATA[<p><br /></p>
-<h1 id="-프로젝트-개요-잇토피아">📝 프로젝트 개요 ~잇토피아</h1>
+</code></pre></div></div>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="git" /><summary type="html"><![CDATA[기본 사용 리포지토리 클론 git clone &lt;리포지토리 URL&gt;]]></summary></entry><entry><title type="html">MongoDB를 이용한 express서버 제작</title><link href="http://localhost:4000/projects/code/mongodb-express-server/" rel="alternate" type="text/html" title="MongoDB를 이용한 express서버 제작" /><published>2024-11-20T00:00:00+09:00</published><updated>2024-11-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/mongodb-express-server</id><content type="html" xml:base="http://localhost:4000/projects/code/mongodb-express-server/"><![CDATA[]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="back-end" /><category term="node.js" /><category term="mongodb" /><category term="npm" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">JavaScript기반의 나의 일대기를 담은 웹 상호작용 페이지</title><link href="http://localhost:4000/projects/code/web-interaction-final/" rel="alternate" type="text/html" title="JavaScript기반의 나의 일대기를 담은 웹 상호작용 페이지" /><published>2024-11-20T00:00:00+09:00</published><updated>2024-11-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/web-interaction-final</id><content type="html" xml:base="http://localhost:4000/projects/code/web-interaction-final/"><![CDATA[]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]</title><link href="http://localhost:4000/projects/code/eatopia/" rel="alternate" type="text/html" title="계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]" /><published>2024-11-11T00:00:00+09:00</published><updated>2024-11-11T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/eatopia</id><content type="html" xml:base="http://localhost:4000/projects/code/eatopia/"><![CDATA[<p><br /></p>
+<h1 id="-유아기-아이들의-식습관-문제-개선을-위한-xr글래스-콘텐츠">📝 유아기 아이들의 식습관 문제 개선을 위한 XR글래스 콘텐츠</h1>
 
 <table>
   <tbody>
-    <tr>
-      <td><strong>프로젝트 목적</strong></td>
-      <td>유아기 아이들의 식습관 문제 개선을 위한 XR 글래스 콘텐츠</td>
-    </tr>
     <tr>
       <td><strong>기간</strong></td>
       <td>2024.09 ~ 2024.11</td>
@@ -54,9 +50,7 @@ git push
 
 <p><br /><br /></p>
 
-<video controls="" width="100%">
-  <source src="/assets/images/posts_img/eatopia/eatopia.webm" type="video/webm" />
-</video>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GXoRwVcUX-Q?si=eMEHC841TNv-l3lc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
 
 <p><br /><br /></p>
 
@@ -180,7 +174,7 @@ git push
       </li>
     </ul>
   </li>
-</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><category term="figma" /><category term="졸업작품" /><summary type="html"><![CDATA[📝 프로젝트 개요 ~잇토피아]]></summary></entry><entry><title type="html">마크다운에서 표 만들기</title><link href="http://localhost:4000/research/markdown-table/" rel="alternate" type="text/html" title="마크다운에서 표 만들기" /><published>2024-10-05T00:00:00+09:00</published><updated>2024-10-05T00:00:00+09:00</updated><id>http://localhost:4000/research/markdown-table</id><content type="html" xml:base="http://localhost:4000/research/markdown-table/"><![CDATA[<table>
+</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><category term="figma" /><category term="졸업작품" /><summary type="html"><![CDATA[📝 유아기 아이들의 식습관 문제 개선을 위한 XR글래스 콘텐츠]]></summary></entry><entry><title type="html">마크다운에서 표 만들기</title><link href="http://localhost:4000/research/markdown-table/" rel="alternate" type="text/html" title="마크다운에서 표 만들기" /><published>2024-10-05T00:00:00+09:00</published><updated>2024-10-05T00:00:00+09:00</updated><id>http://localhost:4000/research/markdown-table</id><content type="html" xml:base="http://localhost:4000/research/markdown-table/"><![CDATA[<table>
   <thead>
     <tr>
       <th style="text-align: left">제목</th>
@@ -366,30 +360,7 @@ git push
       <td>자격/면혀</td>
     </tr>
   </tbody>
-</table>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="markdown" /><category term="table" /><summary type="html"><![CDATA[제목 내용 설명 테스트1 동해물과백두산이마르고닳도록 테스트3]]></summary></entry><entry><title type="html">안녕하세요</title><link href="http://localhost:4000/research/hello/" rel="alternate" type="text/html" title="안녕하세요" /><published>2024-10-01T00:00:00+09:00</published><updated>2024-10-01T00:00:00+09:00</updated><id>http://localhost:4000/research/hello</id><content type="html" xml:base="http://localhost:4000/research/hello/"><![CDATA[<p>Jekyll을 이용하여 Github Pages를 만들었습니다. <br />
-아직 시험단계로 보완할 부분이 많습니다.</p>
-
-<p><b>키워드<b> <br />
-성실한, 신뢰감 있는, 창의적인</b></b></p>
-
-<p><br /><br /></p>
-
-<p>이력서 폼(초안) <br />
-<a href="https://docs.google.com/spreadsheets/d/16iekyjOCZ4u5HfsAWDzgVfGrRHkdvQHLVTnzvRlXRsc/edit?gid=0#gid=0">구글시트</a></p>
-
-<p><br /><br /></p>
-
-<p>Instagram: <a href="https://instagram.com/hwijae_portfolio">@hwijaekim_portfolio</a> <br />
-Behance: <a href="https://www.behance.net/hwijaekim">HwijaeKim</a> <br />
-LinkedIn: <a href="https://www.linkedin.com/in/hwijaekim/">HwijaeKim</a> <br />
-Github: <a href="https://github.com/HwijaeKim">HwijaeKim</a> <br /></p>
-
-<p><br /><br /></p>
-
-<p>—제작한 페이지— <br />
-<a href="https://hwijaekim.github.io/nocssclub_minigame">No CSS Club MiniGame</a> <br />
-<a href="https://hwijaekim.github.io/blueprint2024">청사진(공모전)</a> <br />
-<a href="https://hwijaekim.github.io/unionpt.github.io">자기PR페이지(교내)</a></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="update" /><summary type="html"><![CDATA[Jekyll을 이용하여 Github Pages를 만들었습니다. 아직 시험단계로 보완할 부분이 많습니다.]]></summary></entry><entry><title type="html">Apple Silicon에서의 Jekyll 오류 발생 해결</title><link href="http://localhost:4000/research/apple-silicon-jekyll-error/" rel="alternate" type="text/html" title="Apple Silicon에서의 Jekyll 오류 발생 해결" /><published>2024-10-01T00:00:00+09:00</published><updated>2024-10-01T00:00:00+09:00</updated><id>http://localhost:4000/research/apple-silicon-jekyll-error</id><content type="html" xml:base="http://localhost:4000/research/apple-silicon-jekyll-error/"><![CDATA[<h1 id="chat-gpt">Chat GPT</h1>
+</table>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="markdown" /><category term="table" /><summary type="html"><![CDATA[제목 내용 설명 테스트1 동해물과백두산이마르고닳도록 테스트3]]></summary></entry><entry><title type="html">Apple Silicon에서의 Jekyll 오류 발생 해결</title><link href="http://localhost:4000/research/apple-silicon-jekyll-error/" rel="alternate" type="text/html" title="Apple Silicon에서의 Jekyll 오류 발생 해결" /><published>2024-10-01T00:00:00+09:00</published><updated>2024-10-01T00:00:00+09:00</updated><id>http://localhost:4000/research/apple-silicon-jekyll-error</id><content type="html" xml:base="http://localhost:4000/research/apple-silicon-jekyll-error/"><![CDATA[<h1 id="chat-gpt">Chat GPT</h1>
 
 <p><sub><em>프롬프트</em></sub></p>
 <blockquote>
@@ -434,15 +405,34 @@ eval $(/opt/homebrew/bin/brew shellenv)
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s1">'eventmachine'</span><span class="p">,</span> <span class="s1">'1.2.5'</span>
 </code></pre></div></div>
 <p>기본적으로 <code class="language-plaintext highlighter-rouge">eventmachine(1.2.7)</code> 설치 도중 오류가 발생한 것이며 1.2.5로 버전을 한 단계 낮춰 설치하도록 코드를 수정하여 문제를 해결했다. <br />
-완벽한 해결책은 아니지만 작동에는 문제가 없어 보이며 추후 Apple Silicon Mac에서 1.2.7버전 설치를 시도해볼 것이다.</p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="jekyll" /><category term="macos" /><category term="apple silicon" /><summary type="html"><![CDATA[Chat GPT]]></summary></entry><entry><title type="html">Jekyll 기반의 GitHub블로그 제작</title><link href="http://localhost:4000/projects/code/jekyll-github-blog/" rel="alternate" type="text/html" title="Jekyll 기반의 GitHub블로그 제작" /><published>2024-09-02T00:00:00+09:00</published><updated>2024-09-02T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/jekyll-github-blog</id><content type="html" xml:base="http://localhost:4000/projects/code/jekyll-github-blog/"><![CDATA[<p><br /></p>
-<h1 id="-프로젝트-개요-jekyll-blog">📝 프로젝트 개요 ~Jekyll Blog</h1>
+완벽한 해결책은 아니지만 작동에는 문제가 없어 보이며 추후 Apple Silicon Mac에서 1.2.7버전 설치를 시도해볼 것이다.</p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="jekyll" /><category term="macos" /><category term="apple silicon" /><summary type="html"><![CDATA[Chat GPT]]></summary></entry><entry><title type="html">안녕하세요</title><link href="http://localhost:4000/research/hello/" rel="alternate" type="text/html" title="안녕하세요" /><published>2024-10-01T00:00:00+09:00</published><updated>2024-10-01T00:00:00+09:00</updated><id>http://localhost:4000/research/hello</id><content type="html" xml:base="http://localhost:4000/research/hello/"><![CDATA[<p>Jekyll을 이용하여 Github Pages를 만들었습니다. <br />
+아직 시험단계로 보완할 부분이 많습니다.</p>
+
+<p><b>키워드<b> <br />
+성실한, 신뢰감 있는, 창의적인</b></b></p>
+
+<p><br /><br /></p>
+
+<p>이력서 폼(초안) <br />
+<a href="https://docs.google.com/spreadsheets/d/16iekyjOCZ4u5HfsAWDzgVfGrRHkdvQHLVTnzvRlXRsc/edit?gid=0#gid=0">구글시트</a></p>
+
+<p><br /><br /></p>
+
+<p>Instagram: <a href="https://instagram.com/hwijae_portfolio">@hwijaekim_portfolio</a> <br />
+Behance: <a href="https://www.behance.net/hwijaekim">HwijaeKim</a> <br />
+LinkedIn: <a href="https://www.linkedin.com/in/hwijaekim/">HwijaeKim</a> <br />
+Github: <a href="https://github.com/HwijaeKim">HwijaeKim</a> <br /></p>
+
+<p><br /><br /></p>
+
+<p>—제작한 페이지— <br />
+<a href="https://hwijaekim.github.io/nocssclub_minigame">No CSS Club MiniGame</a> <br />
+<a href="https://hwijaekim.github.io/blueprint2024">청사진(공모전)</a> <br />
+<a href="https://hwijaekim.github.io/unionpt.github.io">자기PR페이지(교내)</a></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="update" /><summary type="html"><![CDATA[Jekyll을 이용하여 Github Pages를 만들었습니다. 아직 시험단계로 보완할 부분이 많습니다.]]></summary></entry><entry><title type="html">Jekyll 기반의 GitHub블로그 제작</title><link href="http://localhost:4000/projects/code/jekyll-github-blog/" rel="alternate" type="text/html" title="Jekyll 기반의 GitHub블로그 제작" /><published>2024-09-02T00:00:00+09:00</published><updated>2024-09-02T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/jekyll-github-blog</id><content type="html" xml:base="http://localhost:4000/projects/code/jekyll-github-blog/"><![CDATA[<p><br /></p>
+<h1 id="-포트폴리오-제작-플렛폼으로-선정한-jekyll-github블로그">📝 포트폴리오 제작 플렛폼으로 선정한 Jekyll GitHub블로그</h1>
 
 <table>
   <tbody>
-    <tr>
-      <td><strong>프로젝트 목적</strong></td>
-      <td>포트폴리오 페이지</td>
-    </tr>
     <tr>
       <td><strong>기간</strong></td>
       <td>2024.09 ~</td>
@@ -450,6 +440,10 @@ eval $(/opt/homebrew/bin/brew shellenv)
     <tr>
       <td><strong>인원</strong></td>
       <td>개인</td>
+    </tr>
+    <tr>
+      <td><strong>담당분야</strong></td>
+      <td>macOS, Windows 환경에서 Jekyll 환경 구축 및 테마 커스텀과 콘텐츠 삽입</td>
     </tr>
     <tr>
       <td><strong>관련 링크</strong></td>
@@ -467,53 +461,18 @@ eval $(/opt/homebrew/bin/brew shellenv)
   <li><code class="language-plaintext highlighter-rouge">Typeit.js</code> 외부 라이브러리를 사용하여 타이핑 애니메이션 구현.</li>
 </ul>
 
-<p><br /><br /></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="jekyll" /><category term="github" /><summary type="html"><![CDATA[📝 프로젝트 개요 ~Jekyll Blog]]></summary></entry><entry><title type="html">No CSS Club 미니게임</title><link href="http://localhost:4000/projects/code/no-css-club-minigame/" rel="alternate" type="text/html" title="No CSS Club 미니게임" /><published>2024-06-20T00:00:00+09:00</published><updated>2024-06-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/no-css-club-minigame</id><content type="html" xml:base="http://localhost:4000/projects/code/no-css-club-minigame/"><![CDATA[<h1 id="-프로젝트-개요-no-css-club-미니게임">📝 프로젝트 개요 ~No CSS Club 미니게임</h1>
+<p><br /><br /></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="jekyll" /><category term="github" /><summary type="html"><![CDATA[📝 포트폴리오 제작 플렛폼으로 선정한 Jekyll GitHub블로그]]></summary></entry><entry><title type="html">제 30회 커뮤니케이션디자인국제공모전 동상 수상작 [청사진]</title><link href="http://localhost:4000/projects/code/blueprint/" rel="alternate" type="text/html" title="제 30회 커뮤니케이션디자인국제공모전 동상 수상작 [청사진]" /><published>2024-06-20T00:00:00+09:00</published><updated>2024-06-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/blueprint</id><content type="html" xml:base="http://localhost:4000/projects/code/blueprint/"><![CDATA[<p><br /></p>
+<h1 id="-학교-밖-청소년들의-미래를-준비하기-위한-솔루션">📝 학교 밖 청소년들의 미래를 준비하기 위한 솔루션</h1>
 
 <table>
   <tbody>
     <tr>
-      <td><strong>프로젝트 목적</strong></td>
-      <td>자바스크립트프로그래밍 교과목 기말 프로젝트 프로젝트</td>
-    </tr>
-    <tr>
       <td><strong>기간</strong></td>
-      <td>2023.10 ~ 2023.12</td>
+      <td>2024.03 ~ 2024.06 (2-1학기)</td>
     </tr>
     <tr>
       <td><strong>인원</strong></td>
-      <td>개인</td>
-    </tr>
-    <tr>
-      <td><strong>관련 링크</strong></td>
-      <td><a href="https://hwijaekim.github.io/nocssclub_minigame" target="_blank">https://hwijaekim.github.io/nocssclub_minigame</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<p><br /><br /></p>
-
-<h1 id="-핵심-기술-요약">🔑 핵심 기술 요약</h1>
-<ul>
-  <li>CSS만을 사용하여 구현한 Windows 95~ME 스타일의 UI</li>
-  <li><code class="language-plaintext highlighter-rouge">Vanilla JavaScript</code>로 카운트, 남은 시간, 인게임 진행 등 프로그래밍 구현</li>
-  <li><code class="language-plaintext highlighter-rouge">localStorage</code>기능으로 사용자명을 로컬에 저장해 페이지가 전환되어도 호출할 수 있도록 프로그래밍</li>
-  <li></li>
-</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><category term="game" /><summary type="html"><![CDATA[📝 프로젝트 개요 ~No CSS Club 미니게임]]></summary></entry><entry><title type="html">제 30회 커뮤니케이션디자인국제공모전 동상 수상작 [청사진]</title><link href="http://localhost:4000/projects/code/blueprint/" rel="alternate" type="text/html" title="제 30회 커뮤니케이션디자인국제공모전 동상 수상작 [청사진]" /><published>2024-06-20T00:00:00+09:00</published><updated>2024-06-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/blueprint</id><content type="html" xml:base="http://localhost:4000/projects/code/blueprint/"><![CDATA[<p><br /></p>
-<h1 id="-프로젝트-개요-청사진">📝 프로젝트 개요 ~청사진</h1>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>프로젝트 목적</strong></td>
-      <td>학교 밖 청소년들의 미래를 준비하기 위한 솔루션</td>
-    </tr>
-    <tr>
-      <td><strong>기간</strong></td>
-      <td>2024.03 ~ 2024.06</td>
-    </tr>
-    <tr>
-      <td><strong>인원</strong></td>
-      <td>기획1, 디자인1, 개발1</td>
+      <td>기획1, 디자인1, <strong>개발1</strong></td>
     </tr>
     <tr>
       <td><strong>담당분야</strong></td>
@@ -535,4 +494,52 @@ eval $(/opt/homebrew/bin/brew shellenv)
   <li><code class="language-plaintext highlighter-rouge">Typeit.js</code> 외부 라이브러리를 사용하여 타이핑 애니메이션 구현.</li>
 </ul>
 
-<p><br /><br /></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><category term="공모전" /><summary type="html"><![CDATA[📝 프로젝트 개요 ~청사진]]></summary></entry></feed>
+<p><br /><br /></p>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Lnxbw6FSc_I?si=LyU-lvSpD1P7YVNH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p><br /><br /></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><category term="figma" /><category term="공모전" /><summary type="html"><![CDATA[📝 학교 밖 청소년들의 미래를 준비하기 위한 솔루션]]></summary></entry><entry><title type="html">자바스크립트프로그래밍 교과목 기말 프로젝트 [No CSS Club 미니게임]</title><link href="http://localhost:4000/projects/code/no-css-club-minigame/" rel="alternate" type="text/html" title="자바스크립트프로그래밍 교과목 기말 프로젝트 [No CSS Club 미니게임]" /><published>2024-06-20T00:00:00+09:00</published><updated>2024-06-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/no-css-club-minigame</id><content type="html" xml:base="http://localhost:4000/projects/code/no-css-club-minigame/"><![CDATA[<h1 id="-no-css-club에-가입하기-위해-마우스-클릭으로-제한시간-내-모든-css-클래스를-제거하는-미니게임">📝 No CSS Club에 가입하기 위해 마우스 클릭으로 제한시간 내 모든 CSS 클래스를 제거하는 미니게임</h1>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>기간</strong></td>
+      <td>2023.10 ~ 2023.12 (2-1학기)</td>
+    </tr>
+    <tr>
+      <td><strong>인원</strong></td>
+      <td>개인</td>
+    </tr>
+    <tr>
+      <td><strong>담당분야</strong></td>
+      <td>게임 콘텐츠, 웹UI 디자인 구축 및 기능 구현</td>
+    </tr>
+    <tr>
+      <td><strong>관련 링크</strong></td>
+      <td><a href="https://hwijaekim.github.io/nocssclub_minigame" target="_blank">https://hwijaekim.github.io/nocssclub_minigame</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /><br /></p>
+
+<h1 id="-핵심-기술-요약">🔑 핵심 기술 요약</h1>
+<ul>
+  <li>CSS만을 사용하여 구현한 Windows 95~ME 스타일의 UI</li>
+  <li><code class="language-plaintext highlighter-rouge">Vanilla JavaScript</code>로 카운트, 남은 시간, 인게임 진행 등 프로그래밍 구현</li>
+  <li><code class="language-plaintext highlighter-rouge">localStorage</code>기능으로 사용자명을 로컬에 저장해 페이지가 전환되어도 호출할 수 있도록 프로그래밍</li>
+  <li>CSS에서 마우스 커서 커스텀</li>
+  <li><code class="language-plaintext highlighter-rouge">JavaScript</code>에서 <code class="language-plaintext highlighter-rouge">setTimeout</code>, <code class="language-plaintext highlighter-rouge">setInterval</code> 지연실행, 초 단위 카운트 기능을 구현</li>
+</ul>
+
+<p><br /><br /></p>
+
+<p>video</p>
+
+<p><br /></p>
+
+<p><img src="/assets/images/posts_img/nocssclub/1.png" alt="1" />
+<img src="/assets/images/posts_img/nocssclub/2.png" alt="2" />
+<img src="/assets/images/posts_img/nocssclub/3.png" alt="3" />
+<img src="/assets/images/posts_img/nocssclub/4.png" alt="4" />
+<img src="/assets/images/posts_img/nocssclub/5.png" alt="5" /></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><category term="game" /><summary type="html"><![CDATA[📝 No CSS Club에 가입하기 위해 마우스 클릭으로 제한시간 내 모든 CSS 클래스를 제거하는 미니게임]]></summary></entry></feed>
