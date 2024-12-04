@@ -24,7 +24,7 @@ var store = [{
         "teaser": "/assets/images/posts_img/nocssclub/teaser.png"
       },{
         "title": "Jekyll 기반의 GitHub블로그 제작",
-        "excerpt":"   📝 포트폴리오 제작 플렛폼으로 선정한 Jekyll GitHub블로그                  기간       2024.09 ~                 인원       개인                 담당분야       macOS, Windows 환경에서 Jekyll 환경 구축 및 테마 커스텀과 콘텐츠 삽입                 관련 링크       https://hwijaekim.github.io                🔑 핵심 기술 요약     Jekyll을 설치하고 환경을 구축, 전체적인 워크플로우 숙지   Markdown 문법 숙지   GitHub 버전관리 시작           ","categories": ["Projects","Code"],
+        "excerpt":"   📝 포트폴리오 제작 플렛폼으로 선정한 Jekyll GitHub블로그                  기간       2024.09 ~                 인원       개인                 담당분야       macOS, Windows 환경에서 Jekyll 환경 구축 및 테마 커스텀과 콘텐츠 삽입                 관련 링크       https://hwijaekim.github.io                🔑 핵심 기술 요약     Jekyll을 설치하고 환경을 구축, 전체적인 워크플로우 숙지   Markdown 문법 숙지   GitHub 버전관리 시작           video        ","categories": ["Projects","Code"],
         "tags": ["jekyll","github"],
         "url": "/projects/code/jekyll-github-blog/",
         "teaser": "/assets/images/posts_img/jekyll/teaser.png"
@@ -59,11 +59,11 @@ var store = [{
         "url": "/projects/code/mongodb-express-server/",
         "teaser": "/assets/images/posts_img/ready.png"
       },{
-        "title": "JavaScript기반의 나의 일대기를 담은 웹 상호작용 페이지",
-        "excerpt":" ","categories": ["Projects","Code"],
+        "title": "웹인터랙션프로그래밍 교과목 프로젝트 [My Origin Wizard]",
+        "excerpt":"📝 나의 일대기 9가지 페이지를 JavaScript 기반의 상호작용 사이트로 제작 기간 2024.09 ~ 2024.12 (2-2학기) 인원 개인 담당분야 사이트 콘셉트 수립, 9개 콘텐츠 기획 및 기능구현 관련 링크 https://hwijaekim.github.io/my-origin-wizard 🔑 핵심 기술 요약 display: flex;, flex-flow: row wrap; 스타일 적용으로 윈도우 크기변화에 따른 적절한 아이콘 배치 JQuery UI 사용으로 index.html에서...","categories": ["Projects","Code"],
         "tags": ["front-end","html/css/js"],
         "url": "/projects/code/web-interaction-final/",
-        "teaser": "/assets/images/posts_img/ready.png"
+        "teaser": "/assets/images/posts_img/web-interaction-final/teaser.png"
       },{
         "title": "Git 사용",
         "excerpt":"    기본 사용  리포지토리 클론  git clone &lt;리포지토리 URL&gt;   최신 상태로 업데이트  git pull origin &lt;브렌치 이름&gt;   커밋 및 푸시  git add . git commit -m '커밋메시지' git push  ","categories": ["Research"],
