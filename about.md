@@ -176,9 +176,10 @@ HTML로부터 시작된 웹 개발에 대한 호기심과 집념은 끝내 풀�
 - **Vanilla JavaScript** <img class="ico" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
     - <span style="color: #F76612">능숙한 운용,</span> 기본 문법에 대한 이해, 동적 웹 페이지 구현, Typeit 라이브러리 운용 가능
 
+- **Markdown**  <img class="ico" src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white">
+  - <span style="color: #F76612">운용 가능,</span> 여러 문법을 이용하여 텍스트를 작성할 수 있으며 이미지, 테이블, 코드 등을 작성
+  - Markdownr기반의 메모 플랫폼 Obsidian에서 활용
 
-- **Node.js** <img class="ico" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
-    - <span style="color: #F76612">기초 운용,</span> MongoDB와 연결하여 서버를 만들고 스키마 모델을 만들어 데이터베이스 연동 가능
 
 
 
@@ -199,11 +200,14 @@ HTML로부터 시작된 웹 개발에 대한 호기심과 집념은 끝내 풀�
 - **Git** <img class="ico" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white">
     - 기초 운용, Github 리포지토리를 로컬 저장공간에 clone
     - 연결된 리포지토리에서 변경사항에 대하여 commit 및 push
+    - 여러 기기에서 리포지토리를 관리하기 위한 `git pull origin`
 
 
 <!-- - **Webpack** <img class="ico" src="https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black">
     - 운용 시도, Webpack을 이용한 개발환경을 구성하려 했으나 최종 단계에서 실패 -->
 
+- **Node.js** <img class="ico" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+  - <span style="color: #F76612">기초 운용,</span> MongoDB와 연결하여 서버를 만들고 스키마 모델을 만들어 데이터베이스 연동 가능
 
 - **npm** <img class="ico" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
     - <span style="color: #F76612">기초 운용,</span> npm 초기화 및 모듈 관리 경험

@@ -18,7 +18,7 @@ var store = [{
         "teaser": "/assets/images/posts_img/blueprint/teaser.png"
       },{
         "title": "자바스크립트프로그래밍 교과목 기말 프로젝트 [No CSS Club 미니게임]",
-        "excerpt":"📝 No CSS Club에 가입하기 위해 마우스 클릭으로 제한시간 내 모든 CSS 클래스를 제거하는 미니게임 기간 2023.10 ~ 2023.12 (2-1학기) 인원 개인 담당분야 게임 콘텐츠, 웹UI 디자인 구축 및 기능 구현 관련 링크 https://hwijaekim.github.io/nocssclub_minigame 🔑 핵심 기술 요약 CSS만을 사용하여 구현한 Windows 95~ME 스타일의 UI Vanilla JavaScript로 카운트, 남은 시간,...","categories": ["Projects","Code"],
+        "excerpt":"📝 No CSS Club에 가입하기 위해 마우스 클릭으로 제한시간 내 모든 CSS 클래스를 제거하는 미니게임 기간 2023.10 ~ 2023.12 (2-1학기) 인원 개인 담당분야 게임 콘텐츠, 웹UI 디자인 구축 및 기능 구현 관련 링크 레퍼런스 nocss.club 게임플레이 https://hwijaekim.github.io/nocssclub_minigame 🔑 핵심 기술 요약 CSS만을 사용하여 구현한 Windows 95~ME 스타일의 UI Vanilla JavaScript로...","categories": ["Projects","Code"],
         "tags": ["front-end","html/css/js","game"],
         "url": "/projects/code/no-css-club-minigame/",
         "teaser": "/assets/images/posts_img/nocssclub/teaser.png"
