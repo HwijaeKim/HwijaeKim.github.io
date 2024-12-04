@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-04T19:10:50+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-05T01:03:11+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
 
 <h1 id="기본-사용">기본 사용</h1>
 <h2 id="리포지토리-클론">리포지토리 클론</h2>
@@ -186,7 +186,7 @@ git push
       </li>
     </ul>
   </li>
-</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><category term="figma" /><category term="졸업작품" /><summary type="html"><![CDATA[📝 유아기 아이들의 식습관 문제 개선을 위한 XR글래스 콘텐츠]]></summary></entry><entry><title type="html">마크다운에서 표 만들기</title><link href="http://localhost:4000/research/markdown-table/" rel="alternate" type="text/html" title="마크다운에서 표 만들기" /><published>2024-10-05T00:00:00+09:00</published><updated>2024-10-05T00:00:00+09:00</updated><id>http://localhost:4000/research/markdown-table</id><content type="html" xml:base="http://localhost:4000/research/markdown-table/"><![CDATA[<table>
+</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><category term="figma" /><category term="졸업작품" /><summary type="html"><![CDATA[📝 유아기 아이들의 식습관 문제 개선을 위한 XR글래스 콘텐츠]]></summary></entry><entry><title type="html">Markdown에서 표 만들기</title><link href="http://localhost:4000/research/markdown-table/" rel="alternate" type="text/html" title="Markdown에서 표 만들기" /><published>2024-10-05T00:00:00+09:00</published><updated>2024-10-05T00:00:00+09:00</updated><id>http://localhost:4000/research/markdown-table</id><content type="html" xml:base="http://localhost:4000/research/markdown-table/"><![CDATA[<table>
   <thead>
     <tr>
       <th style="text-align: left">제목</th>
@@ -468,9 +468,10 @@ eval $(/opt/homebrew/bin/brew shellenv)
 
 <h1 id="-핵심-기술-요약">🔑 핵심 기술 요약</h1>
 <ul>
-  <li>처음으로 시도한 HTML레벨에서 웹표준을 준수하여 제작한 웹 사이트로 의미가 있는 프로젝트. <br /></li>
-  <li><code class="language-plaintext highlighter-rouge">Vanilla JavaScript</code>를 적극적으로 활용한 프로젝트이며 <code class="language-plaintext highlighter-rouge">Ovserver</code>를 이용하여 <code class="language-plaintext highlighter-rouge">Viewport</code>에 감지될 시 CSS <code class="language-plaintext highlighter-rouge">active</code>클래스를 토글하여 애니메이션을 구현. <br /></li>
-  <li><code class="language-plaintext highlighter-rouge">Typeit.js</code> 외부 라이브러리를 사용하여 타이핑 애니메이션 구현.</li>
+  <li>Jekyll을 설치하고 환경을 구축, 전체적인 워크플로우 숙지</li>
+  <li>Markdown 문법 숙지</li>
+  <li>GitHub 버전관리 시작</li>
+  <li></li>
 </ul>
 
 <p><br /><br /></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="jekyll" /><category term="github" /><summary type="html"><![CDATA[📝 포트폴리오 제작 플렛폼으로 선정한 Jekyll GitHub블로그]]></summary></entry><entry><title type="html">자바스크립트프로그래밍 교과목 기말 프로젝트 [No CSS Club 미니게임]</title><link href="http://localhost:4000/projects/code/no-css-club-minigame/" rel="alternate" type="text/html" title="자바스크립트프로그래밍 교과목 기말 프로젝트 [No CSS Club 미니게임]" /><published>2024-06-20T00:00:00+09:00</published><updated>2024-06-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/no-css-club-minigame</id><content type="html" xml:base="http://localhost:4000/projects/code/no-css-club-minigame/"><![CDATA[<style>
@@ -645,7 +646,15 @@ eval $(/opt/homebrew/bin/brew shellenv)
       <li>인게임에서 클릭 변수를 <code class="language-plaintext highlighter-rouge">querySelectorAll('div')</code>와 같이 <code class="language-plaintext highlighter-rouge">div</code>태그 전체를 선언하여 내부적으로 의도하지 않은 문제가 발생할 가능성이 높아짐</li>
     </ul>
   </li>
-</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><category term="game" /><summary type="html"><![CDATA[📝 No CSS Club에 가입하기 위해 마우스 클릭으로 제한시간 내 모든 CSS 클래스를 제거하는 미니게임]]></summary></entry><entry><title type="html">제 30회 커뮤니케이션디자인국제공모전 동상 수상작 [청사진]</title><link href="http://localhost:4000/projects/code/blueprint/" rel="alternate" type="text/html" title="제 30회 커뮤니케이션디자인국제공모전 동상 수상작 [청사진]" /><published>2024-06-20T00:00:00+09:00</published><updated>2024-06-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/blueprint</id><content type="html" xml:base="http://localhost:4000/projects/code/blueprint/"><![CDATA[<p><br /></p>
+</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><category term="game" /><summary type="html"><![CDATA[📝 No CSS Club에 가입하기 위해 마우스 클릭으로 제한시간 내 모든 CSS 클래스를 제거하는 미니게임]]></summary></entry><entry><title type="html">제 30회 커뮤니케이션디자인국제공모전 동상 수상작 [청사진]</title><link href="http://localhost:4000/projects/code/blueprint/" rel="alternate" type="text/html" title="제 30회 커뮤니케이션디자인국제공모전 동상 수상작 [청사진]" /><published>2024-06-20T00:00:00+09:00</published><updated>2024-06-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/blueprint</id><content type="html" xml:base="http://localhost:4000/projects/code/blueprint/"><![CDATA[<style>
+  .ico {
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 5px;
+  }
+</style>
+
+<p><br /></p>
 <h1 id="-학교-밖-청소년들의-미래를-준비하기-위한-솔루션">📝 학교 밖 청소년들의 미래를 준비하기 위한 솔루션</h1>
 
 <table>
@@ -674,6 +683,7 @@ eval $(/opt/homebrew/bin/brew shellenv)
 <h1 id="-핵심-기술-요약">🔑 핵심 기술 요약</h1>
 <ul>
   <li>HTML/CSS/JS 세 가지를 이용하여 처음으로 제작한 웹 사이트 <br /></li>
+  <li>웹 표준을 준수하여 제작</li>
   <li>Web Fonts를 적용하여 웹 사이트를 더욱 완성도 있게 배포</li>
   <li><code class="language-plaintext highlighter-rouge">Vanilla JavaScript</code>를 적극적으로 활용한 프로젝트이며 <code class="language-plaintext highlighter-rouge">Ovserver</code>를 이용하여 <code class="language-plaintext highlighter-rouge">Viewport</code>에 감지될 시 CSS <code class="language-plaintext highlighter-rouge">active</code>클래스를 토글하여 애니메이션을 구현. <br /></li>
   <li><code class="language-plaintext highlighter-rouge">Typeit.js</code> 외부 라이브러리를 사용하여 타이핑 애니메이션 구현.</li>
@@ -702,10 +712,93 @@ eval $(/opt/homebrew/bin/brew shellenv)
     <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://unpkg.com/typeit@8.7.1/dist/index.umd.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
     <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
 
-
     <span class="c">&lt;!--    WebFonts 선언--&gt;</span>
     <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">as=</span><span class="s">"style"</span> <span class="na">crossorigin</span> <span class="na">href=</span><span class="s">"https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"</span> <span class="nt">/&gt;</span>
     <span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">"https://cdn.jsdelivr.net/gh/sun-typeface/SUIT/fonts/static/woff2/SUIT.css"</span> <span class="na">rel=</span><span class="s">"stylesheet"</span><span class="nt">&gt;</span>
-
 <span class="nt">&lt;/head&gt;</span>
-</code></pre></div></div>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><category term="figma" /><category term="공모전" /><summary type="html"><![CDATA[📝 학교 밖 청소년들의 미래를 준비하기 위한 솔루션]]></summary></entry></feed>
+</code></pre></div></div>
+
+<h2 id="typeitjs-라이브러리-사용"><code class="language-plaintext highlighter-rouge">Typeit.js</code> 라이브러리 사용</h2>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//인트로 타이핑 애니메이션</span>
+<span class="k">new</span> <span class="nx">TypeIt</span><span class="p">(</span><span class="dl">"</span><span class="s2">.intro_type</span><span class="dl">"</span><span class="p">,</span> <span class="p">{</span>
+    <span class="na">lifeLike</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+    <span class="na">loop</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="na">speed</span><span class="p">:</span> <span class="mi">0</span>
+<span class="p">})</span>
+    <span class="p">.</span><span class="nx">type</span><span class="p">(</span><span class="dl">"</span><span class="s2">ㅂ</span><span class="dl">"</span><span class="p">)</span>
+    <span class="p">.</span><span class="nx">pause</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span>
+    <span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="p">.</span><span class="nx">type</span><span class="p">(</span><span class="dl">"</span><span class="s2">부</span><span class="dl">"</span><span class="p">)</span>
+    <span class="p">.</span><span class="nx">pause</span><span class="p">(</span><span class="mi">149</span><span class="p">)</span>
+    <span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="p">.</span><span class="nx">type</span><span class="p">(</span><span class="dl">"</span><span class="s2">불</span><span class="dl">"</span><span class="p">)</span>
+    <span class="p">.</span><span class="nx">pause</span><span class="p">(</span><span class="mi">102</span><span class="p">)</span>
+    <span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="p">.</span><span class="nx">type</span><span class="p">(</span><span class="dl">"</span><span class="s2">부</span><span class="dl">"</span><span class="p">)</span>
+    <span class="p">.</span><span class="nx">pause</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+    <span class="p">.</span><span class="nx">type</span><span class="p">(</span><span class="dl">"</span><span class="s2">러</span><span class="dl">"</span><span class="p">)</span>
+    <span class="cm">/*=====중간생략=====*/</span>
+    <span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="p">.</span><span class="nx">type</span><span class="p">(</span><span class="dl">"</span><span class="s2">하</span><span class="dl">"</span><span class="p">)</span>
+    <span class="p">.</span><span class="nx">pause</span><span class="p">(</span><span class="mi">498</span><span class="p">)</span>
+    <span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="p">.</span><span class="nx">type</span><span class="p">(</span><span class="dl">"</span><span class="s2">ㅎ</span><span class="dl">"</span><span class="p">)</span>
+    <span class="p">.</span><span class="nx">pause</span><span class="p">(</span><span class="mi">86</span><span class="p">)</span>
+    <span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="p">.</span><span class="nx">pause</span><span class="p">(</span><span class="mi">74</span><span class="p">)</span>
+    <span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="p">.</span><span class="nx">pause</span><span class="p">(</span><span class="mi">87</span><span class="p">)</span>
+    <span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="p">.</span><span class="nx">pause</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span>
+    <span class="p">.</span><span class="nx">go</span><span class="p">();</span>
+</code></pre></div></div>
+
+<h2 id="스크롤을-통해-배경-이미지가-커지는-상호작용">스크롤을 통해 배경 이미지가 커지는 상호작용</h2>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">window</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">scroll</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="kd">let</span> <span class="nx">scrollTop</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">scrollY</span><span class="p">;</span> <span class="c1">//Y축 스크롤 값 저장</span>
+    <span class="kd">let</span> <span class="nx">body_bg</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">.main_img</span><span class="dl">'</span><span class="p">);</span> <span class="c1">//배경으로 사용될 div 변수</span>
+    <span class="kd">let</span> <span class="nx">newSize</span> <span class="o">=</span> <span class="nx">scrollTop</span> <span class="o">*</span> <span class="mf">0.05</span> <span class="o">-</span> <span class="mi">500</span><span class="p">;</span>  <span class="c1">//1920*1080기준 Y값 위치에 따라 이미지 크기가 조절될 수 있도록 값 조절(Y11000 기준)</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">scrollTop</span><span class="p">);</span> <span class="c1">//Dev Only</span>
+
+    <span class="c1">// Y축 10000이 되면 body_bg 스타일 background-image 추가</span>
+    <span class="k">if</span><span class="p">(</span><span class="nx">scrollTop</span> <span class="o">&gt;</span> <span class="mi">10000</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">body_bg</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">cssText</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">background-image: url("./sources/bg_2.jpg"); filter: brightness(.45); opacity: 1; backdrop-filter: blur(10px);</span><span class="dl">'</span>
+    <span class="p">}</span>
+    <span class="c1">// Y축 11000이 되면 bakcgroundsize조정</span>
+    <span class="k">if</span><span class="p">(</span> <span class="nx">scrollTop</span> <span class="o">&gt;</span> <span class="mi">11000</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">body_bg</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">backgroundSize</span> <span class="o">=</span> <span class="mi">80</span> <span class="o">+</span> <span class="nx">newSize</span> <span class="o">+</span> <span class="dl">'</span><span class="s1">%</span><span class="dl">'</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="c1">// Y축 17000이 되면 background 흰색으로 복귀</span>
+    <span class="k">if</span><span class="p">(</span><span class="nx">scrollTop</span> <span class="o">&gt;</span> <span class="mi">17000</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">body_bg</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">background</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">white</span><span class="dl">"</span><span class="p">;</span>
+        <span class="nx">body_bg</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">filter</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">brightness(1)</span><span class="dl">"</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p><br /><br /></p>
+
+<h1 id="️-사용-기술">🖥️ 사용 기술</h1>
+<p><img class="ico" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=JavaScript&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white" /></p>
+
+<p><br /><br /></p>
+
+<h1 id="️-총평">⌨️ 총평</h1>
+<ul>
+  <li>Good Parts
+    <ul>
+      <li>HTML/CSS/JS를 모두 사용한 첫 프로젝트</li>
+      <li>웹 표준을 준수한 개발</li>
+      <li>외부 라이브러리를 학습하여 적용</li>
+    </ul>
+  </li>
+  <li>Bad Parts
+    <ul>
+      <li>스크롤을 통해 배경 이미지가 커지는 상호작용 코드를 1920x1080기준 절대값으로 하드코딩 하였기 때문에 다른 해상도에서는 높은 확률로 의도하지 않은 결과를 초래</li>
+      <li>시간관리 부족으로 일부 영역에서 통 이미지로 삽입함</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><category term="figma" /><category term="공모전" /><summary type="html"><![CDATA[📝 학교 밖 청소년들의 미래를 준비하기 위한 솔루션]]></summary></entry></feed>

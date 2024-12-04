@@ -24,7 +24,7 @@ var store = [{
         "teaser": "/assets/images/posts_img/nocssclub/teaser.png"
       },{
         "title": "Jekyll 기반의 GitHub블로그 제작",
-        "excerpt":"📝 포트폴리오 제작 플렛폼으로 선정한 Jekyll GitHub블로그 기간 2024.09 ~ 인원 개인 담당분야 macOS, Windows 환경에서 Jekyll 환경 구축 및 테마 커스텀과 콘텐츠 삽입 관련 링크 https://hwijaekim.github.io 🔑 핵심 기술 요약 처음으로 시도한 HTML레벨에서 웹표준을 준수하여 제작한 웹 사이트로 의미가 있는 프로젝트. Vanilla JavaScript를 적극적으로 활용한 프로젝트이며 Ovserver를 이용하여 Viewport에...","categories": ["Projects","Code"],
+        "excerpt":"   📝 포트폴리오 제작 플렛폼으로 선정한 Jekyll GitHub블로그                  기간       2024.09 ~                 인원       개인                 담당분야       macOS, Windows 환경에서 Jekyll 환경 구축 및 테마 커스텀과 콘텐츠 삽입                 관련 링크       https://hwijaekim.github.io                🔑 핵심 기술 요약     Jekyll을 설치하고 환경을 구축, 전체적인 워크플로우 숙지   Markdown 문법 숙지   GitHub 버전관리 시작           ","categories": ["Projects","Code"],
         "tags": ["jekyll","github"],
         "url": "/projects/code/jekyll-github-blog/",
         "teaser": "/assets/images/posts_img/jekyll/teaser.png"
@@ -41,7 +41,7 @@ var store = [{
         "url": "/research/hello/",
         "teaser": "/assets/images/posts_img/hello/hello.png"
       },{
-        "title": "마크다운에서 표 만들기",
+        "title": "Markdown에서 표 만들기",
         "excerpt":"제목 내용 설명 테스트1 동해물과백두산이마르고닳도록 테스트3 First Header Second Header Third Header First row Data Very long data entry Second row Cell Cell Third row Cell that spans across two columns   날짜 내용 기관/결과 기여 구분 2025.02 계원예술대학교 디지털미디어디자인과 전문학사 졸업 예정   학력 2024.07 계원예술대학교 디지털미디어디자인과 2024-2학기 수석...","categories": ["Research"],
         "tags": ["markdown","table"],
         "url": "/research/markdown-table/",

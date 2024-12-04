@@ -23,9 +23,10 @@ toc_label: "Jekyll GitHub블로그"
    <br><br>
 
 # 🔑 핵심 기술 요약
-- 처음으로 시도한 HTML레벨에서 웹표준을 준수하여 제작한 웹 사이트로 의미가 있는 프로젝트. <br>
-- `Vanilla JavaScript`를 적극적으로 활용한 프로젝트이며 `Ovserver`를 이용하여 `Viewport`에 감지될 시 CSS `active`클래스를 토글하여 애니메이션을 구현. <br>
-- `Typeit.js` 외부 라이브러리를 사용하여 타이핑 애니메이션 구현.
+- Jekyll을 설치하고 환경을 구축, 전체적인 워크플로우 숙지
+- Markdown 문법 숙지
+- GitHub 버전관리 시작
+- 
 
 <br><br>
 
