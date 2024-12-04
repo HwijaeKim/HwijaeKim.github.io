@@ -40,7 +40,7 @@ video
 <br><br>
 
 # 📌 주요 코드
-## `flex` 아이콘 배치 + JQueery UI를 이용한 드래그 구현
+## `flex` 아이콘 배치 + JQuery UI를 이용한 드래그 구현
 ```css
 #win_contents {
     /*border: solid 1px red;*/
@@ -85,3 +85,13 @@ icons.forEach((icon,index) => {  //iconFlex div를 forEach, 클릭된 icon의 �
 })
 ```
 ![2-2](/assets/images/posts_img/web-interaction-final/2-2.webp)
+
+<br><br>
+
+# 🖥️ 사용 기술
+<img class="ico" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img class="ico" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img class="ico" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
+<img class="ico" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
+
+<br><br>

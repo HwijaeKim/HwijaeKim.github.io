@@ -1,12 +1,12 @@
 var store = [{
         "title": "콘텐츠디자인 교과목 우수작 선정 [아라비아 사막의 반도체 이야기]",
-        "excerpt":"📝 아랍에미리트와 20디르함, 두 개의 키워드로 도출한 웹 디자인 콘텐츠 기간 2023.09 ~ 2023.12 (1-2학기) 인원 개인 담당분야 키워드에 기반한 콘텐츠 도출, 내부 에셋 제작 및 디자인/프로토타입 진행 관련 링크 figma 프로토타입 🔑 핵심 기술 요약 CSS만을 사용하여 구현한 Windows 95~ME 스타일의 UI Vanilla JavaScript로 카운트, 남은 시간, 인게임 진행...","categories": ["Projects","Design"],
+        "excerpt":"📝 아랍에미리트와 20디르함, 두 개의 키워드로 도출한 웹 디자인 콘텐츠 기간 2023.09 ~ 2023.12 (1-2학기) 인원 개인 담당분야 키워드에 기반한 콘텐츠 도출, 내부 에셋 제작 및 디자인/프로토타입 진행 관련 링크 figma 프로토타입 🔑 핵심 포인트 요약 Figma를 접한 후 처음으로 제작한 개인 프로젝트 컴포넌트와 프로토타입 제작 Illustrator 3D + RayTracing을...","categories": ["Projects","Design"],
         "tags": ["web-design","figma","photoshop","illustrator","ui/ux"],
         "url": "/projects/design/contents-design-final/",
         "teaser": "/assets/images/posts_img/semiconductor/main.jpg"
       },{
         "title": "macOS 콘셉트의 자기PR 페이지",
-        "excerpt":"📝 프로젝트 개요 ~macOS 콘셉트의 자기PR 페이지 프로젝트 목적 웹퍼블리싱 교과목 기말 프로젝트 기간 2023.11 ~ 2023.12 (1-2학기) 인원 개인 관련 링크 https://hwijaekim.github.io/unionpt.github.io 🔑 핵심 기술 요약 HTML과 CSS 기초를 배운 후 이를 이용하여 최초로 제작한 웹 사이트 GitHub 가입과 리포지토리 생성 방법을 숙지한 후 처음으로 배포 기초CSS를 응용하고 리서치...","categories": ["Projects","Code"],
+        "excerpt":"📝 프로젝트 개요 ~macOS 콘셉트의 자기PR 페이지 프로젝트 목적 웹퍼블리싱 교과목 기말 프로젝트 기간 2023.11 ~ 2023.12 (1-2학기) 인원 개인 관련 링크 https://hwijaekim.github.io/unionpt.github.io 📌 주요 코드 HTML과 CSS 기초를 배운 후 이를 이용하여 최초로 제작한 웹 사이트 GitHub 가입과 리포지토리 생성 방법을 숙지한 후 처음으로 배포 기초CSS를 응용하고 리서치 하여...","categories": ["Projects","Code"],
         "tags": ["front-end","html/css"],
         "url": "/projects/code/web-publishing-final/",
         "teaser": "/assets/images/posts_img/pr/teaser.png"
@@ -24,7 +24,7 @@ var store = [{
         "teaser": "/assets/images/posts_img/nocssclub/teaser.png"
       },{
         "title": "Jekyll 기반의 GitHub블로그 제작",
-        "excerpt":"   📝 포트폴리오 제작 플렛폼으로 선정한 Jekyll GitHub블로그                  기간       2024.09 ~                 인원       개인                 담당분야       macOS, Windows 환경에서 Jekyll 환경 구축 및 테마 커스텀과 콘텐츠 삽입                 관련 링크       https://hwijaekim.github.io                🔑 핵심 기술 요약     Jekyll을 설치하고 환경을 구축, 전체적인 워크플로우 숙지   Markdown 문법 숙지   GitHub 버전관리 시작           video        ","categories": ["Projects","Code"],
+        "excerpt":"📝 포트폴리오 제작 플렛폼으로 선정한 Jekyll GitHub블로그 기간 2024.09 ~ 인원 개인 담당분야 macOS, Windows 환경에서 Jekyll 환경 구축 및 테마 커스텀과 콘텐츠 삽입 관련 링크 https://hwijaekim.github.io 🔑 핵심 기술 요약 Jekyll을 설치하고 환경을 구축, 전체적인 워크플로우 숙지 Markdown 문법 숙지 GitHub 버전관리 시작 테마를 직접 커스텀 video 📌 주요...","categories": ["Projects","Code"],
         "tags": ["jekyll","github"],
         "url": "/projects/code/jekyll-github-blog/",
         "teaser": "/assets/images/posts_img/jekyll/teaser.png"

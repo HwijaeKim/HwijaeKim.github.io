@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-05T02:26:57+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-05T05:53:31+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
 
 <h1 id="기본-사용">기본 사용</h1>
 <h2 id="리포지토리-클론">리포지토리 클론</h2>
@@ -59,7 +59,7 @@ video
 <br /><br /></p>
 
 <h1 id="-주요-코드">📌 주요 코드</h1>
-<h2 id="flex-아이콘-배치--jqueery-ui를-이용한-드래그-구현"><code class="language-plaintext highlighter-rouge">flex</code> 아이콘 배치 + JQueery UI를 이용한 드래그 구현</h2>
+<h2 id="flex-아이콘-배치--jquery-ui를-이용한-드래그-구현"><code class="language-plaintext highlighter-rouge">flex</code> 아이콘 배치 + JQuery UI를 이용한 드래그 구현</h2>
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#win_contents</span> <span class="p">{</span>
     <span class="c">/*border: solid 1px red;*/</span>
     <span class="nl">width</span><span class="p">:</span> <span class="m">95%</span><span class="p">;</span>
@@ -100,7 +100,17 @@ video
     <span class="p">})</span>
 <span class="p">})</span>
 </code></pre></div></div>
-<p><img src="/assets/images/posts_img/web-interaction-final/2-2.webp" alt="2-2" /></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><summary type="html"><![CDATA[📝 나의 일대기 9가지 페이지를 JavaScript 기반의 상호작용 사이트로 제작]]></summary></entry><entry><title type="html">계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]</title><link href="http://localhost:4000/projects/code/eatopia/" rel="alternate" type="text/html" title="계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]" /><published>2024-11-11T00:00:00+09:00</published><updated>2024-11-11T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/eatopia</id><content type="html" xml:base="http://localhost:4000/projects/code/eatopia/"><![CDATA[<style>
+<p><img src="/assets/images/posts_img/web-interaction-final/2-2.webp" alt="2-2" /></p>
+
+<p><br /><br /></p>
+
+<h1 id="️-사용-기술">🖥️ 사용 기술</h1>
+<p><img class="ico" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=JavaScript&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white" /></p>
+
+<p><br /><br /></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><summary type="html"><![CDATA[📝 나의 일대기 9가지 페이지를 JavaScript 기반의 상호작용 사이트로 제작]]></summary></entry><entry><title type="html">계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]</title><link href="http://localhost:4000/projects/code/eatopia/" rel="alternate" type="text/html" title="계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]" /><published>2024-11-11T00:00:00+09:00</published><updated>2024-11-11T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/eatopia</id><content type="html" xml:base="http://localhost:4000/projects/code/eatopia/"><![CDATA[<style>
   .ico {
     border-radius: 5px;
     height: 30px;
@@ -527,7 +537,15 @@ Github: <a href="https://github.com/HwijaeKim">HwijaeKim</a> <br /></p>
 <p>—제작한 페이지— <br />
 <a href="https://hwijaekim.github.io/nocssclub_minigame">No CSS Club MiniGame</a> <br />
 <a href="https://hwijaekim.github.io/blueprint2024">청사진(공모전)</a> <br />
-<a href="https://hwijaekim.github.io/unionpt.github.io">자기PR페이지(교내)</a></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="update" /><summary type="html"><![CDATA[Jekyll을 이용하여 Github Pages를 만들었습니다. 아직 시험단계로 보완할 부분이 많습니다.]]></summary></entry><entry><title type="html">Jekyll 기반의 GitHub블로그 제작</title><link href="http://localhost:4000/projects/code/jekyll-github-blog/" rel="alternate" type="text/html" title="Jekyll 기반의 GitHub블로그 제작" /><published>2024-09-02T00:00:00+09:00</published><updated>2024-09-02T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/jekyll-github-blog</id><content type="html" xml:base="http://localhost:4000/projects/code/jekyll-github-blog/"><![CDATA[<p><br /></p>
+<a href="https://hwijaekim.github.io/unionpt.github.io">자기PR페이지(교내)</a></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="update" /><summary type="html"><![CDATA[Jekyll을 이용하여 Github Pages를 만들었습니다. 아직 시험단계로 보완할 부분이 많습니다.]]></summary></entry><entry><title type="html">Jekyll 기반의 GitHub블로그 제작</title><link href="http://localhost:4000/projects/code/jekyll-github-blog/" rel="alternate" type="text/html" title="Jekyll 기반의 GitHub블로그 제작" /><published>2024-09-02T00:00:00+09:00</published><updated>2024-09-02T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/jekyll-github-blog</id><content type="html" xml:base="http://localhost:4000/projects/code/jekyll-github-blog/"><![CDATA[<style>
+  .ico {
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 5px;
+  }
+</style>
+
+<p><br /></p>
 <h1 id="-포트폴리오-제작-플렛폼으로-선정한-jekyll-github블로그">📝 포트폴리오 제작 플렛폼으로 선정한 Jekyll GitHub블로그</h1>
 
 <table>
@@ -558,14 +576,82 @@ Github: <a href="https://github.com/HwijaeKim">HwijaeKim</a> <br /></p>
   <li>Jekyll을 설치하고 환경을 구축, 전체적인 워크플로우 숙지</li>
   <li>Markdown 문법 숙지</li>
   <li>GitHub 버전관리 시작</li>
-  <li></li>
+  <li>테마를 직접 커스텀</li>
 </ul>
 
 <p><br /><br /></p>
 
 <p>video</p>
 
-<p><br /><br /></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="jekyll" /><category term="github" /><summary type="html"><![CDATA[📝 포트폴리오 제작 플렛폼으로 선정한 Jekyll GitHub블로그]]></summary></entry><entry><title type="html">제 30회 커뮤니케이션디자인국제공모전 동상 수상작 [청사진]</title><link href="http://localhost:4000/projects/code/blueprint/" rel="alternate" type="text/html" title="제 30회 커뮤니케이션디자인국제공모전 동상 수상작 [청사진]" /><published>2024-06-20T00:00:00+09:00</published><updated>2024-06-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/blueprint</id><content type="html" xml:base="http://localhost:4000/projects/code/blueprint/"><![CDATA[<style>
+<p><br /><br /></p>
+
+<h1 id="-주요-코드">📌 주요 코드</h1>
+<h1 id="markdown">Markdown</h1>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh"># h1</span>
+<span class="gu">## h2</span>
+<span class="gu">### h3</span>
+<span class="gu">#### h4</span>
+<span class="gu">##### h5</span>
+<span class="gu">###### h6</span>
+<span class="ge">*기울임꼴*</span>
+<span class="gs">**굵게**</span>
+<span class="gs">***굵은기울임꼴**</span><span class="err">*</span>
+<span class="p">![</span><span class="nv">이미지</span><span class="p">](</span><span class="sx">/img/img.jpg</span><span class="p">)</span>
+| 기간                	| 내용                              	| 기관                          	| 구분           	|
+|:-------------------:	|:--------------------:            	|:---------------------------:  |:----------:	    |
+| 2021.09 - 2023.03    	| 육군 제 1보병사단 병장 만기전역     	| 국방부                        	| 병역   	        |
+| 2021.01           	| 1종 보통 운전면허     	            | 경찰청(운전면허시험관리단)    	| 면허              	|
+| 2019.09           	| 컴퓨터그래픽스운용기능사 	            | 한국산업인력공단               	| 자격              	|
+<span class="gh"># 🔑 핵심 기술 요약</span>
+<span class="p">-</span> Jekyll을 설치하고 환경을 구축, 전체적인 워크플로우 숙지
+<span class="p">-</span> Markdown 문법 숙지
+<span class="p">-</span> GitHub 버전관리 시작
+<span class="p">-</span> 테마를 직접 커스텀
+  <span class="p">[</span><span class="nv">LinkedIn</span><span class="p">](</span><span class="sx">https://www.linkedin.com/in/hwijaekim/</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h1 id="홈-화면-게시물-커스텀">홈 화면 게시물 커스텀</h1>
+<p>기존 홈 화면 최근 게시물을 Project 카테고리명을 가진 게시글들이 표시되도록 변경</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;h1&gt;</span>🖊️ 환영합니다: 포트폴리오<span class="nt">&lt;/h1&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid__wrapper"</span><span class="nt">&gt;</span>
+  <span class="c">&lt;!-- Jekyll문법은 Markdown 코드블럭에서도 무시되어 작동하는 문제가 있어 작동하지 않도록 의도적으로 슬래시를 삽입함 --&gt;</span>
+    {/% assign posts = site.categories.Projects %}
+    {/% for post in posts %}
+    {/% include archive-single3.html type="list" %}
+    {/% endfor %}
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h1 id="️-사용-기술">🖥️ 사용 기술</h1>
+<p><sub><i>모든 Jekyll 포함 기술 중 직접 사용한 항목만 나열</i></sub><br />
+<img class="ico" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&amp;logo=git&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&amp;logo=npm&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/yaml-%23ffffff.svg?style=for-the-badge&amp;logo=yaml&amp;logoColor=151515" /></p>
+
+<p><br /><br /></p>
+
+<h1 id="️-총평">⌨️ 총평</h1>
+<ul>
+  <li>Good Parts
+    <ul>
+      <li>개발자 포트폴리오로 매우 적합한 플랫폼을 선정</li>
+      <li>Jekyll을 설치하고 공부하며 전체적인 워크플로우와 그 안에서 새롭게 배운 것들이 많음(Markdown, Git, 버전관리 등)</li>
+      <li>초기셋팅 후 유지보수가 용이하도록 커스텀 및 장식(CSS)</li>
+      <li>새로운 것들을 배우며 흥미도 상승</li>
+    </ul>
+  </li>
+  <li>Bad Parts
+    <ul>
+      <li>SCSS, Jekyll문법, yaml 등 아직 제대로 숙지하지 못 한 요소들이 많음</li>
+      <li>위와 같은 이유로 의도하는 커스텀을 쉽게 할 수 없음</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="jekyll" /><category term="github" /><summary type="html"><![CDATA[📝 포트폴리오 제작 플렛폼으로 선정한 Jekyll GitHub블로그]]></summary></entry><entry><title type="html">제 30회 커뮤니케이션디자인국제공모전 동상 수상작 [청사진]</title><link href="http://localhost:4000/projects/code/blueprint/" rel="alternate" type="text/html" title="제 30회 커뮤니케이션디자인국제공모전 동상 수상작 [청사진]" /><published>2024-06-20T00:00:00+09:00</published><updated>2024-06-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/blueprint</id><content type="html" xml:base="http://localhost:4000/projects/code/blueprint/"><![CDATA[<style>
   .ico {
     border-radius: 5px;
     height: 30px;
