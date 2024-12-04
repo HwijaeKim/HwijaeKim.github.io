@@ -40,27 +40,7 @@ video
 <br><br>
 
 # 📌 주요 코드
-## 홈 화면 윈도우 창에서 `display: flex;`를 통한 아이콘 자동배치
-```javascript
-#win_contents {
-    /*border: solid 1px red;*/
-    width: 95%;
-    height: 90%;
-    margin: 0 auto;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: baseline;
-}
-```
-![1-1](/assets/images/posts_img/web-interaction-final/1-1.png)
-![1-2](/assets/images/posts_img/web-interaction-final/1-2.png)
-
-## JQueery UI를 이용한 드래그 구현 + `flex` 아이콘 배치
-```javascript
-$(() => {
-    $('#win_container').draggable();
-})
-```
+## `flex` 아이콘 배치 + JQueery UI를 이용한 드래그 구현
 ```css
 #win_contents {
     /*border: solid 1px red;*/
@@ -71,6 +51,11 @@ $(() => {
     flex-flow: row wrap;
     align-items: baseline;
 }
+```
+```javascript
+$(() => {
+    $('#win_container').draggable();
+})
 ```
 ![2-1](/assets/images/posts_img/web-interaction-final/2-1.webp)
 

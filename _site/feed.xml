@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-05T02:20:48+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-05T02:26:57+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
 
 <h1 id="기본-사용">기본 사용</h1>
 <h2 id="리포지토리-클론">리포지토리 클론</h2>
@@ -59,25 +59,7 @@ video
 <br /><br /></p>
 
 <h1 id="-주요-코드">📌 주요 코드</h1>
-<h2 id="홈-화면-윈도우-창에서-display-flex를-통한-아이콘-자동배치">홈 화면 윈도우 창에서 <code class="language-plaintext highlighter-rouge">display: flex;</code>를 통한 아이콘 자동배치</h2>
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">#</span><span class="nx">win_contents</span> <span class="p">{</span>
-    <span class="cm">/*border: solid 1px red;*/</span>
-    <span class="nl">width</span><span class="p">:</span> <span class="mi">95</span><span class="o">%</span><span class="p">;</span>
-    <span class="nl">height</span><span class="p">:</span> <span class="mi">90</span><span class="o">%</span><span class="p">;</span>
-    <span class="nl">margin</span><span class="p">:</span> <span class="mi">0</span> <span class="nx">auto</span><span class="p">;</span>
-    <span class="nl">display</span><span class="p">:</span> <span class="nx">flex</span><span class="p">;</span>
-    <span class="nx">flex</span><span class="o">-</span><span class="nx">flow</span><span class="p">:</span> <span class="nx">row</span> <span class="nx">wrap</span><span class="p">;</span>
-    <span class="nx">align</span><span class="o">-</span><span class="nx">items</span><span class="p">:</span> <span class="nx">baseline</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
-<p><img src="/assets/images/posts_img/web-interaction-final/1-1.png" alt="1-1" />
-<img src="/assets/images/posts_img/web-interaction-final/1-2.png" alt="1-2" /></p>
-
-<h2 id="jqueery-ui를-이용한-드래그-구현--flex-아이콘-배치">JQueery UI를 이용한 드래그 구현 + <code class="language-plaintext highlighter-rouge">flex</code> 아이콘 배치</h2>
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">#win_container</span><span class="dl">'</span><span class="p">).</span><span class="nx">draggable</span><span class="p">();</span>
-<span class="p">})</span>
-</code></pre></div></div>
+<h2 id="flex-아이콘-배치--jqueery-ui를-이용한-드래그-구현"><code class="language-plaintext highlighter-rouge">flex</code> 아이콘 배치 + JQueery UI를 이용한 드래그 구현</h2>
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#win_contents</span> <span class="p">{</span>
     <span class="c">/*border: solid 1px red;*/</span>
     <span class="nl">width</span><span class="p">:</span> <span class="m">95%</span><span class="p">;</span>
@@ -87,6 +69,10 @@ video
     <span class="nl">flex-flow</span><span class="p">:</span> <span class="n">row</span> <span class="n">wrap</span><span class="p">;</span>
     <span class="nl">align-items</span><span class="p">:</span> <span class="nb">baseline</span><span class="p">;</span>
 <span class="p">}</span>
+</code></pre></div></div>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">#win_container</span><span class="dl">'</span><span class="p">).</span><span class="nx">draggable</span><span class="p">();</span>
+<span class="p">})</span>
 </code></pre></div></div>
 <p><img src="/assets/images/posts_img/web-interaction-final/2-1.webp" alt="2-1" /></p>
 
