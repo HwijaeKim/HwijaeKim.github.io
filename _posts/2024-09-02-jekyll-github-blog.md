@@ -81,6 +81,8 @@ video
 </div>
 ```
 
+<br><br>
+
 # 🖥️ 사용 기술
 <sub><i>모든 Jekyll 포함 기술 중 직접 사용한 항목만 나열</i></sub><br>
 <img class="ico" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
