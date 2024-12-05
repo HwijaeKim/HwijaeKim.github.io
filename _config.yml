@@ -121,7 +121,7 @@ author:
     - label: "dusan960766@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
       url: # "dusan960766@gmail.com"
-    - label: "ABOUT"
+    - label: "이력서/자기소개서"
       icon: "fas fa-fw fa-address-card"
       url: "/about"
     - label: "Git"

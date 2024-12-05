@@ -2,7 +2,7 @@
 main:
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "ABOUT"
+  - title: "이력서/자기소개서"
     url: /about
   - title: "최근 게시물"
     url: /recent-posts

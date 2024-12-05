@@ -17,20 +17,24 @@ sidebar:
         list-style-type: circle;
     }
     .profile_grid {
-        display: grid;
+        /*display: flex;*/
         /* border: solid 1px red; */
     }
     .profile_img {
         /* float: right; */
         display: inline-block;
+        width: 225px;
+        height: auto;
         margin-right: 15px;
-        /* border: solid 1px blue; */
+        margin-top: 10px;
+         /*border: solid 1px blue; */
         vertical-align: top;
     }
     
     .profile {
         display: inline-block;
         /* padding-top: 5px; */
+        /*width: 50%;*/
         /* float: right; */
         /* border: solid 1px green; */
     }
@@ -51,7 +55,7 @@ sidebar:
 ## <span style="color: #434C5D">Basic Profile</span>
 <!-- ![profile](/assets/images/profile_real.jpeg){: width="150"} -->
 <div class="profile_grid">
-<img class="profile_img" src="/assets/images/profile_real3.webp" width="250">
+<img class="profile_img" src="/assets/images/profile_real2.png">
 
 <div class="profile"> 
 <b><span class="titleName" style="color: #434C5D">김휘재</span></b>   <br>
@@ -60,13 +64,15 @@ sidebar:
 <sub>이메일</sub>   <br>
 dusan960766@gmail.com   <br>
 <sub>휴대전화</sub>   <br>
-+82 10 0000 0000    <br>
++82 10 3873 9607    <br>
 <sub>최종학력</sub>   <br>
-계원예술대학교 디지털미디어디자인과 전문학사 프로그래밍 세부전공 졸업   <br>
+계원예술대학교 디지털미디어디자인과 <br>전문학사 프로그래밍 세부전공 졸업 예정   <br>
 <sub>희망 직군</sub>   <br>
 프론트엔드 개발자 <br>
+<!--
 <sub>웹 사이트</sub>   <br>
 <a href="https://hwijaekim.github.io" target="_blank">https://hwijaekim.github.io</a>
+-->
 </div>
 </div>
 ---
