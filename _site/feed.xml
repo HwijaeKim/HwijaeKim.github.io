@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-05T05:53:31+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-05T12:38:33+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
 
 <h1 id="기본-사용">기본 사용</h1>
 <h2 id="리포지토리-클론">리포지토리 클론</h2>
@@ -108,7 +108,8 @@ video
 <p><img class="ico" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" />
 <img class="ico" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white" />
 <img class="ico" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=JavaScript&amp;logoColor=white" />
-<img class="ico" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white" /></p>
+<img class="ico" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&amp;logo=git&amp;logoColor=white" /></p>
 
 <p><br /><br /></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><summary type="html"><![CDATA[📝 나의 일대기 9가지 페이지를 JavaScript 기반의 상호작용 사이트로 제작]]></summary></entry><entry><title type="html">계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]</title><link href="http://localhost:4000/projects/code/eatopia/" rel="alternate" type="text/html" title="계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]" /><published>2024-11-11T00:00:00+09:00</published><updated>2024-11-11T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/eatopia</id><content type="html" xml:base="http://localhost:4000/projects/code/eatopia/"><![CDATA[<style>
   .ico {
@@ -622,6 +623,8 @@ Github: <a href="https://github.com/HwijaeKim">HwijaeKim</a> <br /></p>
     {/% endfor %}
 <span class="nt">&lt;/div&gt;</span>
 </code></pre></div></div>
+
+<p><br /><br /></p>
 
 <h1 id="️-사용-기술">🖥️ 사용 기술</h1>
 <p><sub><i>모든 Jekyll 포함 기술 중 직접 사용한 항목만 나열</i></sub><br />

@@ -5,8 +5,8 @@ var store = [{
         "url": "/projects/design/contents-design-final/",
         "teaser": "/assets/images/posts_img/semiconductor/main.jpg"
       },{
-        "title": "macOS 콘셉트의 자기PR 페이지",
-        "excerpt":"📝 프로젝트 개요 ~macOS 콘셉트의 자기PR 페이지 프로젝트 목적 웹퍼블리싱 교과목 기말 프로젝트 기간 2023.11 ~ 2023.12 (1-2학기) 인원 개인 관련 링크 https://hwijaekim.github.io/unionpt.github.io 📌 주요 코드 HTML과 CSS 기초를 배운 후 이를 이용하여 최초로 제작한 웹 사이트 GitHub 가입과 리포지토리 생성 방법을 숙지한 후 처음으로 배포 기초CSS를 응용하고 리서치 하여...","categories": ["Projects","Code"],
+        "title": "웹퍼블리싱 기말 프로젝트 [자기PR 페이지]",
+        "excerpt":"📝 Apple macOS의 UI를 콘셉트로 제작한 자기PR 페이지 기간 2023.11 ~ 12 인원 개인 담당분야 콘텐츠 구성 및 레이아웃 배치 관련 링크 https://hwijaekim.github.io/unionpt 🔑 핵심 기술 요약 HTML과 CSS 기초를 배운 후 이를 이용하여 최초로 제작한 웹 사이트 GitHub 가입과 리포지토리 생성 방법을 숙지한 후 처음으로 배포 기초CSS를 응용하고 리서치...","categories": ["Projects","Code"],
         "tags": ["front-end","html/css"],
         "url": "/projects/code/web-publishing-final/",
         "teaser": "/assets/images/posts_img/pr/teaser.png"

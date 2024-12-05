@@ -38,7 +38,6 @@ toc_label: "아라비아 사막의 반도체 이야기"
 - 컴포넌트와 프로토타입 제작
 - Illustrator 3D + RayTracing을 이용한 3D 오브젝트 제작
 - After Effects로 3D 오브젝트에 모션 추가
-- 
 
 <br><br>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Qp1wwHoEu5I?si=prBgA7XgFjSiNzpp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -54,6 +53,7 @@ toc_label: "아라비아 사막의 반도체 이야기"
 ![1-1](/assets/images/posts_img/semiconductor/1-1.webp)
 
 ## After Effects로 3D 아이콘에 모션 추가
+![1-1](/assets/images/posts_img/semiconductor/2-1.webp)
 
 <br><br>
 
@@ -62,3 +62,13 @@ toc_label: "아라비아 사막의 반도체 이야기"
 <img class="ico" src="https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobe%20illustrator&logoColor=white">
 <img class="ico" src="https://img.shields.io/badge/Adobe%20after%20affects-CF96FD?style=for-the-badge&logo=Adobe%20after%20effects&logoColor=393665">
 <img class="ico" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+
+<br><br>
+
+# ⌨️ 총평
+- Good Parts
+  - 약점인 3D 영역에서 Illustrator 3D 기술을 이용하여 적절하게 포장함
+  - 프로토타입 플로우가 부드럽게 이어짐
+  - 콘셉트에 맞는 디자인과 콘텐츠
+- Bad Parts
+  - gif 다수 사용으로 프로토타입이 매우 무거움
