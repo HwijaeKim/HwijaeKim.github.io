@@ -15,7 +15,7 @@ toc_label: "macOS 콘셉트의 자기PR 페이지"
 ---
 # 📝 Apple macOS의 UI를 콘셉트로 제작한 자기PR 페이지
 
-| **기간**    | 2023.11 ~ 12                                                                                      |
+| **기간**    | 2023.11 ~ 12  (1-2학기)                                                                                      |
 | **인원**    | 개인                                                                                         |
 | **담당분야**  | 콘텐츠 구성 및 레이아웃 배치                                 |
 | **관련 링크** | <a href="https://hwijaekim.github.io/unionpt" target="_blank">https://hwijaekim.github.io/unionpt</a> |

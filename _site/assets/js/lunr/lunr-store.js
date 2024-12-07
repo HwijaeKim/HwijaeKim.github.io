@@ -6,7 +6,7 @@ var store = [{
         "teaser": "/assets/images/posts_img/semiconductor/main.jpg"
       },{
         "title": "웹퍼블리싱 기말 프로젝트 [자기PR 페이지]",
-        "excerpt":"📝 Apple macOS의 UI를 콘셉트로 제작한 자기PR 페이지 기간 2023.11 ~ 12 인원 개인 담당분야 콘텐츠 구성 및 레이아웃 배치 관련 링크 https://hwijaekim.github.io/unionpt 🔑 핵심 기술 요약 HTML과 CSS 기초를 배운 후 이를 이용하여 최초로 제작한 웹 사이트 GitHub 가입과 리포지토리 생성 방법을 숙지한 후 처음으로 배포 기초CSS를 응용하고 리서치...","categories": ["Projects","Code"],
+        "excerpt":"📝 Apple macOS의 UI를 콘셉트로 제작한 자기PR 페이지 기간 2023.11 ~ 12 (1-2학기) 인원 개인 담당분야 콘텐츠 구성 및 레이아웃 배치 관련 링크 https://hwijaekim.github.io/unionpt 🔑 핵심 기술 요약 HTML과 CSS 기초를 배운 후 이를 이용하여 최초로 제작한 웹 사이트 GitHub 가입과 리포지토리 생성 방법을 숙지한 후 처음으로 배포 기초CSS를 응용하고...","categories": ["Projects","Code"],
         "tags": ["front-end","html/css"],
         "url": "/projects/code/web-publishing-final/",
         "teaser": "/assets/images/posts_img/pr/teaser.png"
@@ -48,16 +48,16 @@ var store = [{
         "teaser": "/assets/images/posts_img/markdown/markdown.png"
       },{
         "title": "계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]",
-        "excerpt":"📝 유아기 아이들의 식습관 문제 개선을 위한 XR글래스 콘텐츠 기간 2024.09 ~ 2024.11 인원 기획2, 디자인3, 개발1 담당분야 서비스 영상 촬영 및 웹 사이트 구현 관련 링크 https://hwijaekim.github.io/eatopia2024 🔑 핵심 기술 요약 Vanilla JavaScript에 기반한 Observer 적극 활용으로 스크롤 시 keyframe애니메이션 구현 CSS 가상클래스 사용으로 글꼴 크기, 색상 등을 공통으로...","categories": ["Projects","Code"],
+        "excerpt":"📝 유아기 아이들의 식습관 문제 개선을 위한 XR글래스 콘텐츠 기간 2024.09 ~ 2024.11 (2-2학기) 인원 기획2, 디자인3, 개발1 담당분야 서비스 영상 촬영 및 웹 사이트 구현 관련 링크 https://hwijaekim.github.io/eatopia2024 🔑 핵심 기술 요약 Vanilla JavaScript에 기반한 Observer 적극 활용으로 스크롤 시 keyframe애니메이션 구현 CSS 가상클래스 사용으로 글꼴 크기, 색상 등을...","categories": ["Projects","Code"],
         "tags": ["front-end","html/css/js","figma","졸업작품"],
         "url": "/projects/code/eatopia/",
         "teaser": "/assets/images/posts_img/eatopia/test.png"
       },{
-        "title": "MongoDB를 이용한 express서버 제작",
-        "excerpt":" ","categories": ["Projects","Code"],
+        "title": "서버프로그래밍 교과목 실습응용 [블로그 express 서버]",
+        "excerpt":"📝 MongoDB를 이용한 이미지 업로드를 지원하는 블로그 express 서버 기간 2024.11 ~ 2024.12 (2-2학기) 인원 개인 담당분야 개발환경 구축, MongoDB 연결, multer를 이용한 이미지 업로드, 그 외 일부 html, css를 제외한 요소 구현 관련 링크 학습 교재 고영희 저 Do it! Node.js 프로그래밍 입문 쉽고 빠르게 달리는 백엔드 개발 /...","categories": ["Projects","Code"],
         "tags": ["back-end","node.js","mongodb","npm"],
-        "url": "/projects/code/mongodb-express-server/",
-        "teaser": "/assets/images/posts_img/ready.png"
+        "url": "/projects/code/union-server-programming/",
+        "teaser": "/assets/images/posts_img/union-server-programming/teaser.png"
       },{
         "title": "웹인터랙션프로그래밍 교과목 프로젝트 [My Origin Wizard]",
         "excerpt":"📝 나의 일대기 9가지 페이지를 JavaScript 기반의 상호작용 사이트로 제작 기간 2024.09 ~ 2024.12 (2-2학기) 인원 개인 담당분야 사이트 콘셉트 수립, 9개 콘텐츠 기획 및 기능구현 관련 링크 https://hwijaekim.github.io/my-origin-wizard 🔑 핵심 기술 요약 display: flex;, flex-flow: row wrap; 스타일 적용으로 윈도우 크기변화에 따른 적절한 아이콘 배치 JQuery UI 사용으로 index.html에서...","categories": ["Projects","Code"],

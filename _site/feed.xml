@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-06T09:18:20+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-07T14:45:04+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
 
 <h1 id="기본-사용">기본 사용</h1>
 <h2 id="리포지토리-클론">리포지토리 클론</h2>
@@ -111,7 +111,51 @@ video
 <img class="ico" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white" />
 <img class="ico" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&amp;logo=git&amp;logoColor=white" /></p>
 
-<p><br /><br /></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><summary type="html"><![CDATA[📝 나의 일대기 9가지 페이지를 JavaScript 기반의 상호작용 사이트로 제작]]></summary></entry><entry><title type="html">MongoDB를 이용한 express서버 제작</title><link href="http://localhost:4000/projects/code/mongodb-express-server/" rel="alternate" type="text/html" title="MongoDB를 이용한 express서버 제작" /><published>2024-11-20T00:00:00+09:00</published><updated>2024-11-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/mongodb-express-server</id><content type="html" xml:base="http://localhost:4000/projects/code/mongodb-express-server/"><![CDATA[]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="back-end" /><category term="node.js" /><category term="mongodb" /><category term="npm" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]</title><link href="http://localhost:4000/projects/code/eatopia/" rel="alternate" type="text/html" title="계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]" /><published>2024-11-11T00:00:00+09:00</published><updated>2024-11-11T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/eatopia</id><content type="html" xml:base="http://localhost:4000/projects/code/eatopia/"><![CDATA[<style>
+<p><br /><br /></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><summary type="html"><![CDATA[📝 나의 일대기 9가지 페이지를 JavaScript 기반의 상호작용 사이트로 제작]]></summary></entry><entry><title type="html">서버프로그래밍 교과목 실습응용 [블로그 express 서버]</title><link href="http://localhost:4000/projects/code/union-server-programming/" rel="alternate" type="text/html" title="서버프로그래밍 교과목 실습응용 [블로그 express 서버]" /><published>2024-11-20T00:00:00+09:00</published><updated>2024-11-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/union-server-programming</id><content type="html" xml:base="http://localhost:4000/projects/code/union-server-programming/"><![CDATA[<style>
+  .ico {
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 5px;
+  }
+</style>
+
+<p><br /></p>
+<h1 id="-mongodb를-이용한-이미지-업로드를-지원하는-블로그-express-서버">📝 MongoDB를 이용한 이미지 업로드를 지원하는 블로그 express 서버</h1>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>기간</strong></td>
+      <td>2024.11 ~ 2024.12  (2-2학기)</td>
+    </tr>
+    <tr>
+      <td><strong>인원</strong></td>
+      <td>개인</td>
+    </tr>
+    <tr>
+      <td><strong>담당분야</strong></td>
+      <td>개발환경 구축, MongoDB 연결, <code class="language-plaintext highlighter-rouge">multer</code>를 이용한 이미지 업로드, 그 외 일부 <code class="language-plaintext highlighter-rouge">html, css</code>를 제외한 요소 구현</td>
+    </tr>
+    <tr>
+      <td><strong>관련 링크</strong></td>
+      <td><sub>학습 교재</sub><br />고영희 저 Do it! Node.js 프로그래밍 입문<br />쉽고 빠르게 달리는 백엔드 개발 / 자바스크립트+노드제이에스+익스프레스+몽고DB로 개발 순서에 따라 직접 서버 만들기!</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /><br /></p>
+
+<h1 id="-핵심-기술-요약">🔑 핵심 기술 요약</h1>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">js, Node.js, express, MongoDB</code>를 이용한 기초 express 서버 제작</li>
+  <li><code class="language-plaintext highlighter-rouge">GET, POST, PUT, DELETE</code> 메서드를 요청하고 처리</li>
+  <li>요청/응답을 처리하는 미들웨어 구성</li>
+  <li>템플릿 엔진으로 <code class="language-plaintext highlighter-rouge">ejs</code> 연결</li>
+  <li><code class="language-plaintext highlighter-rouge">jsonwebtoken(JWT), cookie</code>를 이용한 어드민 회원가입/로그인 관리</li>
+  <li><code class="language-plaintext highlighter-rouge">multer</code>를 이용한 이미지 업로드</li>
+</ul>
+
+<p><br /><br /></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="back-end" /><category term="node.js" /><category term="mongodb" /><category term="npm" /><summary type="html"><![CDATA[📝 MongoDB를 이용한 이미지 업로드를 지원하는 블로그 express 서버]]></summary></entry><entry><title type="html">계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]</title><link href="http://localhost:4000/projects/code/eatopia/" rel="alternate" type="text/html" title="계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]" /><published>2024-11-11T00:00:00+09:00</published><updated>2024-11-11T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/eatopia</id><content type="html" xml:base="http://localhost:4000/projects/code/eatopia/"><![CDATA[<style>
   .ico {
     border-radius: 5px;
     height: 30px;
@@ -126,7 +170,7 @@ video
   <tbody>
     <tr>
       <td><strong>기간</strong></td>
-      <td>2024.09 ~ 2024.11</td>
+      <td>2024.09 ~ 2024.11  (2-2학기)</td>
     </tr>
     <tr>
       <td><strong>인원</strong></td>
