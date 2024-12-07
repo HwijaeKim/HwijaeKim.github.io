@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-07T14:45:04+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-07T18:20:40+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
 
 <h1 id="기본-사용">기본 사용</h1>
 <h2 id="리포지토리-클론">리포지토리 클론</h2>
@@ -155,7 +155,35 @@ video
   <li><code class="language-plaintext highlighter-rouge">multer</code>를 이용한 이미지 업로드</li>
 </ul>
 
-<p><br /><br /></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="back-end" /><category term="node.js" /><category term="mongodb" /><category term="npm" /><summary type="html"><![CDATA[📝 MongoDB를 이용한 이미지 업로드를 지원하는 블로그 express 서버]]></summary></entry><entry><title type="html">계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]</title><link href="http://localhost:4000/projects/code/eatopia/" rel="alternate" type="text/html" title="계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]" /><published>2024-11-11T00:00:00+09:00</published><updated>2024-11-11T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/eatopia</id><content type="html" xml:base="http://localhost:4000/projects/code/eatopia/"><![CDATA[<style>
+<p><br /><br />
+video
+<br /><br /></p>
+
+<h1 id="-주요-코드">📌 주요 코드</h1>
+<h2 id="npm-패키지">npm 패키지</h2>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="w">  </span><span class="nl">"dependencies"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"bcrypt"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^5.1.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"cookie-parser"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^1.4.7"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"dotenv"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^16.4.5"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"ejs"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^3.1.10"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"express"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^4.21.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"express-async-handler"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^1.2.0"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"express-ejs-layouts"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^2.5.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"gridfs-stream"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^1.1.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"install"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^0.13.0"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"jsonwebtoken"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^9.0.2"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"method-override"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^3.0.0"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"mongoose"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^8.8.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"multer"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^1.4.5-lts.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"nodemon"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^3.1.7"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"npm"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^10.9.0"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="env-설정">env 설정</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>DB_CONNECT = mongodb+srv://(SECURITY).mongodb.net/myBlog
+JWT_SECRET=(SECURITY)
+</code></pre></div></div>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="back-end" /><category term="node.js" /><category term="mongodb" /><category term="npm" /><summary type="html"><![CDATA[📝 MongoDB를 이용한 이미지 업로드를 지원하는 블로그 express 서버]]></summary></entry><entry><title type="html">계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]</title><link href="http://localhost:4000/projects/code/eatopia/" rel="alternate" type="text/html" title="계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]" /><published>2024-11-11T00:00:00+09:00</published><updated>2024-11-11T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/eatopia</id><content type="html" xml:base="http://localhost:4000/projects/code/eatopia/"><![CDATA[<style>
   .ico {
     border-radius: 5px;
     height: 30px;

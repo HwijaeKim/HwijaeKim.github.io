@@ -40,3 +40,33 @@ toc_label: "청사진"
 - `multer`를 이용한 이미지 업로드
 
 <br><br>
+video
+<br><br>
+
+# 📌 주요 코드
+## npm 패키지
+```json
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-async-handler": "^1.2.0",
+    "express-ejs-layouts": "^2.5.1",
+    "gridfs-stream": "^1.1.1",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.8.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.7",
+    "npm": "^10.9.0"
+  }
+```
+
+## env 설정
+```
+DB_CONNECT = mongodb+srv://(SECURITY).mongodb.net/myBlog
+JWT_SECRET=(SECURITY)
+```
