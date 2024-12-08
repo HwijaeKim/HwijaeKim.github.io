@@ -67,12 +67,7 @@ toc_label: "MongoDB를 이용한 express 서버"
 ├── routes
 │   ├── admin.js
 │   ├── main.js
-│   └── uploads
-│       ├── 1733505557778.png
-│       ├── 1733505911265.png
-│       └── 1733506018128.png
 ├── uploads
-│   └── 1733540016920.png
 └── views
     ├── about.ejs
     ├── addImage.ejs

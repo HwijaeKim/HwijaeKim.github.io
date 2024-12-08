@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-08T01:31:23+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-08T20:05:10+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
 
 <h1 id="기본-사용">기본 사용</h1>
 <h2 id="리포지토리-클론">리포지토리 클론</h2>
@@ -76,7 +76,7 @@ video
 </code></pre></div></div>
 <p><img src="/assets/images/posts_img/web-interaction-final/2-1.webp" alt="2-1" /></p>
 
-<h2 id="foreach로-페이지-전환을-자연스럽고-적은-양의-코드로-구현"><code class="language-plaintext highlighter-rouge">forEach</code>로 페이지 전환을 자연스럽고 적은 양의 코드로 구현</h2>
+<h2 id="foreach로-페이지를-자연스럽고-유동적으로-전환"><code class="language-plaintext highlighter-rouge">forEach</code>로 페이지를 자연스럽고 유동적으로 전환</h2>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//index.html에서 각 아이콘 클릭시 화면전환 기능 구현</span>
 <span class="kd">const</span> <span class="nx">icons</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="dl">'</span><span class="s1">.iconFlex</span><span class="dl">'</span><span class="p">);</span>  <span class="c1">//총 9개의 iconFlex 클래스를 querySelectorAll 배열로 변수 지정</span>
 <span class="kd">const</span> <span class="nx">popupBox</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">popup</span><span class="dl">'</span><span class="p">);</span>  <span class="c1">//아이콘 클릭시 자연스럽게 전환될 수 있도록 popup id 변수 지정</span>
@@ -182,12 +182,7 @@ video
 ├── routes
 │   ├── admin.js
 │   ├── main.js
-│   └── uploads
-│       ├── 1733505557778.png
-│       ├── 1733505911265.png
-│       └── 1733506018128.png
 ├── uploads
-│   └── 1733540016920.png
 └── views
     ├── about.ejs
     ├── addImage.ejs
@@ -393,7 +388,7 @@ JWT_SECRET= (SECURITY)
 
 <p><br /><br /></p>
 
-<h1 id="-주요-코드">📌 주요 코드</h1>
+<p><del># 📌 주요 코드</del></p>
 <h2 id="가상-클래스">가상 클래스</h2>
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">:root</span> <span class="p">{</span>
     <span class="c">/*공통수치 통합관리*/</span>

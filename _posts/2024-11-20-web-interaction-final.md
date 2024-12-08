@@ -59,7 +59,7 @@ $(() => {
 ```
 ![2-1](/assets/images/posts_img/web-interaction-final/2-1.webp)
 
-## `forEach`로 페이지 전환을 자연스럽고 적은 양의 코드로 구현
+## `forEach`로 페이지를 자연스럽고 유동적으로 전환
 ```javascript
 //index.html에서 각 아이콘 클릭시 화면전환 기능 구현
 const icons = document.querySelectorAll('.iconFlex');  //총 9개의 iconFlex 클래스를 querySelectorAll 배열로 변수 지정
