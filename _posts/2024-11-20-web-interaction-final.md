@@ -25,7 +25,7 @@ toc_label: "My Origin Wizard"
 | **기간**    | 2024.09 ~ 2024.12 (2-2학기)                                                                                     |
 | **인원**    | 개인                                                                                         |
 | **담당분야**  | 사이트 콘셉트 수립, 9개 콘텐츠 기획 및 기능구현                                    |
-| **관련 링크** | <a href="https://hwijaekim.github.io/my-origin-wizard" target="_blank">https://hwijaekim.github.io/my-origin-wizard</a> |
+| **관련 링크** | <a href="https://hwijaekim.github.io/my-origin-wizard/index.html" target="_blank">https://hwijaekim.github.io/my-origin-wizard</a> |
 
 <br><br>
 
@@ -59,7 +59,7 @@ $(() => {
 ```
 ![2-1](/assets/images/posts_img/web-interaction-final/2-1.webp)
 
-## `forEach`로 페이지를 자연스럽고 유동적으로 전환
+## `forEach`로 9개 페이지를 
 ```javascript
 //index.html에서 각 아이콘 클릭시 화면전환 기능 구현
 const icons = document.querySelectorAll('.iconFlex');  //총 9개의 iconFlex 클래스를 querySelectorAll 배열로 변수 지정
