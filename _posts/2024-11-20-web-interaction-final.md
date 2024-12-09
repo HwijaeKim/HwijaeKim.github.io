@@ -86,6 +86,57 @@ icons.forEach((icon,index) => {  //iconFlex div를 forEach, 클릭된 icon의 �
 ```
 ![2-2](/assets/images/posts_img/web-interaction-final/2-2.webp)
 
+## SVG의 path 내 속성값을 변경해 애니메이션을 구현
+```html
+<!--SVG 중 일부-->
+<path id="bezier-control" d="M10.5 327C73 251.167 243.3 99.5 424.5 99.5C605.7 99.5 776.667 250.833 839.5 326.5" stroke="#D0D0D0" stroke-width="1.5"/>
+
+<!--버튼-->
+<div id="btn-cluster">
+    <button class="graph-btn"><img src="./sources/05motion/bezier_1.webp" alt="bezier_1"></button>
+    <button class="graph-btn"><img src="./sources/05motion/bezier_2.webp" alt="bezier_2"></button>
+    <button class="graph-btn"><img src="./sources/05motion/bezier_3.webp" alt="bezier_3"></button>
+    <button class="graph-btn"><img src="./sources/05motion/bezier_4.webp" alt="bezier_4"></button>
+</div>
+```
+```javascript
+// svg중 bezier 부분 path, 움직일 원, 버튼 4개를 변수로 선언
+const bezierControl = document.getElementById('bezier-control');
+const ballObj = document.getElementById('ball');
+const bezierBtn = document.querySelectorAll('.graph-btn');
+
+// NodeList로 나열된 bezierBtn을 forEach로 풀어주기
+bezierBtn.forEach((btn, index) => {
+    btn.addEventListener('click', () => {
+        // 버튼 순서대로 클릭시 index값을 통해 if문으로 조작
+        if(index === 0) {
+            /*
+            * 해당 변수 내 요소의 속성값을 변경할 수 있는 메서드.
+            * (변수).setAttribute(속성명, 속성값);
+            * */
+            bezierControl.setAttribute(
+                // 해당 변수 path 내 포함된 요소 "b"에 대한 속성값을 아래와 같이 변경한다.
+                "d",
+                "M10.5 327C73 251.167 243.3 99.5 424.5 99.5C605.7 99.5 776.667 250.833 839.5 326.5"
+            );
+            // 추가된 모든 클래스를 제거
+            ballObj.className = '';
+        }
+        else if(index === 1) {
+            bezierControl.setAttribute(
+                "d",
+                "M10.5 327C43.5 327 132 99.5 214.5 99.5C335 99.5 332.5 326.5 839.5 326.5"
+            );
+            //추가된 모든 클래스를 제거하고 graph2 클래스를 add
+            ballObj.className = '';
+            ballObj.classList.add('graph2');
+        }
+    })
+})
+```
+![2-2](/assets/images/posts_img/web-interaction-final/2-3.webp)
+
+
 <br><br>
 
 # 🖥️ 사용 기술
@@ -96,3 +147,12 @@ icons.forEach((icon,index) => {  //iconFlex div를 forEach, 클릭된 icon의 �
 <img class="ico" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white">
 
 <br><br>
+
+# ⌨️ 총평
+- Good Parts
+  - CSS와 JS를 통합하여 제작했을 때 발생할 수 있는 문제를 경험하고 해결
+  - HTML/CSS와 JS를 보다 긴밀하게 연결하여 여러 상호작용 요소를 구현
+  - 코드 주석처리에 대한 습관
+  - SVG와 CSS Animation을 적극 활용
+- Bad Parts
+  - 구현 가능성과 시간분배로 인한 콘텐츠 타협
