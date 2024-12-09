@@ -57,7 +57,7 @@ sidebar:
 </style>
 
 
-## <span style="color: var(--base-color)">Basic Profile</span>
+## <span style="color: var(--base-color)">이력서</span>
 <!-- ![profile](/assets/images/profile_real.jpeg){: width="150"} -->
 <div class="profile_grid">
 <img class="profile_img" src="/assets/images/profile_real2.png">
