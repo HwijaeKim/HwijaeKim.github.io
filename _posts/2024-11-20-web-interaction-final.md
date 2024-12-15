@@ -36,7 +36,7 @@ toc_label: "My Origin Wizard"
 - `forEach`를 이용해 `index.html`에서 각 아이콘 클릭에 대한 페이지 전환을 자연스럽고 적은 양의 코드로 구현
 
 <br><br>
-video
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/sVCvbcAeFW4?si=-_R6b9hT8Qhtx_MY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br><br>
 
 # 📌 주요 코드
@@ -59,7 +59,7 @@ $(() => {
 ```
 ![2-1](/assets/images/posts_img/web-interaction-final/2-1.webp)
 
-## `forEach`로 9개 페이지를 
+## `forEach`로 각 9개의 아이콘을 클릭하여 페이지 전환 구현
 ```javascript
 //index.html에서 각 아이콘 클릭시 화면전환 기능 구현
 const icons = document.querySelectorAll('.iconFlex');  //총 9개의 iconFlex 클래스를 querySelectorAll 배열로 변수 지정

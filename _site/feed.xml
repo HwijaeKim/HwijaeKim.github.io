@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-11T08:31:34+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-15T19:05:05+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
 
 <h1 id="기본-사용">기본 사용</h1>
 <h2 id="리포지토리-클론">리포지토리 클론</h2>
@@ -13,170 +13,7 @@
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add <span class="nb">.</span>
 git commit <span class="nt">-m</span> <span class="s1">'커밋메시지'</span>
 git push
-</code></pre></div></div>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="git" /><summary type="html"><![CDATA[기본 사용 리포지토리 클론 git clone &lt;리포지토리 URL&gt;]]></summary></entry><entry><title type="html">웹인터랙션프로그래밍 교과목 프로젝트 [My Origin Wizard]</title><link href="http://localhost:4000/projects/code/web-interaction-final/" rel="alternate" type="text/html" title="웹인터랙션프로그래밍 교과목 프로젝트 [My Origin Wizard]" /><published>2024-11-20T00:00:00+09:00</published><updated>2024-11-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/web-interaction-final</id><content type="html" xml:base="http://localhost:4000/projects/code/web-interaction-final/"><![CDATA[<style>
-  .ico {
-    border-radius: 5px;
-    height: 30px;
-    margin-bottom: 5px;
-  }
-</style>
-
-<p><br /></p>
-<h1 id="-나의-일대기-9가지-페이지를-javascript-기반의-상호작용-사이트로-제작">📝 나의 일대기 9가지 페이지를 JavaScript 기반의 상호작용 사이트로 제작</h1>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>기간</strong></td>
-      <td>2024.09 ~ 2024.12 (2-2학기)</td>
-    </tr>
-    <tr>
-      <td><strong>인원</strong></td>
-      <td>개인</td>
-    </tr>
-    <tr>
-      <td><strong>담당분야</strong></td>
-      <td>사이트 콘셉트 수립, 9개 콘텐츠 기획 및 기능구현</td>
-    </tr>
-    <tr>
-      <td><strong>관련 링크</strong></td>
-      <td><a href="https://hwijaekim.github.io/my-origin-wizard/index.html" target="_blank">https://hwijaekim.github.io/my-origin-wizard</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<p><br /><br /></p>
-
-<h1 id="-핵심-기술-요약">🔑 핵심 기술 요약</h1>
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">display: flex;</code>, <code class="language-plaintext highlighter-rouge">flex-flow: row wrap;</code> 스타일 적용으로 윈도우 크기변화에 따른 적절한 아이콘 배치</li>
-  <li><code class="language-plaintext highlighter-rouge">JQuery UI</code> 사용으로 <code class="language-plaintext highlighter-rouge">index.html</code>에서 윈도우 창 드래그 기능 구현</li>
-  <li><code class="language-plaintext highlighter-rouge">forEach</code>를 이용해 <code class="language-plaintext highlighter-rouge">index.html</code>에서 각 아이콘 클릭에 대한 페이지 전환을 자연스럽고 적은 양의 코드로 구현</li>
-</ul>
-
-<p><br /><br />
-video
-<br /><br /></p>
-
-<h1 id="-주요-코드">📌 주요 코드</h1>
-<h2 id="flex-아이콘-배치--jquery-ui를-이용한-드래그-구현"><code class="language-plaintext highlighter-rouge">flex</code> 아이콘 배치 + JQuery UI를 이용한 드래그 구현</h2>
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#win_contents</span> <span class="p">{</span>
-    <span class="c">/*border: solid 1px red;*/</span>
-    <span class="nl">width</span><span class="p">:</span> <span class="m">95%</span><span class="p">;</span>
-    <span class="nl">height</span><span class="p">:</span> <span class="m">90%</span><span class="p">;</span>
-    <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span>
-    <span class="nl">display</span><span class="p">:</span> <span class="n">flex</span><span class="p">;</span>
-    <span class="nl">flex-flow</span><span class="p">:</span> <span class="n">row</span> <span class="n">wrap</span><span class="p">;</span>
-    <span class="nl">align-items</span><span class="p">:</span> <span class="nb">baseline</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">#win_container</span><span class="dl">'</span><span class="p">).</span><span class="nx">draggable</span><span class="p">();</span>
-<span class="p">})</span>
-</code></pre></div></div>
-<p><img src="/assets/images/posts_img/web-interaction-final/2-1.webp" alt="2-1" /></p>
-
-<h2 id="foreach로-9개-페이지를"><code class="language-plaintext highlighter-rouge">forEach</code>로 9개 페이지를</h2>
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//index.html에서 각 아이콘 클릭시 화면전환 기능 구현</span>
-<span class="kd">const</span> <span class="nx">icons</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="dl">'</span><span class="s1">.iconFlex</span><span class="dl">'</span><span class="p">);</span>  <span class="c1">//총 9개의 iconFlex 클래스를 querySelectorAll 배열로 변수 지정</span>
-<span class="kd">const</span> <span class="nx">popupBox</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">popup</span><span class="dl">'</span><span class="p">);</span>  <span class="c1">//아이콘 클릭시 자연스럽게 전환될 수 있도록 popup id 변수 지정</span>
-
-<span class="nx">icons</span><span class="p">.</span><span class="nx">forEach</span><span class="p">((</span><span class="nx">icon</span><span class="p">,</span><span class="nx">index</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>  <span class="c1">//iconFlex div를 forEach, 클릭된 icon의 순서를 알기 위해 index를 추가로 선언</span>
-    <span class="nx">icon</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>  <span class="c1">//icon을 클릭하면</span>
-        <span class="nx">popupBox</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="dl">'</span><span class="s1">active</span><span class="dl">'</span><span class="p">);</span>  <span class="c1">//미리 선언해둔 팝업 변수에 active클래스를 추가하여 keyframe애니메이션 재생</span>
-
-        <span class="c1">//핵심 코드. popupBox에 active 클래스가 추가되고 1초 후 내부 코드 실행</span>
-        <span class="nx">setTimeout</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-            <span class="cm">/*
-            * index페이지 전환 코드
-            * 각 서브 페이지 이름은 1~9.html로 지정해 두었음
-            * forEach에서 선언한 index값은 클릭한 icon의 순서
-            * querySelectorAll로 불러온 배열은 0부터 시작하므로 클릭한 index에 1을 더함
-            * 최종적으로 백틱을 사용하여 클릭한 icon에 대한 순서(index)값+1.html 파일을 1초 후 열도록 프로그래밍
-            * ex. 6번째 아이콘을 클릭 -&gt; index값은 5 -&gt; 5+1 =&gt; 6.html 1초 후 전환
-            * */</span>
-            <span class="nb">window</span><span class="p">.</span><span class="nx">location</span><span class="p">.</span><span class="nx">href</span> <span class="o">=</span> <span class="s2">`./</span><span class="p">${</span><span class="nx">index</span> <span class="o">+</span> <span class="mi">1</span><span class="p">}</span><span class="s2">.html`</span><span class="p">;</span>
-        <span class="p">},</span> <span class="mi">1000</span><span class="p">);</span>
-    <span class="p">})</span>
-<span class="p">})</span>
-</code></pre></div></div>
-<p><img src="/assets/images/posts_img/web-interaction-final/2-2.webp" alt="2-2" /></p>
-
-<h2 id="svg의-path-내-속성값을-변경해-애니메이션을-구현">SVG의 path 내 속성값을 변경해 애니메이션을 구현</h2>
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!--SVG 중 일부--&gt;</span>
-<span class="nt">&lt;path</span> <span class="na">id=</span><span class="s">"bezier-control"</span> <span class="na">d=</span><span class="s">"M10.5 327C73 251.167 243.3 99.5 424.5 99.5C605.7 99.5 776.667 250.833 839.5 326.5"</span> <span class="na">stroke=</span><span class="s">"#D0D0D0"</span> <span class="na">stroke-width=</span><span class="s">"1.5"</span><span class="nt">/&gt;</span>
-
-<span class="c">&lt;!--버튼--&gt;</span>
-<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"btn-cluster"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"graph-btn"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"./sources/05motion/bezier_1.webp"</span> <span class="na">alt=</span><span class="s">"bezier_1"</span><span class="nt">&gt;&lt;/button&gt;</span>
-    <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"graph-btn"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"./sources/05motion/bezier_2.webp"</span> <span class="na">alt=</span><span class="s">"bezier_2"</span><span class="nt">&gt;&lt;/button&gt;</span>
-    <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"graph-btn"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"./sources/05motion/bezier_3.webp"</span> <span class="na">alt=</span><span class="s">"bezier_3"</span><span class="nt">&gt;&lt;/button&gt;</span>
-    <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"graph-btn"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"./sources/05motion/bezier_4.webp"</span> <span class="na">alt=</span><span class="s">"bezier_4"</span><span class="nt">&gt;&lt;/button&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
-</code></pre></div></div>
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// svg중 bezier 부분 path, 움직일 원, 버튼 4개를 변수로 선언</span>
-<span class="kd">const</span> <span class="nx">bezierControl</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">bezier-control</span><span class="dl">'</span><span class="p">);</span>
-<span class="kd">const</span> <span class="nx">ballObj</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">ball</span><span class="dl">'</span><span class="p">);</span>
-<span class="kd">const</span> <span class="nx">bezierBtn</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="dl">'</span><span class="s1">.graph-btn</span><span class="dl">'</span><span class="p">);</span>
-
-<span class="c1">// NodeList로 나열된 bezierBtn을 forEach로 풀어주기</span>
-<span class="nx">bezierBtn</span><span class="p">.</span><span class="nx">forEach</span><span class="p">((</span><span class="nx">btn</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="nx">btn</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-        <span class="c1">// 버튼 순서대로 클릭시 index값을 통해 if문으로 조작</span>
-        <span class="k">if</span><span class="p">(</span><span class="nx">index</span> <span class="o">===</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
-            <span class="cm">/*
-            * 해당 변수 내 요소의 속성값을 변경할 수 있는 메서드.
-            * (변수).setAttribute(속성명, 속성값);
-            * */</span>
-            <span class="nx">bezierControl</span><span class="p">.</span><span class="nx">setAttribute</span><span class="p">(</span>
-                <span class="c1">// 해당 변수 path 내 포함된 요소 "b"에 대한 속성값을 아래와 같이 변경한다.</span>
-                <span class="dl">"</span><span class="s2">d</span><span class="dl">"</span><span class="p">,</span>
-                <span class="dl">"</span><span class="s2">M10.5 327C73 251.167 243.3 99.5 424.5 99.5C605.7 99.5 776.667 250.833 839.5 326.5</span><span class="dl">"</span>
-            <span class="p">);</span>
-            <span class="c1">// 추가된 모든 클래스를 제거</span>
-            <span class="nx">ballObj</span><span class="p">.</span><span class="nx">className</span> <span class="o">=</span> <span class="dl">''</span><span class="p">;</span>
-        <span class="p">}</span>
-        <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nx">index</span> <span class="o">===</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
-            <span class="nx">bezierControl</span><span class="p">.</span><span class="nx">setAttribute</span><span class="p">(</span>
-                <span class="dl">"</span><span class="s2">d</span><span class="dl">"</span><span class="p">,</span>
-                <span class="dl">"</span><span class="s2">M10.5 327C43.5 327 132 99.5 214.5 99.5C335 99.5 332.5 326.5 839.5 326.5</span><span class="dl">"</span>
-            <span class="p">);</span>
-            <span class="c1">//추가된 모든 클래스를 제거하고 graph2 클래스를 add</span>
-            <span class="nx">ballObj</span><span class="p">.</span><span class="nx">className</span> <span class="o">=</span> <span class="dl">''</span><span class="p">;</span>
-            <span class="nx">ballObj</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="dl">'</span><span class="s1">graph2</span><span class="dl">'</span><span class="p">);</span>
-        <span class="p">}</span>
-    <span class="p">})</span>
-<span class="p">})</span>
-</code></pre></div></div>
-<p><img src="/assets/images/posts_img/web-interaction-final/2-3.webp" alt="2-2" /></p>
-
-<p><br /><br /></p>
-
-<h1 id="️-사용-기술">🖥️ 사용 기술</h1>
-<p><img class="ico" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" />
-<img class="ico" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white" />
-<img class="ico" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=JavaScript&amp;logoColor=white" />
-<img class="ico" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white" />
-<img class="ico" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&amp;logo=git&amp;logoColor=white" /></p>
-
-<p><br /><br /></p>
-
-<h1 id="️-총평">⌨️ 총평</h1>
-<ul>
-  <li>Good Parts
-    <ul>
-      <li>CSS와 JS를 통합하여 제작했을 때 발생할 수 있는 문제를 경험하고 해결</li>
-      <li>HTML/CSS와 JS를 보다 긴밀하게 연결하여 여러 상호작용 요소를 구현</li>
-      <li>코드 주석처리에 대한 습관</li>
-      <li>SVG와 CSS Animation을 적극 활용</li>
-    </ul>
-  </li>
-  <li>Bad Parts
-    <ul>
-      <li>구현 가능성과 시간분배로 인한 콘텐츠 타협</li>
-    </ul>
-  </li>
-</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><summary type="html"><![CDATA[📝 나의 일대기 9가지 페이지를 JavaScript 기반의 상호작용 사이트로 제작]]></summary></entry><entry><title type="html">서버프로그래밍 교과목 실습응용 [블로그 express 서버]</title><link href="http://localhost:4000/projects/code/union-server-programming/" rel="alternate" type="text/html" title="서버프로그래밍 교과목 실습응용 [블로그 express 서버]" /><published>2024-11-20T00:00:00+09:00</published><updated>2024-11-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/union-server-programming</id><content type="html" xml:base="http://localhost:4000/projects/code/union-server-programming/"><![CDATA[<style>
+</code></pre></div></div>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="git" /><summary type="html"><![CDATA[기본 사용 리포지토리 클론 git clone &lt;리포지토리 URL&gt;]]></summary></entry><entry><title type="html">서버프로그래밍 교과목 실습응용 [블로그 express 서버]</title><link href="http://localhost:4000/projects/code/union-server-programming/" rel="alternate" type="text/html" title="서버프로그래밍 교과목 실습응용 [블로그 express 서버]" /><published>2024-11-20T00:00:00+09:00</published><updated>2024-11-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/union-server-programming</id><content type="html" xml:base="http://localhost:4000/projects/code/union-server-programming/"><![CDATA[<style>
   .ico {
     border-radius: 5px;
     height: 30px;
@@ -404,7 +241,485 @@ JWT_SECRET= (SECURITY)
 <img class="ico" src="https://img.shields.io/badge/ejs-%23B4CA65.svg?style=for-the-badge&amp;logo=ejs&amp;logoColor=black" />
 <img class="ico" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&amp;logo=express&amp;logoColor=%2361DAFB" />
 <img class="ico" src="https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&amp;logo=nodemon&amp;logoColor=%BBDEAD" />
-<img class="ico" src="https://img.shields.io/badge/JWT-black?style=for-the-badge&amp;logo=JSON%20web%20tokens" /></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="back-end" /><category term="node.js" /><category term="mongodb" /><category term="npm" /><summary type="html"><![CDATA[📝 MongoDB를 이용한 이미지 업로드를 지원하는 블로그 express 서버]]></summary></entry><entry><title type="html">계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]</title><link href="http://localhost:4000/projects/code/eatopia/" rel="alternate" type="text/html" title="계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]" /><published>2024-11-11T00:00:00+09:00</published><updated>2024-11-11T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/eatopia</id><content type="html" xml:base="http://localhost:4000/projects/code/eatopia/"><![CDATA[<style>
+<img class="ico" src="https://img.shields.io/badge/JWT-black?style=for-the-badge&amp;logo=JSON%20web%20tokens" /></p>
+
+<p><br /><br /></p>
+
+<h1 id="️-총평">⌨️ 총평</h1>
+<ul>
+  <li><strong>Good Parts</strong>
+    <ul>
+      <li>최초로 시도한 백엔드 프로세스</li>
+      <li>Node.js와 npm 그리고 express서버 구축에 대한 기초를 경험</li>
+    </ul>
+  </li>
+  <li><strong>Bad Parts</strong>
+    <ul>
+      <li>처음 경험하는 다소 높은 난이도의 백엔드 구축으로 완전히 본인의 것으로 소화하지 못 하여 지속적인 학습 필요</li>
+      <li>능동적으로 코드를 이해하고 작성하는 것에 다소 미흡함이 존재</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="back-end" /><category term="node.js" /><category term="mongodb" /><category term="npm" /><summary type="html"><![CDATA[📝 MongoDB를 이용한 이미지 업로드를 지원하는 블로그 express 서버]]></summary></entry><entry><title type="html">웹인터랙션프로그래밍 교과목 프로젝트 [My Origin Wizard]</title><link href="http://localhost:4000/projects/code/web-interaction-final/" rel="alternate" type="text/html" title="웹인터랙션프로그래밍 교과목 프로젝트 [My Origin Wizard]" /><published>2024-11-20T00:00:00+09:00</published><updated>2024-11-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/web-interaction-final</id><content type="html" xml:base="http://localhost:4000/projects/code/web-interaction-final/"><![CDATA[<style>
+  .ico {
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 5px;
+  }
+</style>
+
+<p><br /></p>
+<h1 id="-나의-일대기-9가지-페이지를-javascript-기반의-상호작용-사이트로-제작">📝 나의 일대기 9가지 페이지를 JavaScript 기반의 상호작용 사이트로 제작</h1>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>기간</strong></td>
+      <td>2024.09 ~ 2024.12 (2-2학기)</td>
+    </tr>
+    <tr>
+      <td><strong>인원</strong></td>
+      <td>개인</td>
+    </tr>
+    <tr>
+      <td><strong>담당분야</strong></td>
+      <td>사이트 콘셉트 수립, 9개 콘텐츠 기획 및 기능구현</td>
+    </tr>
+    <tr>
+      <td><strong>관련 링크</strong></td>
+      <td><a href="https://hwijaekim.github.io/my-origin-wizard/index.html" target="_blank">https://hwijaekim.github.io/my-origin-wizard</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /><br /></p>
+
+<h1 id="-핵심-기술-요약">🔑 핵심 기술 요약</h1>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">display: flex;</code>, <code class="language-plaintext highlighter-rouge">flex-flow: row wrap;</code> 스타일 적용으로 윈도우 크기변화에 따른 적절한 아이콘 배치</li>
+  <li><code class="language-plaintext highlighter-rouge">JQuery UI</code> 사용으로 <code class="language-plaintext highlighter-rouge">index.html</code>에서 윈도우 창 드래그 기능 구현</li>
+  <li><code class="language-plaintext highlighter-rouge">forEach</code>를 이용해 <code class="language-plaintext highlighter-rouge">index.html</code>에서 각 아이콘 클릭에 대한 페이지 전환을 자연스럽고 적은 양의 코드로 구현</li>
+</ul>
+
+<p><br /><br /></p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/sVCvbcAeFW4?si=-_R6b9hT8Qhtx_MY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+<p><br /><br /></p>
+
+<h1 id="-주요-코드">📌 주요 코드</h1>
+<h2 id="flex-아이콘-배치--jquery-ui를-이용한-드래그-구현"><code class="language-plaintext highlighter-rouge">flex</code> 아이콘 배치 + JQuery UI를 이용한 드래그 구현</h2>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#win_contents</span> <span class="p">{</span>
+    <span class="c">/*border: solid 1px red;*/</span>
+    <span class="nl">width</span><span class="p">:</span> <span class="m">95%</span><span class="p">;</span>
+    <span class="nl">height</span><span class="p">:</span> <span class="m">90%</span><span class="p">;</span>
+    <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span>
+    <span class="nl">display</span><span class="p">:</span> <span class="n">flex</span><span class="p">;</span>
+    <span class="nl">flex-flow</span><span class="p">:</span> <span class="n">row</span> <span class="n">wrap</span><span class="p">;</span>
+    <span class="nl">align-items</span><span class="p">:</span> <span class="nb">baseline</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">#win_container</span><span class="dl">'</span><span class="p">).</span><span class="nx">draggable</span><span class="p">();</span>
+<span class="p">})</span>
+</code></pre></div></div>
+<p><img src="/assets/images/posts_img/web-interaction-final/2-1.webp" alt="2-1" /></p>
+
+<h2 id="foreach로-각-9개의-아이콘을-클릭하여-페이지-전환-구현"><code class="language-plaintext highlighter-rouge">forEach</code>로 각 9개의 아이콘을 클릭하여 페이지 전환 구현</h2>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//index.html에서 각 아이콘 클릭시 화면전환 기능 구현</span>
+<span class="kd">const</span> <span class="nx">icons</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="dl">'</span><span class="s1">.iconFlex</span><span class="dl">'</span><span class="p">);</span>  <span class="c1">//총 9개의 iconFlex 클래스를 querySelectorAll 배열로 변수 지정</span>
+<span class="kd">const</span> <span class="nx">popupBox</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">popup</span><span class="dl">'</span><span class="p">);</span>  <span class="c1">//아이콘 클릭시 자연스럽게 전환될 수 있도록 popup id 변수 지정</span>
+
+<span class="nx">icons</span><span class="p">.</span><span class="nx">forEach</span><span class="p">((</span><span class="nx">icon</span><span class="p">,</span><span class="nx">index</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>  <span class="c1">//iconFlex div를 forEach, 클릭된 icon의 순서를 알기 위해 index를 추가로 선언</span>
+    <span class="nx">icon</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>  <span class="c1">//icon을 클릭하면</span>
+        <span class="nx">popupBox</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="dl">'</span><span class="s1">active</span><span class="dl">'</span><span class="p">);</span>  <span class="c1">//미리 선언해둔 팝업 변수에 active클래스를 추가하여 keyframe애니메이션 재생</span>
+
+        <span class="c1">//핵심 코드. popupBox에 active 클래스가 추가되고 1초 후 내부 코드 실행</span>
+        <span class="nx">setTimeout</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+            <span class="cm">/*
+            * index페이지 전환 코드
+            * 각 서브 페이지 이름은 1~9.html로 지정해 두었음
+            * forEach에서 선언한 index값은 클릭한 icon의 순서
+            * querySelectorAll로 불러온 배열은 0부터 시작하므로 클릭한 index에 1을 더함
+            * 최종적으로 백틱을 사용하여 클릭한 icon에 대한 순서(index)값+1.html 파일을 1초 후 열도록 프로그래밍
+            * ex. 6번째 아이콘을 클릭 -&gt; index값은 5 -&gt; 5+1 =&gt; 6.html 1초 후 전환
+            * */</span>
+            <span class="nb">window</span><span class="p">.</span><span class="nx">location</span><span class="p">.</span><span class="nx">href</span> <span class="o">=</span> <span class="s2">`./</span><span class="p">${</span><span class="nx">index</span> <span class="o">+</span> <span class="mi">1</span><span class="p">}</span><span class="s2">.html`</span><span class="p">;</span>
+        <span class="p">},</span> <span class="mi">1000</span><span class="p">);</span>
+    <span class="p">})</span>
+<span class="p">})</span>
+</code></pre></div></div>
+<p><img src="/assets/images/posts_img/web-interaction-final/2-2.webp" alt="2-2" /></p>
+
+<h2 id="svg의-path-내-속성값을-변경해-애니메이션을-구현">SVG의 path 내 속성값을 변경해 애니메이션을 구현</h2>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!--SVG 중 일부--&gt;</span>
+<span class="nt">&lt;path</span> <span class="na">id=</span><span class="s">"bezier-control"</span> <span class="na">d=</span><span class="s">"M10.5 327C73 251.167 243.3 99.5 424.5 99.5C605.7 99.5 776.667 250.833 839.5 326.5"</span> <span class="na">stroke=</span><span class="s">"#D0D0D0"</span> <span class="na">stroke-width=</span><span class="s">"1.5"</span><span class="nt">/&gt;</span>
+
+<span class="c">&lt;!--버튼--&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"btn-cluster"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"graph-btn"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"./sources/05motion/bezier_1.webp"</span> <span class="na">alt=</span><span class="s">"bezier_1"</span><span class="nt">&gt;&lt;/button&gt;</span>
+    <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"graph-btn"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"./sources/05motion/bezier_2.webp"</span> <span class="na">alt=</span><span class="s">"bezier_2"</span><span class="nt">&gt;&lt;/button&gt;</span>
+    <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"graph-btn"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"./sources/05motion/bezier_3.webp"</span> <span class="na">alt=</span><span class="s">"bezier_3"</span><span class="nt">&gt;&lt;/button&gt;</span>
+    <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"graph-btn"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"./sources/05motion/bezier_4.webp"</span> <span class="na">alt=</span><span class="s">"bezier_4"</span><span class="nt">&gt;&lt;/button&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// svg중 bezier 부분 path, 움직일 원, 버튼 4개를 변수로 선언</span>
+<span class="kd">const</span> <span class="nx">bezierControl</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">bezier-control</span><span class="dl">'</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">ballObj</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">ball</span><span class="dl">'</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">bezierBtn</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="dl">'</span><span class="s1">.graph-btn</span><span class="dl">'</span><span class="p">);</span>
+
+<span class="c1">// NodeList로 나열된 bezierBtn을 forEach로 풀어주기</span>
+<span class="nx">bezierBtn</span><span class="p">.</span><span class="nx">forEach</span><span class="p">((</span><span class="nx">btn</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">btn</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="c1">// 버튼 순서대로 클릭시 index값을 통해 if문으로 조작</span>
+        <span class="k">if</span><span class="p">(</span><span class="nx">index</span> <span class="o">===</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+            <span class="cm">/*
+            * 해당 변수 내 요소의 속성값을 변경할 수 있는 메서드.
+            * (변수).setAttribute(속성명, 속성값);
+            * */</span>
+            <span class="nx">bezierControl</span><span class="p">.</span><span class="nx">setAttribute</span><span class="p">(</span>
+                <span class="c1">// 해당 변수 path 내 포함된 요소 "b"에 대한 속성값을 아래와 같이 변경한다.</span>
+                <span class="dl">"</span><span class="s2">d</span><span class="dl">"</span><span class="p">,</span>
+                <span class="dl">"</span><span class="s2">M10.5 327C73 251.167 243.3 99.5 424.5 99.5C605.7 99.5 776.667 250.833 839.5 326.5</span><span class="dl">"</span>
+            <span class="p">);</span>
+            <span class="c1">// 추가된 모든 클래스를 제거</span>
+            <span class="nx">ballObj</span><span class="p">.</span><span class="nx">className</span> <span class="o">=</span> <span class="dl">''</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nx">index</span> <span class="o">===</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+            <span class="nx">bezierControl</span><span class="p">.</span><span class="nx">setAttribute</span><span class="p">(</span>
+                <span class="dl">"</span><span class="s2">d</span><span class="dl">"</span><span class="p">,</span>
+                <span class="dl">"</span><span class="s2">M10.5 327C43.5 327 132 99.5 214.5 99.5C335 99.5 332.5 326.5 839.5 326.5</span><span class="dl">"</span>
+            <span class="p">);</span>
+            <span class="c1">//추가된 모든 클래스를 제거하고 graph2 클래스를 add</span>
+            <span class="nx">ballObj</span><span class="p">.</span><span class="nx">className</span> <span class="o">=</span> <span class="dl">''</span><span class="p">;</span>
+            <span class="nx">ballObj</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="dl">'</span><span class="s1">graph2</span><span class="dl">'</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">})</span>
+<span class="p">})</span>
+</code></pre></div></div>
+<p><img src="/assets/images/posts_img/web-interaction-final/2-3.webp" alt="2-2" /></p>
+
+<p><br /><br /></p>
+
+<h1 id="️-사용-기술">🖥️ 사용 기술</h1>
+<p><img class="ico" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=JavaScript&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&amp;logo=git&amp;logoColor=white" /></p>
+
+<p><br /><br /></p>
+
+<h1 id="️-총평">⌨️ 총평</h1>
+<ul>
+  <li>Good Parts
+    <ul>
+      <li>CSS와 JS를 통합하여 제작했을 때 발생할 수 있는 문제를 경험하고 해결</li>
+      <li>HTML/CSS와 JS를 보다 긴밀하게 연결하여 여러 상호작용 요소를 구현</li>
+      <li>코드 주석처리에 대한 습관</li>
+      <li>SVG와 CSS Animation을 적극 활용</li>
+    </ul>
+  </li>
+  <li>Bad Parts
+    <ul>
+      <li>구현 가능성과 시간분배로 인한 콘텐츠 타협</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><summary type="html"><![CDATA[📝 나의 일대기 9가지 페이지를 JavaScript 기반의 상호작용 사이트로 제작]]></summary></entry><entry><title type="html">서버프로그래밍 교과목 기말 프로젝트 [유니픽스]</title><link href="http://localhost:4000/projects/code/server-programming-final/" rel="alternate" type="text/html" title="서버프로그래밍 교과목 기말 프로젝트 [유니픽스]" /><published>2024-11-19T00:00:00+09:00</published><updated>2024-11-19T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/server-programming-final</id><content type="html" xml:base="http://localhost:4000/projects/code/server-programming-final/"><![CDATA[<style>
+  .ico {
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 5px;
+  }
+</style>
+
+<p><br /></p>
+<h1 id="-nodejs와-mongodb를-이용한-컴퓨터-수리-예약-사이트-유니픽스">📝 Node.js와 MongoDB를 이용한 컴퓨터 수리 예약 사이트 [유니픽스]</h1>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>기간</strong></td>
+      <td>2024.11 ~ 2024.12  (2-2학기)</td>
+    </tr>
+    <tr>
+      <td><strong>인원</strong></td>
+      <td>개인</td>
+    </tr>
+    <tr>
+      <td><strong>담당분야</strong></td>
+      <td>개발환경 구축, MongoDB 연결, <code class="language-plaintext highlighter-rouge">multer</code>를 이용한 이미지 업로드, 그 외 요소 구현</td>
+    </tr>
+    <tr>
+      <td><strong>관련 링크</strong></td>
+      <td><sub>학습 교재</sub><br />고영희 저 Do it! Node.js 프로그래밍 입문<br />쉽고 빠르게 달리는 백엔드 개발 / 자바스크립트+노드제이에스+익스프레스+몽고DB로 개발 순서에 따라 직접 서버 만들기!</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /><br /></p>
+
+<h1 id="-핵심-기술-요약">🔑 핵심 기술 요약</h1>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">js, Node.js, express, MongoDB</code>를 이용한 기초 express 서버 제작</li>
+  <li><code class="language-plaintext highlighter-rouge">GET, POST, PUT, DELETE</code> 메서드를 요청하고 응답을 처리하는 메서드 구성</li>
+  <li>템플릿 엔진으로 <code class="language-plaintext highlighter-rouge">ejs</code> 연결</li>
+  <li><code class="language-plaintext highlighter-rouge">jsonwebtoken(JWT), cookie</code>를 이용한 비밀번호 암호화 및 토큰, 쿠키로 어드민 회원가입/로그인 관리</li>
+  <li>어드민 계정과 전용 페이지</li>
+  <li><code class="language-plaintext highlighter-rouge">multer</code>를 이용한 이미지 업로드</li>
+</ul>
+
+<p><br /><br /></p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lcYLc4jGij4?si=4T4IaI89ezR3GTJH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+<p><br /><br /></p>
+
+<h1 id="-주요-코드">📌 주요 코드</h1>
+<h2 id="npm-패키지">npm 패키지</h2>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="w">  </span><span class="nl">"dependencies"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"bcrypt"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^5.1.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"cookie-parser"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^1.4.7"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"dotenv"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^16.4.5"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"ejs"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^3.1.10"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"express"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^4.21.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"express-async-handler"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^1.2.0"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"express-ejs-layouts"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^2.5.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"gridfs-stream"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^1.1.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"install"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^0.13.0"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"jsonwebtoken"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^9.0.2"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"method-override"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^3.0.0"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"mongoose"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^8.8.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"multer"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^1.4.5-lts.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"nodemon"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^3.1.7"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"npm"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^10.9.0"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="env-설정"><code class="language-plaintext highlighter-rouge">env</code> 설정</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>DB_CONNECT = mongodb+srv://(SECURITY).mongodb.net/unifixData
+JWT_SECRET= (SECURITY)
+</code></pre></div></div>
+
+<h2 id="appjs-mainjs-adminjs-선언한-모듈"><code class="language-plaintext highlighter-rouge">app.js</code>, <code class="language-plaintext highlighter-rouge">main.js</code>, <code class="language-plaintext highlighter-rouge">admin.js</code> 선언한 모듈</h2>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/*====================app.js====================*/</span>
+<span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">dotenv</span><span class="dl">'</span><span class="p">).</span><span class="nx">config</span><span class="p">({</span> <span class="na">path</span><span class="p">:</span> <span class="dl">'</span><span class="s1">./path/to/.env</span><span class="dl">'</span> <span class="p">});</span>
+<span class="kd">const</span> <span class="nx">express</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">express</span><span class="dl">"</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">expressEjsLayouts</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">express-ejs-layouts</span><span class="dl">"</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">connectDb</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">./config/db</span><span class="dl">"</span><span class="p">);</span> <span class="c1">// DB 연결 함수 가져오기</span>
+<span class="kd">const</span> <span class="nx">cookieParser</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">cookie-parser</span><span class="dl">"</span><span class="p">);</span> <span class="c1">// 쿠키 파서 가져오기</span>
+<span class="kd">const</span> <span class="nx">methodOverride</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">method-override</span><span class="dl">"</span><span class="p">)</span>
+
+<span class="c1">// 이미지 업로드 관련</span>
+<span class="kd">const</span> <span class="nx">multer</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">multer</span><span class="dl">'</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">Image</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">./models/Article</span><span class="dl">'</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">path</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">path</span><span class="dl">'</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">fs</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">fs</span><span class="dl">'</span><span class="p">);</span>
+
+<span class="kd">const</span> <span class="nx">app</span> <span class="o">=</span> <span class="nx">express</span><span class="p">();</span>
+<span class="kd">const</span> <span class="nx">port</span> <span class="o">=</span> <span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">PORT</span> <span class="o">||</span> <span class="mi">3001</span>
+
+
+<span class="cm">/*====================main.js====================*/</span>
+<span class="kd">const</span> <span class="nx">express</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">express</span><span class="dl">"</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">router</span> <span class="o">=</span> <span class="nx">express</span><span class="p">.</span><span class="nx">Router</span><span class="p">();</span>
+<span class="kd">const</span> <span class="nx">mainLayout</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">layouts/main</span><span class="dl">"</span><span class="p">;</span>
+<span class="kd">const</span> <span class="nx">Comment</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">../models/News</span><span class="dl">"</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">Contact</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">../models/Order</span><span class="dl">'</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">Article</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">../models/Article</span><span class="dl">'</span><span class="p">);</span>
+<span class="c1">// const Image = require("../models/Images");</span>
+<span class="kd">const</span> <span class="nx">asynchandler</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">express-async-handler</span><span class="dl">"</span><span class="p">);</span>
+
+
+<span class="cm">/*====================amdin.js====================*/</span>
+<span class="kd">const</span> <span class="nx">express</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">express</span><span class="dl">"</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">router</span> <span class="o">=</span> <span class="nx">express</span><span class="p">.</span><span class="nx">Router</span><span class="p">();</span>
+<span class="kd">const</span> <span class="nx">adminLayout</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">layouts/admin</span><span class="dl">"</span><span class="p">;</span>
+<span class="kd">const</span> <span class="nx">adminLayout2</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">layouts/admin-nologout</span><span class="dl">"</span><span class="p">;</span>
+<span class="kd">const</span> <span class="nx">asyncHandler</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">express-async-handler</span><span class="dl">"</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">bcrypt</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">bcrypt</span><span class="dl">"</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">User</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">../models/User</span><span class="dl">"</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">Comment</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">../models/News</span><span class="dl">"</span><span class="p">);</span>
+
+<span class="kd">const</span> <span class="nx">jwt</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">jsonwebtoken</span><span class="dl">"</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">JWT_SECRET</span> <span class="o">=</span> <span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">JWT_SECRET</span><span class="p">;</span>
+</code></pre></div></div>
+
+<h2 id="메인mainjs-라우트">메인(<code class="language-plaintext highlighter-rouge">main.js</code>) 라우트</h2>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// GET</span>
+<span class="c1">// "/home" 라우트</span>
+<span class="nx">router</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span>
+  <span class="p">[</span><span class="dl">"</span><span class="s2">/</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">/order</span><span class="dl">"</span><span class="p">],</span>
+  <span class="nx">asynchandler</span><span class="p">(</span><span class="k">async</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="kd">const</span> <span class="nx">contacts</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">Contact</span><span class="p">.</span><span class="nx">find</span><span class="p">();</span>
+    <span class="nx">res</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span><span class="dl">"</span><span class="s2">order</span><span class="dl">"</span><span class="p">,</span> <span class="p">{</span> <span class="na">contacts</span><span class="p">:</span> <span class="nx">contacts</span><span class="p">,</span> <span class="na">layout</span><span class="p">:</span> <span class="nx">mainLayout</span> <span class="p">});</span>  <span class="c1">//미리 설정한 레이아웃 사용</span>
+  <span class="p">})</span>
+<span class="p">);</span>
+
+<span class="c1">// POST</span>
+<span class="nx">router</span><span class="p">.</span><span class="nx">post</span><span class="p">(</span>
+        <span class="dl">"</span><span class="s2">/newOrder</span><span class="dl">"</span><span class="p">,</span>
+        <span class="nx">asynchandler</span><span class="p">(</span><span class="k">async</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+          <span class="kd">const</span> <span class="p">{</span> <span class="nx">devicename</span><span class="p">,</span> <span class="nx">casewhat</span><span class="p">,</span> <span class="nx">sangtae</span><span class="p">,</span> <span class="nx">name</span><span class="p">,</span> <span class="nx">phone</span><span class="p">,</span> <span class="nx">email</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">req</span><span class="p">.</span><span class="nx">body</span><span class="p">;</span>
+          <span class="k">if</span><span class="p">(</span><span class="o">!</span><span class="nx">devicename</span> <span class="o">||</span> <span class="o">!</span><span class="nx">casewhat</span> <span class="o">||</span> <span class="o">!</span><span class="nx">sangtae</span> <span class="o">||</span> <span class="o">!</span><span class="nx">name</span> <span class="o">||</span> <span class="o">!</span><span class="nx">phone</span> <span class="o">||</span> <span class="o">!</span><span class="nx">email</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="nx">res</span><span class="p">.</span><span class="nx">status</span><span class="p">(</span><span class="mi">400</span><span class="p">).</span><span class="nx">send</span><span class="p">(</span><span class="dl">'</span><span class="s1">필수값이 입력되지 않았습니다.</span><span class="dl">'</span><span class="p">);</span>
+          <span class="p">}</span>
+          <span class="kd">const</span> <span class="nx">contact</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">Contact</span><span class="p">.</span><span class="nx">create</span><span class="p">({</span>
+            <span class="nx">devicename</span><span class="p">,</span>
+            <span class="nx">casewhat</span><span class="p">,</span>
+            <span class="nx">sangtae</span><span class="p">,</span>
+            <span class="nx">name</span><span class="p">,</span>
+            <span class="nx">phone</span><span class="p">,</span>
+            <span class="nx">email</span><span class="p">,</span>
+          <span class="p">});</span>
+          <span class="c1">// res.status(201).send("사용자 데이터 생성됨");</span>
+          <span class="nx">res</span><span class="p">.</span><span class="nx">redirect</span><span class="p">(</span><span class="dl">"</span><span class="s2">/order</span><span class="dl">"</span><span class="p">);</span> <span class="c1">//mid add</span>
+        <span class="p">})</span>
+<span class="p">)</span>
+
+<span class="c1">// PUT</span>
+<span class="nx">router</span><span class="p">.</span><span class="nx">put</span><span class="p">(</span>
+  <span class="dl">"</span><span class="s2">/order/:id</span><span class="dl">"</span><span class="p">,</span>
+  <span class="nx">asynchandler</span><span class="p">(</span><span class="k">async</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="kd">const</span> <span class="nx">id</span> <span class="o">=</span> <span class="nx">req</span><span class="p">.</span><span class="nx">params</span><span class="p">.</span><span class="nx">id</span><span class="p">;</span>
+    <span class="kd">const</span> <span class="p">{</span> <span class="nx">devicename</span><span class="p">,</span> <span class="nx">casewhat</span><span class="p">,</span> <span class="nx">sangtae</span><span class="p">,</span> <span class="nx">name</span><span class="p">,</span> <span class="nx">phone</span><span class="p">,</span> <span class="nx">email</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">req</span><span class="p">.</span><span class="nx">body</span><span class="p">;</span>
+    <span class="kd">const</span> <span class="nx">contact</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">Contact</span><span class="p">.</span><span class="nx">findById</span><span class="p">(</span><span class="nx">id</span><span class="p">);</span>
+    <span class="k">if</span><span class="p">(</span><span class="o">!</span><span class="nx">contact</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">res</span><span class="p">.</span><span class="nx">status</span><span class="p">(</span><span class="mi">404</span><span class="p">);</span>
+        <span class="k">throw</span> <span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="dl">'</span><span class="s1">사용자 데이터 찾을 수 없음</span><span class="dl">'</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="c1">// 수정</span>
+    <span class="nx">contact</span><span class="p">.</span><span class="nx">devicename</span> <span class="o">=</span> <span class="nx">devicename</span><span class="p">;</span>
+    <span class="nx">contact</span><span class="p">.</span><span class="nx">casewhat</span> <span class="o">=</span> <span class="nx">casewhat</span><span class="p">;</span>
+    <span class="nx">contact</span><span class="p">.</span><span class="nx">sangtae</span> <span class="o">=</span> <span class="nx">sangtae</span><span class="p">;</span>
+    <span class="nx">contact</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
+    <span class="nx">contact</span><span class="p">.</span><span class="nx">email</span> <span class="o">=</span> <span class="nx">email</span><span class="p">;</span>
+    <span class="nx">contact</span><span class="p">.</span><span class="nx">phone</span> <span class="o">=</span> <span class="nx">phone</span><span class="p">;</span>
+    <span class="c1">// 저장</span>
+    <span class="nx">contact</span><span class="p">.</span><span class="nx">save</span><span class="p">();</span>
+    <span class="c1">//mid add</span>
+    <span class="nx">res</span><span class="p">.</span><span class="nx">redirect</span><span class="p">(</span><span class="dl">"</span><span class="s2">/order</span><span class="dl">"</span><span class="p">);</span>
+  <span class="p">})</span>
+<span class="p">)</span>
+
+<span class="c1">// DELETE</span>
+<span class="nx">router</span><span class="p">.</span><span class="k">delete</span><span class="p">(</span>
+  <span class="dl">"</span><span class="s2">/delete/:id</span><span class="dl">"</span><span class="p">,</span>
+  <span class="nx">asynchandler</span><span class="p">(</span><span class="k">async</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="k">await</span> <span class="nx">Contact</span><span class="p">.</span><span class="nx">deleteOne</span><span class="p">({</span><span class="na">_id</span><span class="p">:</span> <span class="nx">req</span><span class="p">.</span><span class="nx">params</span><span class="p">.</span><span class="nx">id</span><span class="p">});</span>
+    <span class="nx">res</span><span class="p">.</span><span class="nx">redirect</span><span class="p">(</span><span class="dl">'</span><span class="s1">/order</span><span class="dl">'</span><span class="p">);</span>
+  <span class="p">})</span>
+<span class="p">);</span>
+</code></pre></div></div>
+<h2 id="어드민adminjs-인증-토큰">어드민(<code class="language-plaintext highlighter-rouge">admin.js</code>) 인증 토큰</h2>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Check Login</span>
+<span class="kd">const</span> <span class="nx">checkLogin</span> <span class="o">=</span> <span class="k">async</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="nx">token</span> <span class="o">=</span> <span class="nx">req</span><span class="p">.</span><span class="nx">cookies</span><span class="p">.</span><span class="nx">token</span><span class="p">;</span> <span class="c1">// 쿠키 정보 가져오기</span>
+
+  <span class="c1">// 토큰이 없다면</span>
+  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">token</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">res</span><span class="p">.</span><span class="nx">redirect</span><span class="p">(</span><span class="dl">"</span><span class="s2">/admin</span><span class="dl">"</span><span class="p">);</span>
+  <span class="p">}</span>
+
+  <span class="c1">// 토큰이 있다면 토큰을 확인하고 사용자 정보를 요청에 추가</span>
+  <span class="k">try</span> <span class="p">{</span>
+    <span class="kd">const</span> <span class="nx">decoded</span> <span class="o">=</span> <span class="nx">jwt</span><span class="p">.</span><span class="nx">verify</span><span class="p">(</span><span class="nx">token</span><span class="p">,</span> <span class="nx">JWT_SECRET</span><span class="p">);</span>
+    <span class="nx">req</span><span class="p">.</span><span class="nx">userId</span> <span class="o">=</span> <span class="nx">decoded</span><span class="p">.</span><span class="nx">userId</span><span class="p">;</span> <span class="c1">// res.userId가 아닌 req.userId에 저장</span>
+    <span class="nx">next</span><span class="p">();</span>
+  <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">res</span><span class="p">.</span><span class="nx">redirect</span><span class="p">(</span><span class="dl">"</span><span class="s2">/admin</span><span class="dl">"</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">};</span>
+
+<span class="c1">// POST /admin</span>
+<span class="c1">// 관리자 페이지 로그인</span>
+<span class="nx">router</span><span class="p">.</span><span class="nx">post</span><span class="p">(</span>
+        <span class="dl">"</span><span class="s2">/admin</span><span class="dl">"</span><span class="p">,</span>
+        <span class="nx">asyncHandler</span><span class="p">(</span><span class="k">async</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+          <span class="kd">const</span> <span class="p">{</span> <span class="nx">username</span><span class="p">,</span> <span class="nx">password</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">req</span><span class="p">.</span><span class="nx">body</span><span class="p">;</span> <span class="c1">// req.body에서 username과 password를 가져옴</span>
+
+          <span class="c1">// 사용자 이름으로 사용자 찾기</span>
+          <span class="kd">const</span> <span class="nx">user</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">User</span><span class="p">.</span><span class="nx">findOne</span><span class="p">({</span> <span class="nx">username</span> <span class="p">});</span>
+
+          <span class="c1">// 일치하는 사용자가 없으면 에러 메시지 출력</span>
+          <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">user</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="nx">res</span><span class="p">.</span><span class="nx">status</span><span class="p">(</span><span class="mi">401</span><span class="p">).</span><span class="nx">json</span><span class="p">({</span> <span class="na">message</span><span class="p">:</span> <span class="dl">"</span><span class="s2">일치하는 사용자가 없습니다.</span><span class="dl">"</span> <span class="p">});</span>
+          <span class="p">}</span>
+          <span class="kd">const</span> <span class="nx">isValidPassword</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">bcrypt</span><span class="p">.</span><span class="nx">compare</span><span class="p">(</span><span class="nx">password</span><span class="p">,</span> <span class="nx">user</span><span class="p">.</span><span class="nx">password</span><span class="p">);</span>
+
+          <span class="c1">// 비밀번호가 일치하지 않으면 에러 메시지 출력</span>
+          <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">isValidPassword</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="nx">res</span><span class="p">.</span><span class="nx">status</span><span class="p">(</span><span class="mi">401</span><span class="p">).</span><span class="nx">json</span><span class="p">({</span> <span class="na">message</span><span class="p">:</span> <span class="dl">"</span><span class="s2">비밀번호가 일치하지 않습니다.</span><span class="dl">"</span> <span class="p">});</span>
+          <span class="p">}</span>
+
+          <span class="c1">// JWT 토큰 생성</span>
+          <span class="kd">const</span> <span class="nx">token</span> <span class="o">=</span> <span class="nx">jwt</span><span class="p">.</span><span class="nx">sign</span><span class="p">({</span> <span class="na">id</span><span class="p">:</span> <span class="nx">user</span><span class="p">.</span><span class="nx">_id</span> <span class="p">},</span> <span class="nx">JWT_SECRET</span><span class="p">);</span>
+
+          <span class="c1">// JWT 토큰을 쿠키에 저장</span>
+          <span class="nx">res</span><span class="p">.</span><span class="nx">cookie</span><span class="p">(</span><span class="dl">"</span><span class="s2">token</span><span class="dl">"</span><span class="p">,</span> <span class="nx">token</span><span class="p">,</span> <span class="p">{</span>
+            <span class="na">httpOnly</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+          <span class="p">});</span>
+
+          <span class="c1">// 로그인에 성공하면 전체 게시물 목록 페이지로 이동</span>
+          <span class="nx">res</span><span class="p">.</span><span class="nx">redirect</span><span class="p">(</span><span class="dl">"</span><span class="s2">/allPosts</span><span class="dl">"</span><span class="p">);</span>
+        <span class="p">})</span>
+<span class="p">);</span>
+
+<span class="c1">// 회원가입</span>
+<span class="nx">router</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="dl">'</span><span class="s1">/register</span><span class="dl">'</span><span class="p">,</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span><span class="dl">'</span><span class="s1">admin/register</span><span class="dl">'</span><span class="p">,</span> <span class="p">{</span><span class="na">layout</span><span class="p">:</span> <span class="nx">adminLayout2</span><span class="p">});</span>
+<span class="p">})</span>
+
+
+<span class="nx">router</span><span class="p">.</span><span class="nx">post</span><span class="p">(</span>
+        <span class="dl">'</span><span class="s1">/register</span><span class="dl">'</span><span class="p">,</span>
+        <span class="nx">asyncHandler</span><span class="p">(</span><span class="k">async</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+          <span class="kd">const</span> <span class="p">{</span><span class="nx">username</span><span class="p">,</span> <span class="nx">password</span><span class="p">,</span> <span class="nx">password2</span><span class="p">}</span> <span class="o">=</span> <span class="nx">req</span><span class="p">.</span><span class="nx">body</span><span class="p">;</span>
+          <span class="k">if</span><span class="p">(</span><span class="nx">password</span> <span class="o">===</span> <span class="nx">password2</span><span class="p">)</span> <span class="p">{</span>
+            <span class="c1">// bcrypt를 사용해 비밀번호를 암호화</span>
+            <span class="kd">const</span> <span class="nx">hashedPassword</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">bcrypt</span><span class="p">.</span><span class="nx">hash</span><span class="p">(</span><span class="nx">password</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">hashedPassword</span><span class="p">);</span>
+            <span class="c1">// 사용자 이름과 암호화된 비밀번호를 사용해서 새 사용자를 생성</span>
+            <span class="kd">const</span> <span class="nx">user</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">User</span><span class="p">.</span><span class="nx">create</span><span class="p">({</span> <span class="nx">username</span><span class="p">,</span> <span class="na">password</span><span class="p">:</span> <span class="nx">hashedPassword</span><span class="p">});</span>
+            <span class="c1">// 성공메시지 출력</span>
+            <span class="nx">res</span><span class="p">.</span><span class="nx">status</span><span class="p">(</span><span class="mi">201</span><span class="p">).</span><span class="nx">json</span><span class="p">({</span><span class="na">message</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Register successful</span><span class="dl">"</span><span class="p">,</span> <span class="nx">user</span><span class="p">})</span>
+          <span class="p">}</span>
+          <span class="k">else</span> <span class="p">{</span>
+            <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="dl">"</span><span class="s2">Register Failed</span><span class="dl">"</span><span class="p">)</span>
+          <span class="p">}</span>
+        <span class="p">})</span>
+<span class="p">)</span>
+</code></pre></div></div>
+<p><img src="/assets/images/posts_img/server_programming/token.png" alt="token" /></p>
+
+<p><br /><br /></p>
+
+<h1 id="️-사용-기술">🖥️ 사용 기술</h1>
+<p><img class="ico" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=JavaScript&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&amp;logo=node.js&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&amp;logo=npm&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&amp;logo=mongodb&amp;logoColor=white" />
+<img class="ico" src="https://img.shields.io/badge/ejs-%23B4CA65.svg?style=for-the-badge&amp;logo=ejs&amp;logoColor=black" />
+<img class="ico" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&amp;logo=express&amp;logoColor=%2361DAFB" />
+<img class="ico" src="https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&amp;logo=nodemon&amp;logoColor=%BBDEAD" />
+<img class="ico" src="https://img.shields.io/badge/JWT-black?style=for-the-badge&amp;logo=JSON%20web%20tokens" /></p>
+
+<p><br /><br /></p>
+
+<h1 id="️-총평">⌨️ 총평</h1>
+<ul>
+  <li><strong>Good Parts</strong>
+    <ul>
+      <li>기본적인 라우트 프로세스를 숙지</li>
+      <li><code class="language-plaintext highlighter-rouge">GET</code>, <code class="language-plaintext highlighter-rouge">POST</code>, <code class="language-plaintext highlighter-rouge">PUT</code>, <code class="language-plaintext highlighter-rouge">DELETE</code> 메서드를 요청, ejs템플릿엔진으로 렌더링</li>
+      <li>스키마를 생성하고 MongoDB 데이터베이스와 연동 및 불러오기</li>
+      <li><code class="language-plaintext highlighter-rouge">multer</code>를 이용한 이미지 업로드</li>
+    </ul>
+  </li>
+  <li><strong>Bad Parts</strong>
+    <ul>
+      <li>처음 접하는 백엔드 프로세스로 다소 미흡함 존재</li>
+      <li>일부 프로세스에 대한 이해 부족으로 완전히 소화하지 못 함</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="back-end" /><category term="node.js" /><category term="mongodb" /><category term="npm" /><summary type="html"><![CDATA[📝 Node.js와 MongoDB를 이용한 컴퓨터 수리 예약 사이트 [유니픽스]]]></summary></entry><entry><title type="html">계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]</title><link href="http://localhost:4000/projects/code/eatopia/" rel="alternate" type="text/html" title="계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]" /><published>2024-11-11T00:00:00+09:00</published><updated>2024-11-11T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/eatopia</id><content type="html" xml:base="http://localhost:4000/projects/code/eatopia/"><![CDATA[<style>
   .ico {
     border-radius: 5px;
     height: 30px;
@@ -508,14 +823,6 @@ JWT_SECRET= (SECURITY)
     <span class="err">100</span><span class="o">%</span> <span class="p">{</span> <span class="nl">background-position</span><span class="p">:</span> <span class="n">calc</span><span class="p">(</span><span class="m">8vw</span> <span class="err">*</span> <span class="m">10</span><span class="p">)</span> <span class="m">0</span><span class="p">;</span> <span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div></div>
-
-<h2 id="observer-코드-경량화"><code class="language-plaintext highlighter-rouge">Observer</code> 코드 경량화</h2>
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-</code></pre></div></div>
-
-<p><br /><br /></p>
-
-<hr />
 
 <p><br /><br /></p>
 
@@ -763,30 +1070,7 @@ JWT_SECRET= (SECURITY)
       <td>자격/면혀</td>
     </tr>
   </tbody>
-</table>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="markdown" /><category term="table" /><summary type="html"><![CDATA[제목 내용 설명 테스트1 동해물과백두산이마르고닳도록 테스트3]]></summary></entry><entry><title type="html">안녕하세요</title><link href="http://localhost:4000/research/hello/" rel="alternate" type="text/html" title="안녕하세요" /><published>2024-10-01T00:00:00+09:00</published><updated>2024-10-01T00:00:00+09:00</updated><id>http://localhost:4000/research/hello</id><content type="html" xml:base="http://localhost:4000/research/hello/"><![CDATA[<p>Jekyll을 이용하여 Github Pages를 만들었습니다. <br />
-아직 시험단계로 보완할 부분이 많습니다.</p>
-
-<p><b>키워드<b> <br />
-성실한, 신뢰감 있는, 창의적인</b></b></p>
-
-<p><br /><br /></p>
-
-<p>이력서 폼(초안) <br />
-<a href="https://docs.google.com/spreadsheets/d/16iekyjOCZ4u5HfsAWDzgVfGrRHkdvQHLVTnzvRlXRsc/edit?gid=0#gid=0">구글시트</a></p>
-
-<p><br /><br /></p>
-
-<p>Instagram: <a href="https://instagram.com/hwijae_portfolio">@hwijaekim_portfolio</a> <br />
-Behance: <a href="https://www.behance.net/hwijaekim">HwijaeKim</a> <br />
-LinkedIn: <a href="https://www.linkedin.com/in/hwijaekim/">HwijaeKim</a> <br />
-Github: <a href="https://github.com/HwijaeKim">HwijaeKim</a> <br /></p>
-
-<p><br /><br /></p>
-
-<p>—제작한 페이지— <br />
-<a href="https://hwijaekim.github.io/nocssclub_minigame">No CSS Club MiniGame</a> <br />
-<a href="https://hwijaekim.github.io/blueprint2024">청사진(공모전)</a> <br />
-<a href="https://hwijaekim.github.io/unionpt.github.io">자기PR페이지(교내)</a></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="update" /><summary type="html"><![CDATA[Jekyll을 이용하여 Github Pages를 만들었습니다. 아직 시험단계로 보완할 부분이 많습니다.]]></summary></entry><entry><title type="html">Apple Silicon에서의 Jekyll 오류 발생 해결</title><link href="http://localhost:4000/research/apple-silicon-jekyll-error/" rel="alternate" type="text/html" title="Apple Silicon에서의 Jekyll 오류 발생 해결" /><published>2024-10-01T00:00:00+09:00</published><updated>2024-10-01T00:00:00+09:00</updated><id>http://localhost:4000/research/apple-silicon-jekyll-error</id><content type="html" xml:base="http://localhost:4000/research/apple-silicon-jekyll-error/"><![CDATA[<h1 id="chat-gpt">Chat GPT</h1>
+</table>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="markdown" /><category term="table" /><summary type="html"><![CDATA[제목 내용 설명 테스트1 동해물과백두산이마르고닳도록 테스트3]]></summary></entry><entry><title type="html">Apple Silicon에서의 Jekyll 오류 발생 해결</title><link href="http://localhost:4000/research/apple-silicon-jekyll-error/" rel="alternate" type="text/html" title="Apple Silicon에서의 Jekyll 오류 발생 해결" /><published>2024-10-01T00:00:00+09:00</published><updated>2024-10-01T00:00:00+09:00</updated><id>http://localhost:4000/research/apple-silicon-jekyll-error</id><content type="html" xml:base="http://localhost:4000/research/apple-silicon-jekyll-error/"><![CDATA[<h1 id="chat-gpt">Chat GPT</h1>
 
 <p><sub><em>프롬프트</em></sub></p>
 <blockquote>
@@ -831,7 +1115,30 @@ eval $(/opt/homebrew/bin/brew shellenv)
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s1">'eventmachine'</span><span class="p">,</span> <span class="s1">'1.2.5'</span>
 </code></pre></div></div>
 <p>기본적으로 <code class="language-plaintext highlighter-rouge">eventmachine(1.2.7)</code> 설치 도중 오류가 발생한 것이며 1.2.5로 버전을 한 단계 낮춰 설치하도록 코드를 수정하여 문제를 해결했다. <br />
-완벽한 해결책은 아니지만 작동에는 문제가 없어 보이며 추후 Apple Silicon Mac에서 1.2.7버전 설치를 시도해볼 것이다.</p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="jekyll" /><category term="macos" /><category term="apple silicon" /><summary type="html"><![CDATA[Chat GPT]]></summary></entry><entry><title type="html">Jekyll 기반의 GitHub블로그 제작</title><link href="http://localhost:4000/projects/code/jekyll-github-blog/" rel="alternate" type="text/html" title="Jekyll 기반의 GitHub블로그 제작" /><published>2024-09-02T00:00:00+09:00</published><updated>2024-09-02T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/jekyll-github-blog</id><content type="html" xml:base="http://localhost:4000/projects/code/jekyll-github-blog/"><![CDATA[<style>
+완벽한 해결책은 아니지만 작동에는 문제가 없어 보이며 추후 Apple Silicon Mac에서 1.2.7버전 설치를 시도해볼 것이다.</p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="jekyll" /><category term="macos" /><category term="apple silicon" /><summary type="html"><![CDATA[Chat GPT]]></summary></entry><entry><title type="html">안녕하세요</title><link href="http://localhost:4000/research/hello/" rel="alternate" type="text/html" title="안녕하세요" /><published>2024-10-01T00:00:00+09:00</published><updated>2024-10-01T00:00:00+09:00</updated><id>http://localhost:4000/research/hello</id><content type="html" xml:base="http://localhost:4000/research/hello/"><![CDATA[<p>Jekyll을 이용하여 Github Pages를 만들었습니다. <br />
+아직 시험단계로 보완할 부분이 많습니다.</p>
+
+<p><b>키워드<b> <br />
+성실한, 신뢰감 있는, 창의적인</b></b></p>
+
+<p><br /><br /></p>
+
+<p>이력서 폼(초안) <br />
+<a href="https://docs.google.com/spreadsheets/d/16iekyjOCZ4u5HfsAWDzgVfGrRHkdvQHLVTnzvRlXRsc/edit?gid=0#gid=0">구글시트</a></p>
+
+<p><br /><br /></p>
+
+<p>Instagram: <a href="https://instagram.com/hwijae_portfolio">@hwijaekim_portfolio</a> <br />
+Behance: <a href="https://www.behance.net/hwijaekim">HwijaeKim</a> <br />
+LinkedIn: <a href="https://www.linkedin.com/in/hwijaekim/">HwijaeKim</a> <br />
+Github: <a href="https://github.com/HwijaeKim">HwijaeKim</a> <br /></p>
+
+<p><br /><br /></p>
+
+<p>—제작한 페이지— <br />
+<a href="https://hwijaekim.github.io/nocssclub_minigame">No CSS Club MiniGame</a> <br />
+<a href="https://hwijaekim.github.io/blueprint2024">청사진(공모전)</a> <br />
+<a href="https://hwijaekim.github.io/unionpt.github.io">자기PR페이지(교내)</a></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="update" /><summary type="html"><![CDATA[Jekyll을 이용하여 Github Pages를 만들었습니다. 아직 시험단계로 보완할 부분이 많습니다.]]></summary></entry><entry><title type="html">Jekyll 기반의 GitHub블로그 제작</title><link href="http://localhost:4000/projects/code/jekyll-github-blog/" rel="alternate" type="text/html" title="Jekyll 기반의 GitHub블로그 제작" /><published>2024-09-02T00:00:00+09:00</published><updated>2024-09-02T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/jekyll-github-blog</id><content type="html" xml:base="http://localhost:4000/projects/code/jekyll-github-blog/"><![CDATA[<style>
   .ico {
     border-radius: 5px;
     height: 30px;
@@ -872,10 +1179,6 @@ eval $(/opt/homebrew/bin/brew shellenv)
   <li>GitHub 버전관리 시작</li>
   <li>테마를 직접 커스텀</li>
 </ul>
-
-<p><br /><br /></p>
-
-<p>video</p>
 
 <p><br /><br /></p>
 
@@ -943,8 +1246,7 @@ eval $(/opt/homebrew/bin/brew shellenv)
   </li>
   <li>Bad Parts
     <ul>
-      <li>SCSS, Jekyll문법, yaml 등 아직 제대로 숙지하지 못 한 요소들이 많음</li>
-      <li>위와 같은 이유로 의도하는 커스텀을 쉽게 할 수 없음</li>
+      <li>SCSS, Jekyll문법, yaml 등 아직 제대로 숙지하지 못 한 요소들이 존재</li>
     </ul>
   </li>
 </ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="jekyll" /><category term="github" /><summary type="html"><![CDATA[📝 포트폴리오 제작 플렛폼으로 선정한 Jekyll GitHub블로그]]></summary></entry><entry><title type="html">자바스크립트프로그래밍 교과목 기말 프로젝트 [No CSS Club 미니게임]</title><link href="http://localhost:4000/projects/code/no-css-club-minigame/" rel="alternate" type="text/html" title="자바스크립트프로그래밍 교과목 기말 프로젝트 [No CSS Club 미니게임]" /><published>2024-06-20T00:00:00+09:00</published><updated>2024-06-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/no-css-club-minigame</id><content type="html" xml:base="http://localhost:4000/projects/code/no-css-club-minigame/"><![CDATA[<style>
@@ -1119,159 +1421,4 @@ eval $(/opt/homebrew/bin/brew shellenv)
       <li>인게임에서 클릭 변수를 <code class="language-plaintext highlighter-rouge">querySelectorAll('div')</code>와 같이 <code class="language-plaintext highlighter-rouge">div</code>태그 전체를 선언하여 내부적으로 의도하지 않은 문제가 발생할 가능성이 높아짐</li>
     </ul>
   </li>
-</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><category term="game" /><summary type="html"><![CDATA[📝 No CSS Club에 가입하기 위해 마우스 클릭으로 제한시간 내 모든 CSS 클래스를 제거하는 미니게임]]></summary></entry><entry><title type="html">제 30회 커뮤니케이션디자인국제공모전 동상 수상작 [청사진]</title><link href="http://localhost:4000/projects/code/blueprint/" rel="alternate" type="text/html" title="제 30회 커뮤니케이션디자인국제공모전 동상 수상작 [청사진]" /><published>2024-06-20T00:00:00+09:00</published><updated>2024-06-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/blueprint</id><content type="html" xml:base="http://localhost:4000/projects/code/blueprint/"><![CDATA[<style>
-  .ico {
-    border-radius: 5px;
-    height: 30px;
-    margin-bottom: 5px;
-  }
-</style>
-
-<p><br /></p>
-<h1 id="-학교-밖-청소년들의-미래를-준비하기-위한-솔루션">📝 학교 밖 청소년들의 미래를 준비하기 위한 솔루션</h1>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>기간</strong></td>
-      <td>2024.03 ~ 2024.06 (2-1학기)</td>
-    </tr>
-    <tr>
-      <td><strong>인원</strong></td>
-      <td>기획1, 디자인1, <strong>개발1</strong></td>
-    </tr>
-    <tr>
-      <td><strong>담당분야</strong></td>
-      <td>팀장 및 서비스 비디오 촬영,<br />웹 콘텐츠 소스 제작 및 HTML/CSS/JS를 이용한 웹 제작 및 GitHub 배포</td>
-    </tr>
-    <tr>
-      <td><strong>관련 링크</strong></td>
-      <td><a href="https://hwijaekim.github.io/blueprint2024" target="_blank">https://hwijaekim.github.io/blueprint2024</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<p><br /><br /></p>
-
-<h1 id="-핵심-기술-요약">🔑 핵심 기술 요약</h1>
-<ul>
-  <li>HTML/CSS/JS 세 가지를 이용하여 처음으로 제작한 웹 사이트 <br /></li>
-  <li>웹 표준을 준수하여 제작</li>
-  <li>Web Fonts를 적용하여 웹 사이트를 더욱 완성도 있게 배포</li>
-  <li><code class="language-plaintext highlighter-rouge">Vanilla JavaScript</code>를 적극적으로 활용한 프로젝트이며 <code class="language-plaintext highlighter-rouge">Ovserver</code>를 이용하여 <code class="language-plaintext highlighter-rouge">Viewport</code>에 감지될 시 CSS <code class="language-plaintext highlighter-rouge">active</code>클래스를 토글하여 애니메이션을 구현. <br /></li>
-  <li><code class="language-plaintext highlighter-rouge">Typeit.js</code> 외부 라이브러리를 사용하여 타이핑 애니메이션 구현.</li>
-</ul>
-
-<p><br /><br /></p>
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Lnxbw6FSc_I?si=LyU-lvSpD1P7YVNH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-
-<p><br /><br /></p>
-
-<h1 id="-주요-코드">📌 주요 코드</h1>
-<h2 id="web-fonts-및-head-정리">Web Fonts 및 &lt;head&gt; 정리</h2>
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
-<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"ko"</span><span class="nt">&gt;</span>
-<span class="nt">&lt;head&gt;</span>
-    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"UTF-8"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;title&gt;</span>청사진<span class="nt">&lt;/title&gt;</span>
-    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1.0"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"icon"</span> <span class="na">href=</span><span class="s">"./sources/site_icon.png"</span><span class="nt">&gt;</span>
-<span class="c">&lt;!--    CSS선언--&gt;</span>
-    <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"./style/index_style.css"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"./style/index_keyframe_media.css"</span><span class="nt">&gt;</span>
-
-<span class="c">&lt;!--    외부JS라이브러리 선언 &gt;&gt;TypeIt 비영리목적 무료--&gt;</span>
-    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://unpkg.com/typeit@8.7.1/dist/index.umd.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
-    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
-
-    <span class="c">&lt;!--    WebFonts 선언--&gt;</span>
-    <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">as=</span><span class="s">"style"</span> <span class="na">crossorigin</span> <span class="na">href=</span><span class="s">"https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"</span> <span class="nt">/&gt;</span>
-    <span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">"https://cdn.jsdelivr.net/gh/sun-typeface/SUIT/fonts/static/woff2/SUIT.css"</span> <span class="na">rel=</span><span class="s">"stylesheet"</span><span class="nt">&gt;</span>
-<span class="nt">&lt;/head&gt;</span>
-</code></pre></div></div>
-
-<h2 id="typeitjs-라이브러리-사용"><code class="language-plaintext highlighter-rouge">Typeit.js</code> 라이브러리 사용</h2>
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//인트로 타이핑 애니메이션</span>
-<span class="k">new</span> <span class="nx">TypeIt</span><span class="p">(</span><span class="dl">"</span><span class="s2">.intro_type</span><span class="dl">"</span><span class="p">,</span> <span class="p">{</span>
-    <span class="na">lifeLike</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
-    <span class="na">loop</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
-    <span class="na">speed</span><span class="p">:</span> <span class="mi">0</span>
-<span class="p">})</span>
-    <span class="p">.</span><span class="nx">type</span><span class="p">(</span><span class="dl">"</span><span class="s2">ㅂ</span><span class="dl">"</span><span class="p">)</span>
-    <span class="p">.</span><span class="nx">pause</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span>
-    <span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-    <span class="p">.</span><span class="nx">type</span><span class="p">(</span><span class="dl">"</span><span class="s2">부</span><span class="dl">"</span><span class="p">)</span>
-    <span class="p">.</span><span class="nx">pause</span><span class="p">(</span><span class="mi">149</span><span class="p">)</span>
-    <span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-    <span class="p">.</span><span class="nx">type</span><span class="p">(</span><span class="dl">"</span><span class="s2">불</span><span class="dl">"</span><span class="p">)</span>
-    <span class="p">.</span><span class="nx">pause</span><span class="p">(</span><span class="mi">102</span><span class="p">)</span>
-    <span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-    <span class="p">.</span><span class="nx">type</span><span class="p">(</span><span class="dl">"</span><span class="s2">부</span><span class="dl">"</span><span class="p">)</span>
-    <span class="p">.</span><span class="nx">pause</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
-    <span class="p">.</span><span class="nx">type</span><span class="p">(</span><span class="dl">"</span><span class="s2">러</span><span class="dl">"</span><span class="p">)</span>
-    <span class="cm">/*=====중간생략=====*/</span>
-    <span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-    <span class="p">.</span><span class="nx">type</span><span class="p">(</span><span class="dl">"</span><span class="s2">하</span><span class="dl">"</span><span class="p">)</span>
-    <span class="p">.</span><span class="nx">pause</span><span class="p">(</span><span class="mi">498</span><span class="p">)</span>
-    <span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-    <span class="p">.</span><span class="nx">type</span><span class="p">(</span><span class="dl">"</span><span class="s2">ㅎ</span><span class="dl">"</span><span class="p">)</span>
-    <span class="p">.</span><span class="nx">pause</span><span class="p">(</span><span class="mi">86</span><span class="p">)</span>
-    <span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-    <span class="p">.</span><span class="nx">pause</span><span class="p">(</span><span class="mi">74</span><span class="p">)</span>
-    <span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-    <span class="p">.</span><span class="nx">pause</span><span class="p">(</span><span class="mi">87</span><span class="p">)</span>
-    <span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-    <span class="p">.</span><span class="nx">pause</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span>
-    <span class="p">.</span><span class="nx">go</span><span class="p">();</span>
-</code></pre></div></div>
-
-<h2 id="스크롤을-통해-배경-이미지가-커지는-상호작용">스크롤을 통해 배경 이미지가 커지는 상호작용</h2>
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">window</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">scroll</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="kd">let</span> <span class="nx">scrollTop</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">scrollY</span><span class="p">;</span> <span class="c1">//Y축 스크롤 값 저장</span>
-    <span class="kd">let</span> <span class="nx">body_bg</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">.main_img</span><span class="dl">'</span><span class="p">);</span> <span class="c1">//배경으로 사용될 div 변수</span>
-    <span class="kd">let</span> <span class="nx">newSize</span> <span class="o">=</span> <span class="nx">scrollTop</span> <span class="o">*</span> <span class="mf">0.05</span> <span class="o">-</span> <span class="mi">500</span><span class="p">;</span>  <span class="c1">//1920*1080기준 Y값 위치에 따라 이미지 크기가 조절될 수 있도록 값 조절(Y11000 기준)</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">scrollTop</span><span class="p">);</span> <span class="c1">//Dev Only</span>
-
-    <span class="c1">// Y축 10000이 되면 body_bg 스타일 background-image 추가</span>
-    <span class="k">if</span><span class="p">(</span><span class="nx">scrollTop</span> <span class="o">&gt;</span> <span class="mi">10000</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">body_bg</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">cssText</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">background-image: url("./sources/bg_2.jpg"); filter: brightness(.45); opacity: 1; backdrop-filter: blur(10px);</span><span class="dl">'</span>
-    <span class="p">}</span>
-    <span class="c1">// Y축 11000이 되면 bakcgroundsize조정</span>
-    <span class="k">if</span><span class="p">(</span> <span class="nx">scrollTop</span> <span class="o">&gt;</span> <span class="mi">11000</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">body_bg</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">backgroundSize</span> <span class="o">=</span> <span class="mi">80</span> <span class="o">+</span> <span class="nx">newSize</span> <span class="o">+</span> <span class="dl">'</span><span class="s1">%</span><span class="dl">'</span><span class="p">;</span>
-    <span class="p">}</span>
-    <span class="c1">// Y축 17000이 되면 background 흰색으로 복귀</span>
-    <span class="k">if</span><span class="p">(</span><span class="nx">scrollTop</span> <span class="o">&gt;</span> <span class="mi">17000</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">body_bg</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">background</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">white</span><span class="dl">"</span><span class="p">;</span>
-        <span class="nx">body_bg</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">filter</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">brightness(1)</span><span class="dl">"</span><span class="p">;</span>
-    <span class="p">}</span>
-<span class="p">});</span>
-</code></pre></div></div>
-
-<p><br /><br /></p>
-
-<h1 id="️-사용-기술">🖥️ 사용 기술</h1>
-<p><img class="ico" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" />
-<img class="ico" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white" />
-<img class="ico" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=JavaScript&amp;logoColor=white" />
-<img class="ico" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white" /></p>
-
-<p><br /><br /></p>
-
-<h1 id="️-총평">⌨️ 총평</h1>
-<ul>
-  <li>Good Parts
-    <ul>
-      <li>HTML/CSS/JS를 모두 사용한 첫 프로젝트</li>
-      <li>웹 표준을 준수한 개발</li>
-      <li>외부 라이브러리를 학습하여 적용</li>
-    </ul>
-  </li>
-  <li>Bad Parts
-    <ul>
-      <li>스크롤을 통해 배경 이미지가 커지는 상호작용 코드를 1920x1080기준 절대값으로 하드코딩 하였기 때문에 다른 해상도에서는 높은 확률로 의도하지 않은 결과를 초래</li>
-      <li>시간관리 부족으로 일부 영역에서 통 이미지로 삽입함</li>
-    </ul>
-  </li>
-</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><category term="figma" /><category term="공모전" /><summary type="html"><![CDATA[📝 학교 밖 청소년들의 미래를 준비하기 위한 솔루션]]></summary></entry></feed>
+</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><category term="game" /><summary type="html"><![CDATA[📝 No CSS Club에 가입하기 위해 마우스 클릭으로 제한시간 내 모든 CSS 클래스를 제거하는 미니게임]]></summary></entry></feed>

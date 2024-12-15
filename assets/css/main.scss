@@ -53,10 +53,19 @@ table {
     // border: 1px solid #ddd; /* 테두리 추가 */
   }
 
-  @media (min-width: 80em) {
+
+@media (min-width: 80em) {
+  #main {
+    max-width: 1440px;
+  }
+}
+
+
+
+  @media (min-width: 110em) {
     #main {
-        /* max-width: 1280px */
-        max-width: 80%;
+        //max-width: 1440px;
+        max-width: 90%;
     }
 }
 
@@ -65,8 +74,15 @@ table {
 
 
 @media (min-width: 80em) {
+  .masthead__inner-wrap {
+    max-width: 1440px;
+  }
+}
+
+
+@media (min-width: 110em) {
     .masthead__inner-wrap {
-        max-width: 80%
+        max-width: 90%;
     }
 }
 

@@ -5,7 +5,7 @@ var store = [{
         "url": "/projects/design/contents-design-final/",
         "teaser": "/assets/images/posts_img/semiconductor/main.jpg"
       },{
-        "title": "웹퍼블리싱 기말 프로젝트 [자기PR 페이지]",
+        "title": "웹퍼블리싱 교과목 기말 프로젝트 [자기PR 페이지]",
         "excerpt":"📝 Apple macOS의 UI를 콘셉트로 제작한 자기PR 페이지 기간 2023.11 ~ 12 (1-2학기) 인원 개인 담당분야 콘텐츠 구성 및 레이아웃 배치 관련 링크 https://hwijaekim.github.io/unionpt 🔑 핵심 기술 요약 HTML과 CSS 기초를 배운 후 이를 이용하여 최초로 제작한 웹 사이트 GitHub 가입과 리포지토리 생성 방법을 숙지한 후 처음으로 배포 기초CSS를 응용하고...","categories": ["Projects","Code"],
         "tags": ["front-end","html/css"],
         "url": "/projects/code/web-publishing-final/",
@@ -24,7 +24,7 @@ var store = [{
         "teaser": "/assets/images/posts_img/nocssclub/teaser.png"
       },{
         "title": "Jekyll 기반의 GitHub블로그 제작",
-        "excerpt":"📝 포트폴리오 제작 플렛폼으로 선정한 Jekyll GitHub블로그 기간 2024.09 ~ 인원 개인 담당분야 macOS, Windows 환경에서 Jekyll 환경 구축 및 테마 커스텀과 콘텐츠 삽입 관련 링크 https://hwijaekim.github.io 🔑 핵심 기술 요약 Jekyll을 설치하고 환경을 구축, 전체적인 워크플로우 숙지 Markdown 문법 숙지 GitHub 버전관리 시작 테마를 직접 커스텀 video 📌 주요...","categories": ["Projects","Code"],
+        "excerpt":"📝 포트폴리오 제작 플렛폼으로 선정한 Jekyll GitHub블로그 기간 2024.09 ~ 인원 개인 담당분야 macOS, Windows 환경에서 Jekyll 환경 구축 및 테마 커스텀과 콘텐츠 삽입 관련 링크 https://hwijaekim.github.io 🔑 핵심 기술 요약 Jekyll을 설치하고 환경을 구축, 전체적인 워크플로우 숙지 Markdown 문법 숙지 GitHub 버전관리 시작 테마를 직접 커스텀 📌 주요 코드...","categories": ["Projects","Code"],
         "tags": ["jekyll","github"],
         "url": "/projects/code/jekyll-github-blog/",
         "teaser": "/assets/images/posts_img/jekyll/teaser.png"
@@ -52,6 +52,12 @@ var store = [{
         "tags": ["front-end","html/css/js","figma","졸업작품"],
         "url": "/projects/code/eatopia/",
         "teaser": "/assets/images/posts_img/eatopia/test.png"
+      },{
+        "title": "서버프로그래밍 교과목 기말 프로젝트 [유니픽스]",
+        "excerpt":"📝 Node.js와 MongoDB를 이용한 컴퓨터 수리 예약 사이트 [유니픽스] 기간 2024.11 ~ 2024.12 (2-2학기) 인원 개인 담당분야 개발환경 구축, MongoDB 연결, multer를 이용한 이미지 업로드, 그 외 요소 구현 관련 링크 학습 교재 고영희 저 Do it! Node.js 프로그래밍 입문 쉽고 빠르게 달리는 백엔드 개발 / 자바스크립트+노드제이에스+익스프레스+몽고DB로 개발 순서에 따라...","categories": ["Projects","Code"],
+        "tags": ["back-end","node.js","mongodb","npm"],
+        "url": "/projects/code/server-programming-final/",
+        "teaser": "/assets/images/posts_img/server_programming/teaser.png"
       },{
         "title": "서버프로그래밍 교과목 실습응용 [블로그 express 서버]",
         "excerpt":"📝 MongoDB를 이용한 이미지 업로드를 지원하는 블로그 express 서버 기간 2024.11 ~ 2024.12 (2-2학기) 인원 개인 담당분야 개발환경 구축, MongoDB 연결, multer를 이용한 이미지 업로드, 그 외 일부 html, css를 제외한 요소 구현 관련 링크 학습 교재 고영희 저 Do it! Node.js 프로그래밍 입문 쉽고 빠르게 달리는 백엔드 개발 /...","categories": ["Projects","Code"],

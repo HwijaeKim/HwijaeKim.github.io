@@ -232,7 +232,15 @@ router.get(
 <img class="ico" src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens">
 
 
+<br><br>
 
+# ⌨️ 총평
+- **Good Parts**
+  - 최초로 시도한 백엔드 프로세스
+  - Node.js와 npm 그리고 express서버 구축에 대한 기초를 경험
+- **Bad Parts**
+  - 처음 경험하는 다소 높은 난이도의 백엔드 구축으로 완전히 본인의 것으로 소화하지 못 하여 지속적인 학습 필요
+  - 능동적으로 코드를 이해하고 작성하는 것에 다소 미흡함이 존재
 
 
 

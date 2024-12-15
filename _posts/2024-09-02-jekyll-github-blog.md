@@ -37,10 +37,6 @@ toc_label: "Jekyll GitHub블로그"
 
 <br><br>
 
-video
-
-<br><br>
-
 # 📌 주요 코드
 # Markdown
 ```markdown
@@ -103,5 +99,4 @@ video
   - 새로운 것들을 배우며 흥미도 상승
 
 - Bad Parts
-  - SCSS, Jekyll문법, yaml 등 아직 제대로 숙지하지 못 한 요소들이 많음
-  - 위와 같은 이유로 의도하는 커스텀을 쉽게 할 수 없음
+  - SCSS, Jekyll문법, yaml 등 아직 제대로 숙지하지 못 한 요소들이 존재
