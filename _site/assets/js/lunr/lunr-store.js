@@ -53,17 +53,17 @@ var store = [{
         "url": "/projects/code/eatopia/",
         "teaser": "/assets/images/posts_img/eatopia/test.png"
       },{
-        "title": "서버프로그래밍 교과목 기말 프로젝트 [유니픽스]",
-        "excerpt":"📝 Node.js와 MongoDB를 이용한 컴퓨터 수리 예약 사이트 [유니픽스] 기간 2024.11 ~ 2024.12 (2-2학기) 인원 개인 담당분야 개발환경 구축, MongoDB 연결, multer를 이용한 이미지 업로드, 그 외 요소 구현 관련 링크 학습 교재 고영희 저 Do it! Node.js 프로그래밍 입문 쉽고 빠르게 달리는 백엔드 개발 / 자바스크립트+노드제이에스+익스프레스+몽고DB로 개발 순서에 따라...","categories": ["Projects","Code"],
-        "tags": ["back-end","node.js","mongodb","npm"],
-        "url": "/projects/code/server-programming-final/",
-        "teaser": "/assets/images/posts_img/server_programming/teaser.png"
-      },{
         "title": "서버프로그래밍 교과목 실습응용 [블로그 express 서버]",
         "excerpt":"📝 MongoDB를 이용한 이미지 업로드를 지원하는 블로그 express 서버 기간 2024.11 ~ 2024.12 (2-2학기) 인원 개인 담당분야 개발환경 구축, MongoDB 연결, multer를 이용한 이미지 업로드, 그 외 일부 html, css를 제외한 요소 구현 관련 링크 학습 교재 고영희 저 Do it! Node.js 프로그래밍 입문 쉽고 빠르게 달리는 백엔드 개발 /...","categories": ["Projects","Code"],
         "tags": ["back-end","node.js","mongodb","npm"],
         "url": "/projects/code/union-server-programming/",
         "teaser": "/assets/images/posts_img/union-server-programming/teaser.png"
+      },{
+        "title": "서버프로그래밍 교과목 기말 프로젝트 [유니픽스]",
+        "excerpt":"📝 Node.js와 MongoDB를 이용한 컴퓨터 수리 예약 사이트 [유니픽스] 기간 2024.11 ~ 2024.12 (2-2학기) 인원 개인 담당분야 개발환경 구축, MongoDB 연결, multer를 이용한 이미지 업로드, 그 외 요소 구현 관련 링크 학습 교재 고영희 저 Do it! Node.js 프로그래밍 입문 쉽고 빠르게 달리는 백엔드 개발 / 자바스크립트+노드제이에스+익스프레스+몽고DB로 개발 순서에 따라...","categories": ["Projects","Code"],
+        "tags": ["back-end","node.js","mongodb","npm"],
+        "url": "/projects/code/server-programming-final/",
+        "teaser": "/assets/images/posts_img/server_programming/teaser.png"
       },{
         "title": "웹인터랙션프로그래밍 교과목 프로젝트 [My Origin Wizard]",
         "excerpt":"📝 나의 일대기 9가지 페이지를 JavaScript 기반의 상호작용 사이트로 제작 기간 2024.09 ~ 2024.12 (2-2학기) 인원 개인 담당분야 사이트 콘셉트 수립, 9개 콘텐츠 기획 및 기능구현 관련 링크 https://hwijaekim.github.io/my-origin-wizard 🔑 핵심 기술 요약 display: flex;, flex-flow: row wrap; 스타일 적용으로 윈도우 크기변화에 따른 적절한 아이콘 배치 JQuery UI 사용으로 index.html에서...","categories": ["Projects","Code"],

@@ -38,7 +38,7 @@ toc_label: "Jekyll GitHub블로그"
 <br><br>
 
 # 📌 주요 코드
-# Markdown
+## Markdown
 ```markdown
 # h1
 ## h2
@@ -63,7 +63,7 @@ toc_label: "Jekyll GitHub블로그"
   [LinkedIn](https://www.linkedin.com/in/hwijaekim/)
 ```
 
-# 홈 화면 게시물 커스텀
+## 홈 화면 게시물 커스텀
 기존 홈 화면 최근 게시물을 Project 카테고리명을 가진 게시글들이 표시되도록 변경
 ```html
 <h1>🖊️ 환영합니다: 포트폴리오</h1>
@@ -75,6 +75,35 @@ toc_label: "Jekyll GitHub블로그"
     {/% include archive-single3.html type="list" %}
     {/% endfor %}
 </div>
+```
+
+## 카테고리 생성
+**<sub>navigation.yml</sub>**
+```yaml
+main:
+  - title: "이력서/자기소개서"
+    url: /about
+  - title: "최근 게시물"
+    url: /recent-posts
+
+sidebar-category:
+  - title: "Union Portfolio"
+    children:
+       - title: "Projects"
+         url: "/categories/projects"
+         category: "Projects"
+       - title: "Code"
+         url: "/categories/code"
+         category: "Code"
+       - title: "Design"
+         url: "/categories/design"
+         category: "Design"
+
+  - title: "Development"
+    children:
+       - title: "Research"
+         url: "/categories/research"
+         category: "Research"
 ```
 
 <br><br>
