@@ -189,9 +189,11 @@ HTML로부터 시작된 웹 개발에 대한 호기심과 집념은 끝내 풀�
 - **Vanilla JavaScript** <img class="ico" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
     - 기본 문법에 대한 이해, 동적 웹 페이지 구현, Typeit 라이브러리 운용 가능
 
-- **Markdown**  <img class="ico" src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white">
-  - 여러 문법을 이용하여 텍스트를 작성할 수 있으며 이미지, 테이블, 코드 등을 작성
-  - Markdown기반의 메모 플랫폼 Obsidian에서 활용
+[//]: # (- **Markdown**  <img class="ico" src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white">)
+
+[//]: # (  - 여러 문법을 이용하여 텍스트를 작성할 수 있으며 이미지, 테이블, 코드 등을 작성)
+
+[//]: # (  - Markdown기반의 메모 플랫폼 Obsidian에서 활용)
 
 
 
@@ -244,8 +246,9 @@ HTML로부터 시작된 웹 개발에 대한 호기심과 집념은 끝내 풀�
     - Figma: 디자이너와 협업 가능
     
 
-- **Docker** <img class="ico" src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white">
-    - 운용 경험, Synology NAS 내에서 Docker를 이용한 Minecraft Server 구축
+[//]: # (- **Docker** <img class="ico" src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white">)
+
+[//]: # (    - 운용 경험, Synology NAS 내에서 Docker를 이용한 Minecraft Server 구축)
 
    
 <br>
