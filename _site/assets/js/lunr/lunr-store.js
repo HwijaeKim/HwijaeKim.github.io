@@ -48,7 +48,7 @@ var store = [{
         "teaser": "/assets/images/posts_img/markdown/markdown.png"
       },{
         "title": "계원예술대학교 디지털미디어디자인과 졸업작품 학과우수작[잇토피아]",
-        "excerpt":"📝 유아기 아이들의 식습관 문제 개선을 위한 XR글래스 콘텐츠 기간 2024.09 ~ 2024.11 (2-2학기) 인원 기획2, 디자인3, 개발1 담당분야 서비스 영상 촬영 및 웹 사이트 구현 관련 링크 https://hwijaekim.github.io/eatopia2024 🔑 핵심 기술 요약 Vanilla JavaScript에 기반한 Observer 적극 활용으로 스크롤 시 keyframe애니메이션 구현 CSS 가상클래스 사용으로 글꼴 크기, 색상 등을...","categories": ["Projects","Code"],
+        "excerpt":"📝 유아기 아이들의 식습관 문제 개선을 위한 XR글래스 콘텐츠 기간 2024.09 ~ 2024.11 (2-2학기) 인원 기획2, 디자인3, 개발1 담당분야 서비스 영상 촬영 및 웹 사이트 구현 관련 링크 https://hwijaekim.github.io/eatopia2024 🔑 핵심 기술 요약 웹 표준을 준수한 시멘틱 태그 사용 Vanilla JavaScript에 기반한 Observer 적극 활용으로 스크롤 시 keyframe애니메이션 구현 CSS...","categories": ["Projects","Code"],
         "tags": ["front-end","html/css/js","figma","졸업작품"],
         "url": "/projects/code/eatopia/",
         "teaser": "/assets/images/posts_img/eatopia/test.png"
@@ -76,4 +76,10 @@ var store = [{
         "tags": ["git"],
         "url": "/research/git/",
         "teaser": "/assets/images/posts_img/git/git.png"
+      },{
+        "title": "React 설치",
+        "excerpt":"Node.js는 이미 설치 되었다는 가정 !이제 create-react-app은 권장되지 않는 방법! React 프로젝트 생성 npm create vite@latest gimhwijae@gimhwijaeui-MacBookPro react01 % npm create vite@latest &gt; react01@0.0.0 npx &gt; create-vite ? Project name: › vite-project [프로젝트명 입력] ? Select a framework: › - Use arrow-keys. Return to submit. ❯ Vanilla Vue React Preact...","categories": ["Research"],
+        "tags": ["node.js","npm","react"],
+        "url": "/research/install-react/",
+        "teaser": "/assets/images/posts_img/install-react/teaser.png"
       }]

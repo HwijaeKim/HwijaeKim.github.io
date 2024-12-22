@@ -69,7 +69,9 @@ sidebar:
 <sub>이메일</sub>   <br>
 dusan960766@gmail.com   <br>
 <sub>휴대전화</sub>   <br>
-+82 10 3873 9607    <br>
+010 3873 9607    <br>
+<sub>거주지</sub>   <br>
+경기도 파주시    <br>
 <sub>최종학력</sub>   <br>
 계원예술대학교 디지털미디어디자인과 <br>전문학사 프로그래밍 세부전공 졸업 예정   <br>
 <sub>희망 직군</sub>   <br>
@@ -145,15 +147,15 @@ HTML로부터 시작된 웹 개발에 대한 호기심과 집념은 끝내 풀�
 
 ## <span style="color: var(--base-color)">수상/출품</span>
 
-|  기간     	  |                  내용                  |         기관         |    결과     |                          비고                           |
-|:----------:|:------------------------------------:|:------------------:|:---------:|:-----------------------------------------------------:|
-|  2024.12   |   디지털미디어디자인과 교과목 우수작 프레젠테이션 1과목 출품   |      계원예술대학교       |   우수작PT   |                    포트폴리오제작(Jekyll)                    |
-| 2024.11  	 |       계원예술대학교 디지털미디어디자인과 졸업작품        |      계원예술대학교       | 학과우수작   	 |          웹 사이트 개발(HTML/CSS/JS, Git, GitHub)           |
-| 2024.07  	 |   제 30회 커뮤니케이션디자인국제공모전(3인) 일반/대학부    |   한국커뮤니케이션디자인협회    |  동상   	   |            팀장/웹 사이트 개발(HTML/CSS/JS/GitHub)            |
-|  2024.06   |   디지털미디어디자인과 교과목 우수작 프레젠테이션 1과목 출품   |      계원예술대학교       |   우수작PT   |            유니티프로그래밍(Unity C#/MegicaVoxel)             |
-|  2023.12   |   디지털미디어디자인과 교과목 우수작 프레젠테이션 3과목 출품   |      계원예술대학교       |   우수작PT   | 콘텐츠디자인, 모션그래픽스, 웹퍼블리싱<br>(Ps/Ai/Figma/Ae/HTML/CSS/JS) |
-|  2022.08   | 대한민국 육군 군사공모전 <청년Dream국군드림> 뮤직비디오 부문 |     육군본부    	      | 우수 사단장표창  |                         촬영/편집                         |
-|  2019.09   |      영상디자인공모전(광고부문 공동수상, 4인) 	       | 선린인터넷고등학교        	 |    동상     |                         촬영/편집                         |
+|  기간     	  |                  내용                  |         기관         |    결과     |                         비고                         |
+|:----------:|:------------------------------------:|:------------------:|:---------:|:--------------------------------------------------:|
+|  2024.12   |   디지털미디어디자인과 교과목 우수작 프레젠테이션 1과목 출품   |      계원예술대학교       |   우수작PT   |                  포트폴리오제작(Jekyll)                   |
+| 2024.11  	 |       계원예술대학교 디지털미디어디자인과 졸업작품        |      계원예술대학교       | 학과우수작   	 |         웹 사이트 개발(HTML/CSS/JS, Git, GitHub)         |
+| 2024.07  	 |   제 30회 커뮤니케이션디자인국제공모전(3인) 일반/대학부    |   한국커뮤니케이션디자인협회    |  동상   	   |          팀장/웹 사이트 개발(HTML/CSS/JS/GitHub)           |
+|  2024.06   |   디지털미디어디자인과 교과목 우수작 프레젠테이션 1과목 출품   |      계원예술대학교       |   우수작PT   |           유니티프로그래밍(Unity C#/MegicaVoxel)           |
+|  2023.12   |   디지털미디어디자인과 교과목 우수작 프레젠테이션 3과목 출품   |      계원예술대학교       |   우수작PT   | 콘텐츠디자인, 모션그래픽스, 웹퍼블리싱<br>(Ps/Ai/Figma/Ae/HTML/CSS) |
+|  2022.08   | 대한민국 육군 군사공모전 <청년Dream국군드림> 뮤직비디오 부문 |     육군본부    	      | 우수 사단장표창  |                       촬영/편집                        |
+|  2019.09   |      영상디자인공모전(광고부문 공동수상, 4인) 	       | 선린인터넷고등학교        	 |    동상     |                       촬영/편집                        |
 
 
 
@@ -188,12 +190,8 @@ HTML로부터 시작된 웹 개발에 대한 호기심과 집념은 끝내 풀�
 
 - **Vanilla JavaScript** <img class="ico" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
     - 기본 문법에 대한 이해, 동적 웹 페이지 구현, Typeit 라이브러리 운용 가능
+    - DOM 조작에 능숙
 
-[//]: # (- **Markdown**  <img class="ico" src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white">)
-
-[//]: # (  - 여러 문법을 이용하여 텍스트를 작성할 수 있으며 이미지, 테이블, 코드 등을 작성)
-
-[//]: # (  - Markdown기반의 메모 플랫폼 Obsidian에서 활용)
 
 
 
@@ -244,11 +242,17 @@ HTML로부터 시작된 웹 개발에 대한 호기심과 집념은 끝내 풀�
 <img class="ico" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
     - Adobe Systems: 프론트엔드에서 활용 가능
     - Figma: 디자이너와 협업 가능
-    
+
+- **Markdown**  <img class="ico" src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white">
+  - 여러 텍스트 효과, 이미지, 테이블, 코드 등을 작성
+  - Markdown기반의 메모 플랫폼 Obsidian에서 활용
+  - Jekyll에서 Post 작성
 
 [//]: # (- **Docker** <img class="ico" src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white">)
 
 [//]: # (    - 운용 경험, Synology NAS 내에서 Docker를 이용한 Minecraft Server 구축)
+
+
 
    
 <br>

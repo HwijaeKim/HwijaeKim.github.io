@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-17T12:59:07+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-21T23:05:32+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">React 설치</title><link href="http://localhost:4000/research/install-react/" rel="alternate" type="text/html" title="React 설치" /><published>2024-12-20T00:00:00+09:00</published><updated>2024-12-20T00:00:00+09:00</updated><id>http://localhost:4000/research/install-react</id><content type="html" xml:base="http://localhost:4000/research/install-react/"><![CDATA[<p><strong><em>Node.js는 이미 설치 되었다는 가정</em></strong> <br />
+!이제 <code class="language-plaintext highlighter-rouge">create-react-app</code>은 권장되지 않는 방법!</p>
+
+<h1 id="react-프로젝트-생성">React 프로젝트 생성</h1>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm create vite@latest
+</code></pre></div></div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gimhwijae@gimhwijaeui-MacBookPro react01 % npm create vite@latest
+
+<span class="o">&gt;</span> react01@0.0.0 npx
+<span class="o">&gt;</span> create-vite
+
+? Project name: › vite-project <span class="o">[</span>프로젝트명 입력]
+</code></pre></div></div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>? Select a framework: › - Use arrow-keys. Return to submit.
+❯   Vanilla
+    Vue
+    React
+    Preact
+    Lit
+    Svelte
+    Solid
+    Qwik
+    Angular
+    Others
+</code></pre></div></div>
+<p>방향키를 사용해 React에서 엔터</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>? Select a variant: › - Use arrow-keys. Return to submit.
+❯   TypeScript
+    TypeScript + SWC
+    JavaScript
+    JavaScript + SWC
+    React Router v7 ↗
+</code></pre></div></div>
+<p>방향키를 이용해 JavaScript에서 엔터</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Scaffolding project <span class="k">in</span> /Users/gimhwijae/Git/react-practice/react01...
+
+Done. Now run:
+
+  <span class="nb">cd </span>react01
+  npm <span class="nb">install
+  </span>npm run dev
+
+gimhwijae@gimhwijaeui-MacBookPro react-practice % 
+</code></pre></div></div>
+<p>다음 명령을 차례로 입력하여 실행</p>
+
+<h2 id="오류-빌생">오류 빌생</h2>
+<p>macOS 환경에서 다음과 같은 오류가 발생함</p>
+<blockquote>
+  <p><sub><code class="language-plaintext highlighter-rouge">failed to load config from /Users/gimhwijae/Git/react-practice/react01/vite.config.js
+error when starting dev server:
+Error: Build failed with 3 errors:
+(define name):1:0: ERROR: Expected identifier but found "import"
+(define name):1:0: ERROR: Expected identifier but found "import"
+(define name):1:0: ERROR: Expected identifier but found "import"
+    at failureErrorWithLog (/Users/gimhwijae/Git/react-practice/react01/node_modules/esbuild/lib/main.js:1476:15)
+    at /Users/gimhwijae/Git/react-practice/react01/node_modules/esbuild/lib/main.js:945:25
+    at runOnEndCallbacks (/Users/gimhwijae/Git/react-practice/react01/node_modules/esbuild/lib/main.js:1316:45)
+    at buildResponseToResult (/Users/gimhwijae/Git/react-practice/react01/node_modules/esbuild/lib/main.js:943:7)
+    at /Users/gimhwijae/Git/react-practice/react01/node_modules/esbuild/lib/main.js:970:16
+    at responseCallbacks.&lt;computed&gt; (/Users/gimhwijae/Git/react-practice/react01/node_modules/esbuild/lib/main.js:622:9)
+    at handleIncomingPacket (/Users/gimhwijae/Git/react-practice/react01/node_modules/esbuild/lib/main.js:677:12)
+    at Socket.readFromStdout (/Users/gimhwijae/Git/react-practice/react01/node_modules/esbuild/lib/main.js:600:7)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)</code></sub></p>
+</blockquote>
+
+<p>Google 검색을 통한 임시 해결법 <br />
+<strong>터미널 입력</strong></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm i react@18 react-dom@18
+</code></pre></div></div>
+<p>설명: 최근 출시된 리액트19 릴리즈에서 의존성 버전 문제를 일으킨 것으로 추정. 이에 따라 일시적인 해별책을 사용</p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="node.js" /><category term="npm" /><category term="react" /><summary type="html"><![CDATA[Node.js는 이미 설치 되었다는 가정 !이제 create-react-app은 권장되지 않는 방법!]]></summary></entry><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
 
 <h1 id="기본-사용">기본 사용</h1>
 <h2 id="리포지토리-클론">리포지토리 클론</h2>
@@ -757,6 +830,7 @@ JWT_SECRET= (SECURITY)
 
 <h1 id="-핵심-기술-요약">🔑 핵심 기술 요약</h1>
 <ul>
+  <li>웹 표준을 준수한 시멘틱 태그 사용</li>
   <li><code class="language-plaintext highlighter-rouge">Vanilla JavaScript</code>에 기반한 <code class="language-plaintext highlighter-rouge">Observer</code> 적극 활용으로 스크롤 시 <code class="language-plaintext highlighter-rouge">keyframe</code>애니메이션 구현</li>
   <li>CSS 가상클래스 사용으로 글꼴 크기, 색상 등을 공통으로 관리</li>
   <li>CSS Step Animation 사용</li>
@@ -844,6 +918,8 @@ JWT_SECRET= (SECURITY)
 <ul>
   <li><strong>Good Parts</strong>
     <ul>
+      <li>프로젝트 시작 단계부터 웹 표준을 준수한 시멘틱 태그 사용</li>
+      <li>본격적으로 디자이너와 협업하여 제작한 팀 프로젝트</li>
       <li>Git 버전관리를 처음으로 사용해본 프로젝트로 GitHub에 더 빠르게 commit</li>
       <li>CSS 가상클래스 사용으로 공통요소를 관리하여 정리 및 유지보수에 이바지</li>
       <li><code class="language-plaintext highlighter-rouge">jpg</code>, <code class="language-plaintext highlighter-rouge">gif</code> 사용을 줄이고 <code class="language-plaintext highlighter-rouge">webp</code> 사용을 지향하여 웹 사이트 경량화</li>
@@ -1279,176 +1355,4 @@ Github: <a href="https://github.com/HwijaeKim">HwijaeKim</a> <br /></p>
       <li>SCSS, Jekyll문법, yaml 등 아직 제대로 숙지하지 못 한 요소들이 존재</li>
     </ul>
   </li>
-</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="jekyll" /><category term="github" /><summary type="html"><![CDATA[📝 포트폴리오 제작 플렛폼으로 선정한 Jekyll GitHub블로그]]></summary></entry><entry><title type="html">자바스크립트프로그래밍 교과목 기말 프로젝트 [No CSS Club 미니게임]</title><link href="http://localhost:4000/projects/code/no-css-club-minigame/" rel="alternate" type="text/html" title="자바스크립트프로그래밍 교과목 기말 프로젝트 [No CSS Club 미니게임]" /><published>2024-06-20T00:00:00+09:00</published><updated>2024-06-20T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/no-css-club-minigame</id><content type="html" xml:base="http://localhost:4000/projects/code/no-css-club-minigame/"><![CDATA[<style>
-  .ico {
-    border-radius: 5px;
-    height: 30px;
-    margin-bottom: 5px;
-  }
-</style>
-
-<p><br /></p>
-<h1 id="-no-css-club에-가입하기-위해-마우스-클릭으로-제한시간-내-모든-css-클래스를-제거하는-미니게임">📝 No CSS Club에 가입하기 위해 마우스 클릭으로 제한시간 내 모든 CSS 클래스를 제거하는 미니게임</h1>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>기간</strong></td>
-      <td>2023.10 ~ 2023.12 (2-1학기)</td>
-    </tr>
-    <tr>
-      <td><strong>인원</strong></td>
-      <td>개인</td>
-    </tr>
-    <tr>
-      <td><strong>담당분야</strong></td>
-      <td>게임 콘텐츠, 웹UI 디자인 구축 및 기능 구현</td>
-    </tr>
-    <tr>
-      <td><strong>관련 링크</strong></td>
-      <td><strong><em>레퍼런스</em></strong><br /><a href="https://nocss.club" target="_blank">nocss.club</a><br />  <strong><em>게임플레이</em></strong><br /><a href="https://hwijaekim.github.io/nocssclub_minigame" target="_blank">https://hwijaekim.github.io/nocssclub_minigame</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<p><br /><br /></p>
-
-<h1 id="-핵심-기술-요약">🔑 핵심 기술 요약</h1>
-<ul>
-  <li>CSS만을 사용하여 구현한 Windows 95~ME 스타일의 UI</li>
-  <li><code class="language-plaintext highlighter-rouge">Vanilla JavaScript</code>로 카운트, 남은 시간, 인게임 진행 등 프로그래밍 구현</li>
-  <li><code class="language-plaintext highlighter-rouge">localStorage</code>기능으로 사용자명을 로컬에 저장해 페이지가 전환되어도 호출할 수 있도록 프로그래밍</li>
-  <li>CSS에서 마우스 커서 커스텀</li>
-  <li><code class="language-plaintext highlighter-rouge">JavaScript</code>에서 <code class="language-plaintext highlighter-rouge">setTimeout</code>, <code class="language-plaintext highlighter-rouge">setInterval</code> 지연실행, 초 단위 카운트 기능을 구현</li>
-</ul>
-
-<p><br /><br /></p>
-
-<p>video</p>
-
-<p><br /></p>
-
-<p><img src="/assets/images/posts_img/nocssclub/1.png" alt="1" />
-<img src="/assets/images/posts_img/nocssclub/2.png" alt="2" />
-<img src="/assets/images/posts_img/nocssclub/3.png" alt="3" />
-<img src="/assets/images/posts_img/nocssclub/4.png" alt="4" />
-<img src="/assets/images/posts_img/nocssclub/5.png" alt="5" /></p>
-
-<p><br /><br /></p>
-
-<h1 id="-주요-코드">📌 주요 코드</h1>
-<h2 id="localstorage"><code class="language-plaintext highlighter-rouge">localStorage</code></h2>
-<p><em>프롬프트로 도전자명을 받아 로컬에 저장</em></p>
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//도전자명 입력</span>
-<span class="kd">let</span> <span class="nx">user</span> <span class="o">=</span> <span class="nx">prompt</span><span class="p">(</span><span class="dl">'</span><span class="s1">도전자 성함을 입력하세요.</span><span class="dl">'</span><span class="p">);</span>
-<span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">.user</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">user</span> <span class="o">+</span> <span class="dl">'</span><span class="s1">님의 도전</span><span class="dl">'</span><span class="p">;</span>
-
-<span class="nx">localStorage</span><span class="p">.</span><span class="nx">setItem</span><span class="p">(</span><span class="dl">'</span><span class="s1">localStorageName</span><span class="dl">'</span><span class="p">,</span> <span class="nx">user</span><span class="p">);</span>
-</code></pre></div></div>
-<p><em>클리어 페이지(다른html)에서 <code class="language-plaintext highlighter-rouge">localStorage</code>에 저장된 값을 불러와 출력</em></p>
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">name</span> <span class="o">=</span> <span class="nx">localStorage</span><span class="p">.</span><span class="nx">getItem</span><span class="p">(</span><span class="dl">'</span><span class="s1">localStorageName</span><span class="dl">'</span><span class="p">);</span>
-<span class="kd">let</span> <span class="nx">nameBox</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">name</span><span class="dl">'</span><span class="p">);</span>
-
-<span class="nx">nameBox</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
-</code></pre></div></div>
-<p><img src="/assets/images/posts_img/nocssclub/localstorage.png" alt="localStorage" /></p>
-
-<h2 id="시작-전-준비-카운트">시작 전 준비 카운트</h2>
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//시작 전 준비 카운트</span>
-<span class="kd">let</span> <span class="nx">readyContainer</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">ready</span><span class="dl">'</span><span class="p">);</span>  <span class="cm">/*id가 ready인 section 변수 지정*/</span>
-<span class="kd">let</span> <span class="nx">readyNum</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">.ready_content h1</span><span class="dl">'</span><span class="p">);</span> <span class="cm">/*카운트 문구*/</span>
-<span class="kd">let</span> <span class="nx">readyCount</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span> <span class="cm">/*초기값5, 5초*/</span>
-<span class="kd">let</span> <span class="nx">readyTime</span> <span class="o">=</span> <span class="nx">setInterval</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="nx">readyCount</span><span class="o">--</span><span class="p">;</span>
-    <span class="nx">readyNum</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">readyCount</span> <span class="o">+</span> <span class="dl">'</span><span class="s1">초 뒤 시작</span><span class="dl">'</span><span class="p">;</span>
-<span class="p">},</span> <span class="mi">1000</span><span class="p">)</span>
-
-<span class="kd">let</span> <span class="nx">readyBg</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">dark_bg</span><span class="dl">'</span><span class="p">);</span>  <span class="cm">/*어둡게 깔리는 배경*/</span>
-
-<span class="cm">/*5초가 지나면 readyContainer와 readBg에 active클래스를 add 하여 display: none;*/</span>
-<span class="nx">setTimeout</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="nx">clearInterval</span><span class="p">(</span><span class="nx">readyTime</span><span class="p">);</span>
-    <span class="nx">readyContainer</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="dl">'</span><span class="s1">active</span><span class="dl">'</span><span class="p">);</span>
-    <span class="nx">readyBg</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="dl">'</span><span class="s1">active</span><span class="dl">'</span><span class="p">);</span>
-<span class="p">},</span> <span class="mi">5000</span><span class="p">)</span>
-</code></pre></div></div>
-
-<h2 id="인게임-기능-구현">인게임 기능 구현</h2>
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//게임구현</span>
-<span class="kd">let</span> <span class="nx">gm_regContainerP</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">.top</span><span class="dl">'</span><span class="p">);</span>
-<span class="kd">let</span> <span class="nx">gm_title</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">.title</span><span class="dl">'</span><span class="p">);</span>
-<span class="kd">let</span> <span class="nx">gm_titleText</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">.title h1</span><span class="dl">'</span><span class="p">);</span>
-<span class="kd">let</span> <span class="nx">clearContainer</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">clear</span><span class="dl">'</span><span class="p">);</span>
-
-<span class="nx">gm_title</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="nx">gm_titleText</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">remove</span><span class="p">(</span><span class="dl">'</span><span class="s1">active</span><span class="dl">'</span><span class="p">);</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">성공적으로 제거됨:</span><span class="dl">'</span><span class="p">,</span> <span class="nx">gm_title</span><span class="p">);</span>
-<span class="p">})</span>
-
-<span class="kd">let</span> <span class="nx">divs</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="dl">'</span><span class="s1">div</span><span class="dl">'</span><span class="p">);</span>
-<span class="kd">let</span> <span class="nx">correct_sound</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">correct_sound</span><span class="dl">'</span><span class="p">);</span>
-<span class="kd">let</span> <span class="nx">clear_sound</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">clear_sound</span><span class="dl">'</span><span class="p">);</span>
-
-<span class="nx">divs</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">event</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="nx">event</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="p">(</span><span class="nx">i</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-        <span class="cm">/*초반에 작성한 코드로는 한 번 클릭시 여러 개의 클래스가 동시에 삭제되는 버그가 있어
-        구글검색을 통해 stopPropagation() 기능을 참조하여 코드를 수정하였음
-
-        메서드의 상세한 기능은 ChatGPT가 설명해주었으며 클릭된 요소의 자식 요소까지
-        전파되는 것을 방지하는 기능으로 이해함*/</span>
-
-        <span class="nx">i</span><span class="p">.</span><span class="nx">stopPropagation</span><span class="p">();</span>
-        
-        <span class="k">if</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
-            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">클래스를 포함하고 있음</span><span class="dl">'</span><span class="p">);</span>
-            <span class="nx">correct_sound</span><span class="p">.</span><span class="nx">play</span><span class="p">()</span>
-
-            <span class="nx">event</span><span class="p">.</span><span class="nx">className</span> <span class="o">=</span> <span class="dl">''</span><span class="p">;</span>
-            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">클래스가 성공적으로 제거됨: </span><span class="dl">'</span><span class="p">,</span> <span class="nx">event</span><span class="p">);</span>
-
-            <span class="nx">remainElement</span><span class="o">--</span><span class="p">;</span>
-            <span class="nx">displayRemain</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">remainElement</span> <span class="o">+</span> <span class="dl">'</span><span class="s1">개 남음</span><span class="dl">'</span><span class="p">;</span>
-
-            <span class="k">if</span><span class="p">(</span><span class="nx">remainElement</span> <span class="o">===</span> <span class="mi">0</span><span class="p">){</span>  <span class="c1">//성공</span>
-                <span class="nx">clearContainer</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="dl">'</span><span class="s1">active</span><span class="dl">'</span><span class="p">);</span>
-                <span class="nx">readyBg</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">remove</span><span class="p">(</span><span class="dl">'</span><span class="s1">active</span><span class="dl">'</span><span class="p">);</span>
-                <span class="nx">clear_sound</span><span class="p">.</span><span class="nx">play</span><span class="p">();</span>
-
-                <span class="nx">setTimeout</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-                    <span class="nb">window</span><span class="p">.</span><span class="nx">location</span><span class="p">.</span><span class="nx">href</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">./clear.html</span><span class="dl">'</span><span class="p">;</span>
-                <span class="p">},</span> <span class="mi">3000</span><span class="p">);</span>
-            <span class="p">}</span>
-        <span class="p">}</span>
-        <span class="k">else</span> <span class="p">{</span>
-            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">클래스를 포함하고 있지 않음</span><span class="dl">'</span><span class="p">);</span>
-        <span class="p">}</span>
-    <span class="p">})</span>
-<span class="p">})</span>
-
-</code></pre></div></div>
-
-<p><br /><br /></p>
-
-<h1 id="️-사용-기술">🖥️ 사용 기술</h1>
-<p><img class="ico" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" />
-<img class="ico" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white" />
-<img class="ico" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=JavaScript&amp;logoColor=white" /></p>
-
-<p><br /><br /></p>
-
-<h1 id="️-총평">⌨️ 총평</h1>
-<ul>
-  <li><strong>Good Parts</strong>
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">JavaScript</code>를 배우는 단계에서 처음으로 제작한 웹 게임</li>
-      <li><code class="language-plaintext highlighter-rouge">Vanilla JavaScript</code>의 여러 기능을 사용하고 적용하여 어떤 방식으로 작동하는지 알 수 있게 되었음</li>
-    </ul>
-  </li>
-  <li><strong>Bad Parts</strong>
-    <ul>
-      <li>배우는 단계인 만큼 주석문을 적극적으로 사용해야 하는데 그러지 못 하였음</li>
-      <li>최대한 스스로 진행하려 했지만 일부 코드에서 chatGPT의 도움을 받아 이해하여 적용하였음</li>
-      <li>인게임에서 클릭 변수를 <code class="language-plaintext highlighter-rouge">querySelectorAll('div')</code>와 같이 <code class="language-plaintext highlighter-rouge">div</code>태그 전체를 선언하여 내부적으로 의도하지 않은 문제가 발생할 가능성이 높아짐</li>
-    </ul>
-  </li>
-</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="front-end" /><category term="html/css/js" /><category term="game" /><summary type="html"><![CDATA[📝 No CSS Club에 가입하기 위해 마우스 클릭으로 제한시간 내 모든 CSS 클래스를 제거하는 미니게임]]></summary></entry></feed>
+</ul>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Projects" /><category term="Code" /><category term="jekyll" /><category term="github" /><summary type="html"><![CDATA[📝 포트폴리오 제작 플렛폼으로 선정한 Jekyll GitHub블로그]]></summary></entry></feed>
