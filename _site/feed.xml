@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-21T23:05:32+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">React 설치</title><link href="http://localhost:4000/research/install-react/" rel="alternate" type="text/html" title="React 설치" /><published>2024-12-20T00:00:00+09:00</published><updated>2024-12-20T00:00:00+09:00</updated><id>http://localhost:4000/research/install-react</id><content type="html" xml:base="http://localhost:4000/research/install-react/"><![CDATA[<p><strong><em>Node.js는 이미 설치 되었다는 가정</em></strong> <br />
-!이제 <code class="language-plaintext highlighter-rouge">create-react-app</code>은 권장되지 않는 방법!</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-22T14:53:45+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWIJAE KIM</title><subtitle></subtitle><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><entry><title type="html">React 시작 + 문제 해결</title><link href="http://localhost:4000/research/install-react/" rel="alternate" type="text/html" title="React 시작 + 문제 해결" /><published>2024-12-20T00:00:00+09:00</published><updated>2024-12-20T00:00:00+09:00</updated><id>http://localhost:4000/research/install-react</id><content type="html" xml:base="http://localhost:4000/research/install-react/"><![CDATA[<p><strong><em>Node.js는 이미 설치 되었다는 가정</em></strong> <br />
+처음에는 <code class="language-plaintext highlighter-rouge">create-react-app</code> 명령어로 시도했지만 추후 vite를 이용함.</p>
 
-<h1 id="react-프로젝트-생성">React 프로젝트 생성</h1>
+<p><br /></p>
+
+<h1 id="vite를-이용한-react-프로젝트-생성">Vite를 이용한 React 프로젝트 생성</h1>
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm create vite@latest
 </code></pre></div></div>
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gimhwijae@gimhwijaeui-MacBookPro react01 % npm create vite@latest
@@ -46,7 +48,9 @@ gimhwijae@gimhwijaeui-MacBookPro react-practice %
 </code></pre></div></div>
 <p>다음 명령을 차례로 입력하여 실행</p>
 
-<h2 id="오류-빌생">오류 빌생</h2>
+<p><br /></p>
+
+<h1 id="오류-빌생">오류 빌생</h1>
 <p>macOS 환경에서 다음과 같은 오류가 발생함</p>
 <blockquote>
   <p><sub><code class="language-plaintext highlighter-rouge">failed to load config from /Users/gimhwijae/Git/react-practice/react01/vite.config.js
@@ -67,11 +71,32 @@ Error: Build failed with 3 errors:
     at addChunk (node:internal/streams/readable:559:12)</code></sub></p>
 </blockquote>
 
-<p>Google 검색을 통한 임시 해결법 <br />
+<p><br /></p>
+
+<h2 id="실패과정">실패과정</h2>
+<p>Google 검색과 chatGPT를 이용하여 오류를 검색하고 많은 해결법을 시도해 봤지만 여전히 같은 오류가 발생했음.
 <strong>터미널 입력</strong></p>
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm i react@18 react-dom@18
 </code></pre></div></div>
-<p>설명: 최근 출시된 리액트19 릴리즈에서 의존성 버전 문제를 일으킨 것으로 추정. 이에 따라 일시적인 해별책을 사용</p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="node.js" /><category term="npm" /><category term="react" /><summary type="html"><![CDATA[Node.js는 이미 설치 되었다는 가정 !이제 create-react-app은 권장되지 않는 방법!]]></summary></entry><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
+<p>설명: 최근 출시된 리액트19 릴리즈에서 의존성 버전 문제를 일으킨 것으로 추정. 하지만 어디까지나 임시 해결책으로 장기적으로는 권장되지 않음. <br />
+<br /></p>
+
+<p>하지만 위와 같은 해결법은 임시 해결법으로 <strong>React 19 출시와 함께 의존성에 대한 오류</strong>가 발생한 것으로 추정되었음.</p>
+
+<p><br /></p>
+
+<h1 id="해결">해결</h1>
+<p>Node.js버전은 당시 <strong>v20.17.0</strong>으로 공식적으로는 문제가 없었지만 마지막 방법으로 LTS최신버전인 <strong>v22.12.0</strong> 버전으로 업데이트 함. <br />
+결과적으로 문제 없이 <code class="language-plaintext highlighter-rouge">npm run dev</code> 명령어가 작동하였으며 <code class="language-plaintext highlighter-rouge">localhost</code>로 잘 작동함. <br />
+<br />
+<img src="/assets/images/posts_img/install-react/vite+react.png" alt="Vite + React" /></p>
+
+<p><br /><br /></p>
+
+<p>하지만 여기서 드는 의문점은 <strong>Windows 환경.</strong> <br />
+Windows에서의 Node.js 버전은 <strong>v20.17.0</strong>으로 <strong>macOS와 동일한 버전</strong>이지만 React 환경이 정상적으로 실행됐음 <br />
+<img src="/assets/images/posts_img/install-react/win-node.png" alt="win-node" />
+<img src="/assets/images/posts_img/install-react/win-react.png" alt="win-react" /></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="node.js" /><category term="npm" /><category term="react" /><summary type="html"><![CDATA[Node.js는 이미 설치 되었다는 가정 처음에는 create-react-app 명령어로 시도했지만 추후 vite를 이용함.]]></summary></entry><entry><title type="html">Git 사용</title><link href="http://localhost:4000/research/git/" rel="alternate" type="text/html" title="Git 사용" /><published>2024-11-27T00:00:00+09:00</published><updated>2024-11-27T00:00:00+09:00</updated><id>http://localhost:4000/research/git</id><content type="html" xml:base="http://localhost:4000/research/git/"><![CDATA[<p><br /></p>
 
 <h1 id="기본-사용">기본 사용</h1>
 <h2 id="리포지토리-클론">리포지토리 클론</h2>
@@ -1148,7 +1173,30 @@ JWT_SECRET= (SECURITY)
       <td>자격/면혀</td>
     </tr>
   </tbody>
-</table>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="markdown" /><category term="table" /><summary type="html"><![CDATA[제목 내용 설명 테스트1 동해물과백두산이마르고닳도록 테스트3]]></summary></entry><entry><title type="html">Apple Silicon에서의 Jekyll 오류 발생 해결</title><link href="http://localhost:4000/research/apple-silicon-jekyll-error/" rel="alternate" type="text/html" title="Apple Silicon에서의 Jekyll 오류 발생 해결" /><published>2024-10-01T00:00:00+09:00</published><updated>2024-10-01T00:00:00+09:00</updated><id>http://localhost:4000/research/apple-silicon-jekyll-error</id><content type="html" xml:base="http://localhost:4000/research/apple-silicon-jekyll-error/"><![CDATA[<h1 id="chat-gpt">Chat GPT</h1>
+</table>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="markdown" /><category term="table" /><summary type="html"><![CDATA[제목 내용 설명 테스트1 동해물과백두산이마르고닳도록 테스트3]]></summary></entry><entry><title type="html">안녕하세요</title><link href="http://localhost:4000/research/hello/" rel="alternate" type="text/html" title="안녕하세요" /><published>2024-10-01T00:00:00+09:00</published><updated>2024-10-01T00:00:00+09:00</updated><id>http://localhost:4000/research/hello</id><content type="html" xml:base="http://localhost:4000/research/hello/"><![CDATA[<p>Jekyll을 이용하여 Github Pages를 만들었습니다. <br />
+아직 시험단계로 보완할 부분이 많습니다.</p>
+
+<p><b>키워드<b> <br />
+성실한, 신뢰감 있는, 창의적인</b></b></p>
+
+<p><br /><br /></p>
+
+<p>이력서 폼(초안) <br />
+<a href="https://docs.google.com/spreadsheets/d/16iekyjOCZ4u5HfsAWDzgVfGrRHkdvQHLVTnzvRlXRsc/edit?gid=0#gid=0">구글시트</a></p>
+
+<p><br /><br /></p>
+
+<p>Instagram: <a href="https://instagram.com/hwijae_portfolio">@hwijaekim_portfolio</a> <br />
+Behance: <a href="https://www.behance.net/hwijaekim">HwijaeKim</a> <br />
+LinkedIn: <a href="https://www.linkedin.com/in/hwijaekim/">HwijaeKim</a> <br />
+Github: <a href="https://github.com/HwijaeKim">HwijaeKim</a> <br /></p>
+
+<p><br /><br /></p>
+
+<p>—제작한 페이지— <br />
+<a href="https://hwijaekim.github.io/nocssclub_minigame">No CSS Club MiniGame</a> <br />
+<a href="https://hwijaekim.github.io/blueprint2024">청사진(공모전)</a> <br />
+<a href="https://hwijaekim.github.io/unionpt.github.io">자기PR페이지(교내)</a></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="update" /><summary type="html"><![CDATA[Jekyll을 이용하여 Github Pages를 만들었습니다. 아직 시험단계로 보완할 부분이 많습니다.]]></summary></entry><entry><title type="html">Apple Silicon에서의 Jekyll 오류 발생 해결</title><link href="http://localhost:4000/research/apple-silicon-jekyll-error/" rel="alternate" type="text/html" title="Apple Silicon에서의 Jekyll 오류 발생 해결" /><published>2024-10-01T00:00:00+09:00</published><updated>2024-10-01T00:00:00+09:00</updated><id>http://localhost:4000/research/apple-silicon-jekyll-error</id><content type="html" xml:base="http://localhost:4000/research/apple-silicon-jekyll-error/"><![CDATA[<h1 id="chat-gpt">Chat GPT</h1>
 
 <p><sub><em>프롬프트</em></sub></p>
 <blockquote>
@@ -1193,30 +1241,7 @@ eval $(/opt/homebrew/bin/brew shellenv)
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s1">'eventmachine'</span><span class="p">,</span> <span class="s1">'1.2.5'</span>
 </code></pre></div></div>
 <p>기본적으로 <code class="language-plaintext highlighter-rouge">eventmachine(1.2.7)</code> 설치 도중 오류가 발생한 것이며 1.2.5로 버전을 한 단계 낮춰 설치하도록 코드를 수정하여 문제를 해결했다. <br />
-완벽한 해결책은 아니지만 작동에는 문제가 없어 보이며 추후 Apple Silicon Mac에서 1.2.7버전 설치를 시도해볼 것이다.</p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="jekyll" /><category term="macos" /><category term="apple silicon" /><summary type="html"><![CDATA[Chat GPT]]></summary></entry><entry><title type="html">안녕하세요</title><link href="http://localhost:4000/research/hello/" rel="alternate" type="text/html" title="안녕하세요" /><published>2024-10-01T00:00:00+09:00</published><updated>2024-10-01T00:00:00+09:00</updated><id>http://localhost:4000/research/hello</id><content type="html" xml:base="http://localhost:4000/research/hello/"><![CDATA[<p>Jekyll을 이용하여 Github Pages를 만들었습니다. <br />
-아직 시험단계로 보완할 부분이 많습니다.</p>
-
-<p><b>키워드<b> <br />
-성실한, 신뢰감 있는, 창의적인</b></b></p>
-
-<p><br /><br /></p>
-
-<p>이력서 폼(초안) <br />
-<a href="https://docs.google.com/spreadsheets/d/16iekyjOCZ4u5HfsAWDzgVfGrRHkdvQHLVTnzvRlXRsc/edit?gid=0#gid=0">구글시트</a></p>
-
-<p><br /><br /></p>
-
-<p>Instagram: <a href="https://instagram.com/hwijae_portfolio">@hwijaekim_portfolio</a> <br />
-Behance: <a href="https://www.behance.net/hwijaekim">HwijaeKim</a> <br />
-LinkedIn: <a href="https://www.linkedin.com/in/hwijaekim/">HwijaeKim</a> <br />
-Github: <a href="https://github.com/HwijaeKim">HwijaeKim</a> <br /></p>
-
-<p><br /><br /></p>
-
-<p>—제작한 페이지— <br />
-<a href="https://hwijaekim.github.io/nocssclub_minigame">No CSS Club MiniGame</a> <br />
-<a href="https://hwijaekim.github.io/blueprint2024">청사진(공모전)</a> <br />
-<a href="https://hwijaekim.github.io/unionpt.github.io">자기PR페이지(교내)</a></p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="update" /><summary type="html"><![CDATA[Jekyll을 이용하여 Github Pages를 만들었습니다. 아직 시험단계로 보완할 부분이 많습니다.]]></summary></entry><entry><title type="html">Jekyll 기반의 GitHub블로그 제작</title><link href="http://localhost:4000/projects/code/jekyll-github-blog/" rel="alternate" type="text/html" title="Jekyll 기반의 GitHub블로그 제작" /><published>2024-09-02T00:00:00+09:00</published><updated>2024-09-02T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/jekyll-github-blog</id><content type="html" xml:base="http://localhost:4000/projects/code/jekyll-github-blog/"><![CDATA[<style>
+완벽한 해결책은 아니지만 작동에는 문제가 없어 보이며 추후 Apple Silicon Mac에서 1.2.7버전 설치를 시도해볼 것이다.</p>]]></content><author><name>김휘재 Hwijae Kim</name><email>dusan960766@gmail.com</email></author><category term="Research" /><category term="jekyll" /><category term="macos" /><category term="apple silicon" /><summary type="html"><![CDATA[Chat GPT]]></summary></entry><entry><title type="html">Jekyll 기반의 GitHub블로그 제작</title><link href="http://localhost:4000/projects/code/jekyll-github-blog/" rel="alternate" type="text/html" title="Jekyll 기반의 GitHub블로그 제작" /><published>2024-09-02T00:00:00+09:00</published><updated>2024-09-02T00:00:00+09:00</updated><id>http://localhost:4000/projects/code/jekyll-github-blog</id><content type="html" xml:base="http://localhost:4000/projects/code/jekyll-github-blog/"><![CDATA[<style>
   .ico {
     border-radius: 5px;
     height: 30px;

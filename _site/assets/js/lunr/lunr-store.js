@@ -77,8 +77,8 @@ var store = [{
         "url": "/research/git/",
         "teaser": "/assets/images/posts_img/git/git.png"
       },{
-        "title": "React 설치",
-        "excerpt":"Node.js는 이미 설치 되었다는 가정 !이제 create-react-app은 권장되지 않는 방법! React 프로젝트 생성 npm create vite@latest gimhwijae@gimhwijaeui-MacBookPro react01 % npm create vite@latest &gt; react01@0.0.0 npx &gt; create-vite ? Project name: › vite-project [프로젝트명 입력] ? Select a framework: › - Use arrow-keys. Return to submit. ❯ Vanilla Vue React Preact...","categories": ["Research"],
+        "title": "React 시작 + 문제 해결",
+        "excerpt":"Node.js는 이미 설치 되었다는 가정 처음에는 create-react-app 명령어로 시도했지만 추후 vite를 이용함. Vite를 이용한 React 프로젝트 생성 npm create vite@latest gimhwijae@gimhwijaeui-MacBookPro react01 % npm create vite@latest &gt; react01@0.0.0 npx &gt; create-vite ? Project name: › vite-project [프로젝트명 입력] ? Select a framework: › - Use arrow-keys. Return to submit. ❯...","categories": ["Research"],
         "tags": ["node.js","npm","react"],
         "url": "/research/install-react/",
         "teaser": "/assets/images/posts_img/install-react/teaser.png"
