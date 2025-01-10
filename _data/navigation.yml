@@ -51,12 +51,10 @@ sidebar-category:
   #        url: "categories/figmaxd"
 
 
-  # - title: "Experience"
-  #   children:
-  #      - title: "전시/박람회"
-  #        url: "categories/fair"
-  #      - title: "봉사활동"
-  #        url: "categories/education"
+  - title: "Experience"
+    children:
+       - title: "전시/박람회"
+         url: "categories/fair"
 
   # - title: "Blog"
   #   children:

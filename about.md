@@ -68,10 +68,10 @@ sidebar:
 2002.05.10   <br>
 <sub>이메일</sub>   <br>
 dusan960766@gmail.com   <br>
-<sub>휴대전화</sub>   <br>
-010 3873 9607    <br>
-<sub>거주지</sub>   <br>
-경기도 파주시    <br>
+<!-- <sub>휴대전화</sub>   <br>
+010 3873 9607    <br> -->
+<!-- <sub>거주지</sub>   <br>
+경기도 파주시    <br> -->
 <sub>최종학력</sub>   <br>
 계원예술대학교 디지털미디어디자인과 <br>전문학사 프로그래밍 세부전공 졸업 예정   <br>
 <sub>희망 직군</sub>   <br>
@@ -179,18 +179,17 @@ HTML로부터 시작된 웹 개발에 대한 호기심과 집념은 끝내 풀�
 
 ### <span style="color: var(--base-color)">Front-end.</span>
 - **HTML5** <img class="ico" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-    - 웹 표준 준수, 의도하는 사이트의 영역에 대한 의미를 이해하고 적절한 태그를 사용하여 기반을 다질 수 있음
+    - 웹 표준 준수, 의도하는 사이트의 영역에 대한 의미를 이해하고 적절한 태그를 사용
     - CDN을 이용한 라이브러리 Import
    
 
    
 - **CSS3** <img class="ico" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-    - HTML에서 작성된 코드에 대해 의도하는 스타일 적용, 애니메이션, 가상 클래스를 이용한 CSS 변수를 운용하여 유지보수에 이바지할 수 있음
+    - HTML에서 작성된 코드에 대해 의도하는 스타일 적용, 애니메이션, 가상 클래스
     
 
 - **Vanilla JavaScript** <img class="ico" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
-    - 기본 문법에 대한 이해, 동적 웹 페이지 구현, Typeit 라이브러리 운용 가능
-    - DOM 조작에 능숙
+    - 기본 문법에 대한 이해, DOM 조작, 동적 웹 페이지 구현
 
 
 
@@ -213,7 +212,6 @@ HTML로부터 시작된 웹 개발에 대한 호기심과 집념은 끝내 풀�
 - **Git** <img class="ico" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white">
     - Github 리포지토리를 로컬 저장공간에 clone
     - 연결된 리포지토리에서 변경사항에 대하여 commit 및 push
-    - 여러 기기에서 리포지토리를 관리하기 위한 `git pull origin`
 
 
 <!-- - **Webpack** <img class="ico" src="https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black">
