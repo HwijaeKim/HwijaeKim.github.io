@@ -82,4 +82,10 @@ var store = [{
         "tags": ["node.js","npm","react"],
         "url": "/research/react-start/",
         "teaser": "/assets/images/posts_img/install-react/teaser.png"
+      },{
+        "title": "macOS에서 데스크톱 아이콘 가리기",
+        "excerpt":"터미널 실행  defaults write com.apple.finder CreateDesktop -bool FALSE; killall Finder   복귀  defaults write com.apple.finder CreateDesktop -bool TRUE; killall Finder       터미널 없이 손쉽게 가려주는 유틸리티도 있지만 유료  ","categories": ["Research"],
+        "tags": ["macos","terminal"],
+        "url": "/research/macos-desktio-icon-hidden/",
+        "teaser": "/assets/images/posts_img/macos-desktop-icon-hidden/teaser.png"
       }]
